@@ -1,0 +1,1002 @@
+[
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists_and_create",
+    "twist": "directory_missing_create_manifest"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "wrong_path_friction_recover"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "clean_execution"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "exact_string_replacement"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_stage_and_commit",
+    "twist": "clean_execution"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists_and_create",
+    "twist": "already_exists_noop"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "large_file_head_inspection"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "disk_space_df"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "pip_install_clean"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "string_not_found_friction_retry"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_diff",
+    "twist": "staged_vs_unstaged"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "grep_pattern_search"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "dockerfile_minimal"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_dev_dependency"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_and_checkout_branch"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_503_friction"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "verify_exists",
+    "twist": "already_exists_pip_list"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "docker_ps_read_only"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "compare_two_files",
+    "twist": "differing_configs"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "remove_stale_cache_dir"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "chmod_shell_scripts"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_dependency_version"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_stage_and_commit",
+    "twist": "pre_commit_hook_rejection_fix"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "inspect",
+    "twist": "nested_directory_traversal"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "find_files_by_extension"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "oneline_commit_history"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "json_property_lookup"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "pnpm_add_production"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "verify_exists",
+    "twist": "binary_not_found_in_path"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "multi_line_yaml_block"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_checkout",
+    "twist": "switch_to_existing_branch"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "nested_directory_creation"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "docker_logs_tail"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "ps_process_grep"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_status",
+    "twist": "clean_worktree_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "file_missing_noop"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "permission_denied_friction"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "pip_package_not_found_friction"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "mv_files_extension"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "head_csv_first_rows"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "missing_directory_reported"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "remove_single_line"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_init",
+    "twist": "initialize_bare_repo"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "binary_content_refusal"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "env_variable_lookup"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "system_uptime"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "toml_version_lookup"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "yarn_add_clean"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "indentation_mismatch_friction_recover"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "line_count_wc"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_remote",
+    "twist": "show_origin_urls"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "contributing_guidelines"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "verify_exists",
+    "twist": "npm_script_already_present_noop"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "inspect",
+    "twist": "empty_directory_check"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "pip_upgrade_existing_package"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_stash",
+    "twist": "stash_pop_conflict_friction"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "cert_public_key_inspect"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "cargo_clean_target_dir"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "html_title_change"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "git_tag_list"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_response_headers_head"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "nginx_reverse_proxy_conf"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "folder_size_du"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_stage_and_commit",
+    "twist": "no_changes_added_to_commit_friction"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "env_example_keys_extract"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "tsconfig_strict_null_checks"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_status",
+    "twist": "untracked_files_listed"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "migrations_directory_check_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "pip_uninstall_package"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "github_ci_yaml_workflow"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "which_node_version"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "gitignore_contents"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_ci_clean_install"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "delete_all_pyc_files"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "delete_merged_local_branch"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "missing_file_friction_recover_toml"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "python_log_level_update"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "verify_exists",
+    "twist": "pnpm_lockfile_check_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "system_free_memory"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "gitignore_python_minimal"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "git_blame_single_line"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "compare_two_files",
+    "twist": "compare_package_json_names"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "ping_local_gateway_friction"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "inspect",
+    "twist": "tests_fixtures_listing"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "cargo_add_serde"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_python_timeout_constant"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "remove_coverage_report_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "tar_archive_contents_list"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "view_markdown_changelog"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_stage_and_commit",
+    "twist": "git_commit_amend_message"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "grep_count_matches"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_editorconfig"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "verify_exists",
+    "twist": "check_docker_daemon_socket"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_license_file"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_outdated_check"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "python_version_bump_init"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "check_kernel_release"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "locales_directory_listing"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "git_shortlog_summary"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "compress_log_files_gzip"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "env_port_fallback"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "which_python3_executable"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "poetry_add_dependency"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "ssl_certificates_dir_noop"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "database_pool_size_bump"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "system_open_file_descriptors"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_babel_rc"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_dist_folder"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "permission_denied_shadow_friction"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_status",
+    "twist": "staged_changes_present"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_post_json_payload"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "string_replace_python_route"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "non_existent_folder_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "pnpm_remove_dependency"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "toml_cargo_edition"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_diff",
+    "twist": "diff_specific_file"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_makefile_minimal"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "check_env_variable_path_length"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "touch_python_init_files"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_120"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_121_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_122"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_123_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_124"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_125"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_126"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_127"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_128"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_129"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_130_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_131"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_132_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_133"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_134"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_135"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_136"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_137"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_138"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_139_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_140"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_141_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_142"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_143"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_144"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_145"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_146"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_147"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_148_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_149"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_150_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_151"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_152"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_153"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_154"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_155"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_156"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_157_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_158"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_159_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_160"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_161"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_162"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_163"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_164"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_165"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_166_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_167"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_168_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_169"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_170"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_171"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_172"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_173"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_174"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_175_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_176"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_177_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_178"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_179"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_180"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_181"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_182"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_183"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_184_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_185"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_186_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_187"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_188"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_189"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_190"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_191"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_192"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_193_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_194"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_195_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_196"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_197"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_198"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_199"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_200"
+  }
+]
