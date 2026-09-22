@@ -1,0 +1,3502 @@
+[
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists_and_create",
+    "twist": "directory_missing_create_manifest"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "wrong_path_friction_recover"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "clean_execution"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "exact_string_replacement"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_stage_and_commit",
+    "twist": "clean_execution"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists_and_create",
+    "twist": "already_exists_noop"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "large_file_head_inspection"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "disk_space_df"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "pip_install_clean"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "string_not_found_friction_retry"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_diff",
+    "twist": "staged_vs_unstaged"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "grep_pattern_search"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "dockerfile_minimal"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_dev_dependency"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_and_checkout_branch"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_503_friction"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "verify_exists",
+    "twist": "already_exists_pip_list"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "docker_ps_read_only"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "compare_two_files",
+    "twist": "differing_configs"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "remove_stale_cache_dir"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "chmod_shell_scripts"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_dependency_version"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_stage_and_commit",
+    "twist": "pre_commit_hook_rejection_fix"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "inspect",
+    "twist": "nested_directory_traversal"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "find_files_by_extension"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "oneline_commit_history"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "json_property_lookup"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "pnpm_add_production"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "verify_exists",
+    "twist": "binary_not_found_in_path"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "multi_line_yaml_block"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_checkout",
+    "twist": "switch_to_existing_branch"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "nested_directory_creation"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "docker_logs_tail"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "ps_process_grep"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_status",
+    "twist": "clean_worktree_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "file_missing_noop"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "permission_denied_friction"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "pip_package_not_found_friction"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "mv_files_extension"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "head_csv_first_rows"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "missing_directory_reported"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "remove_single_line"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_init",
+    "twist": "initialize_bare_repo"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "binary_content_refusal"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "env_variable_lookup"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "system_uptime"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "toml_version_lookup"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "yarn_add_clean"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "indentation_mismatch_friction_recover"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "line_count_wc"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_remote",
+    "twist": "show_origin_urls"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "contributing_guidelines"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "verify_exists",
+    "twist": "npm_script_already_present_noop"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "inspect",
+    "twist": "empty_directory_check"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "pip_upgrade_existing_package"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_stash",
+    "twist": "stash_pop_conflict_friction"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "cert_public_key_inspect"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "cargo_clean_target_dir"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "html_title_change"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "git_tag_list"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_response_headers_head"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "nginx_reverse_proxy_conf"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "folder_size_du"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_stage_and_commit",
+    "twist": "no_changes_added_to_commit_friction"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "env_example_keys_extract"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "tsconfig_strict_null_checks"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_status",
+    "twist": "untracked_files_listed"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "migrations_directory_check_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "pip_uninstall_package"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "github_ci_yaml_workflow"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "which_node_version"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "gitignore_contents"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_ci_clean_install"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "delete_all_pyc_files"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "delete_merged_local_branch"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "missing_file_friction_recover_toml"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "python_log_level_update"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "verify_exists",
+    "twist": "pnpm_lockfile_check_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "system_free_memory"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "gitignore_python_minimal"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "git_blame_single_line"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "compare_two_files",
+    "twist": "compare_package_json_names"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "ping_local_gateway_friction"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "inspect",
+    "twist": "tests_fixtures_listing"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "cargo_add_serde"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_python_timeout_constant"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "remove_coverage_report_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "tar_archive_contents_list"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "view_markdown_changelog"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_stage_and_commit",
+    "twist": "git_commit_amend_message"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "grep_count_matches"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_editorconfig"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "verify_exists",
+    "twist": "check_docker_daemon_socket"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_license_file"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_outdated_check"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "python_version_bump_init"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "check_kernel_release"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "locales_directory_listing"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "git_shortlog_summary"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "compress_log_files_gzip"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "env_port_fallback"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "which_python3_executable"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "poetry_add_dependency"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "ssl_certificates_dir_noop"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "database_pool_size_bump"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "system_open_file_descriptors"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_babel_rc"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_dist_folder"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "permission_denied_shadow_friction"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_status",
+    "twist": "staged_changes_present"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_post_json_payload"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "string_replace_python_route"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "non_existent_folder_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "pnpm_remove_dependency"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "toml_cargo_edition"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_diff",
+    "twist": "diff_specific_file"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_makefile_minimal"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "check_env_variable_path_length"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "touch_python_init_files"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_120"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_121_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_122"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_123_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_124"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_125"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_126"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_127"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_128"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_129"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_130_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_131"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_132_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_133"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_134"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_135"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_136"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_137"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_138"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_139_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_140"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_141_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_142"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_143"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_144"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_145"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_146"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_147"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_148_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_149"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_150_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_151"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_152"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_153"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_154"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_155"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_156"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_157_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_158"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_159_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_160"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_161"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_162"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_163"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_164"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_165"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_166_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_167"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_168_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_169"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_170"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_171"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_172"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_173"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_174"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_175_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_176"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_177_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_178"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_179"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_180"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_181"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_182"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_183"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_184_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_185"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_186_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_187"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_188"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_189"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_190"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_191"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "change_max_connections_192"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "check_assets_icons_193_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_health_status_code_194"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "clean_log_file_195_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "npm_install_types_pkg_196"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "list_remote_branches_197"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_log",
+    "twist": "git_log_format_stat_198"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "nginx_ssl_ciphers_199"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "env_template_module_200"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_201"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_ci_202"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_203"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_204_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_205"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_206"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_207_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_208"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_209"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_210"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_211"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_qa_212"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_213"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_214_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_215"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_216"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_217_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_218"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_219"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_220"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_221"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_uat_222"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_223"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_224_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_225"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_226"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_227_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_228"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_229"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_230"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_231"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_dev_232"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_233"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_234_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_235"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_236"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_237_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_238"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_239"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_240"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_241"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_ci_242"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_243"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_244_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_245"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_246"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_247_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_248"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_249"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_250"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_251"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_qa_252"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_253"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_254_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_255"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_256"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_257_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_258"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_259"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_260"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_261"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_uat_262"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_263"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_264_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_265"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_266"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_267_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_268"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_269"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_270"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_271"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_dev_272"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_273"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_274_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_275"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_276"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_277_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_278"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_279"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_280"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_281"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_ci_282"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_283"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_284_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_285"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_286"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_287_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_288"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_289"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_290"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_291"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_qa_292"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_293"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_294_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_295"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_296"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_297_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_298"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_299"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_300"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_301"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_uat_302"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_303"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_304_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_305"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_306"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_307_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_308"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_309"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_310"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_311"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_dev_312"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_313"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_314_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_315"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_316"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_317_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_318"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_319"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_320"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_321"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_ci_322"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_323"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_324_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_325"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_326"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_327_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_328"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_329"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_330"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_331"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_qa_332"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_333"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_334_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_335"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_336"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_337_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_338"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_339"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_340"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_341"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_uat_342"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_343"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_344_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_345"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_346"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_347_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_348"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_349"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_350"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_351"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_dev_352"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_353"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_354_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_355"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_356"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_357_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_358"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_359"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_360"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_361"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_ci_362"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_363"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_364_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_365"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_366"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_367_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_368"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_369"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_370"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_371"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_qa_372"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_373"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_374_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_375"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_376"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_377_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_378"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_379"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_380"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_381"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_uat_382"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_383"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_384_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_385"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_386"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_387_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_388"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_389"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_390"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_391"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_dev_392"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_393"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_394_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_395"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_396"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_397_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_398"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_399"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_400"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_401"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_ci_402"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_403"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_404_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_405"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_406"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_407_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_408"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_409"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_410"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_411"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_qa_412"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_413"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_414_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_415"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_416"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_417_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_418"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_419"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_420"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_421"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_uat_422"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_423"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_424_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_425"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_426"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_427_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_428"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_429"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_430"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_431"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_dev_432"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_433"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_434_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_435"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_436"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_437_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_438"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_439"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_440"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_441"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_ci_442"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_443"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_444_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_445"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_446"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_447_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_448"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_449"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_450"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_451"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_qa_452"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_453"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_454_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_455"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_456"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_457_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_458"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_459"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_460"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_461"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_uat_462"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_463"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_464_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_465"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_466"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_467_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_468"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_469"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_470"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_471"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_dev_472"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_473"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_474_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_475"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_476"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_477_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_478"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_479"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_480"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_481"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_ci_482"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_483"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_484_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_485"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_486"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_487_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_488"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_489"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_490"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_491"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_qa_492"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_493"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_494_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_495"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_496"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_497_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_498"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_499"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_500"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_501"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_uat_502"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_503"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_504_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_505"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_506"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_507_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_508"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_509"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_510"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_511"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_dev_512"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_513"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_514_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_515"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_516"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_517_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_518"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_519"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_520"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_521"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_ci_522"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_523"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_524_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_525"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_526"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_527_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_528"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_529"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_530"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_531"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_qa_532"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_533"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_534_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_535"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_536"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_537_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_538"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_539"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_540"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_541"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_uat_542"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_543"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_544_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_545"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_546"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_547_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_548"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_549"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_550"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_551"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_dev_552"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_553"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_554_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_555"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_556"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_557_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_558"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_559"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_560"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_561"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_ci_562"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_563"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_564_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_565"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_566"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_567_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_568"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_569"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_570"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_571"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_qa_572"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_573"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_574_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_575"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_576"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_577_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_578"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_579"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_580"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_581"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_uat_582"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_583"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_584_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_585"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_586"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_587_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_588"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_589"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_590"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_591"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_dev_592"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_593"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_594_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_595"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_596"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_597_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_598"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_599"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_600"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_601"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_ci_602"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_603"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_604_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_605"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_606"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_607_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_608"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_609"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_610"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_611"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_qa_612"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_613"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_614_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_615"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_616"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_617_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_618"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_619"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_620"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_621"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_uat_622"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_623"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_624_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_625"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_626"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_627_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_628"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_629"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_630"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_631"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_dev_632"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_633"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_634_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_635"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_636"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_637_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_638"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_639"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_640"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_641"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_ci_642"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_643"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_644_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_645"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_646"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_647_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_648"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_649"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_650"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_651"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_qa_652"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_653"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_654_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_655"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_656"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_657_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_658"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_659"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_660"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_661"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_uat_662"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_663"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_664_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_665"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_666"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_667_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_668"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_669"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_670"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_671"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_dev_672"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_673"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_674_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_675"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_lucide-react_676"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_677_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_678"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_679"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_680"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_681"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_ci_682"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_683"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_684_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_685"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_prisma_686"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_687_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_688"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_689"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_690"
+  },
+  {
+    "tool": "read_file",
+    "task_type": "retrieve",
+    "twist": "read_config_ext_mismatch_analytics_691"
+  },
+  {
+    "tool": "write_file",
+    "task_type": "create",
+    "twist": "create_service_env_auth_qa_692"
+  },
+  {
+    "tool": "edit_file",
+    "task_type": "modify",
+    "twist": "update_service_port_analytics_693"
+  },
+  {
+    "tool": "list_dir",
+    "task_type": "verify_exists",
+    "twist": "verify_plugins_directory_auth_694_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "git_branch",
+    "twist": "create_feature_branch_analytics_695"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "package_install",
+    "twist": "install_npm_dep_jsonwebtoken_696"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "delete_with_confirmation",
+    "twist": "delete_temp_cache_analytics_697_noop"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "batch_operate_on_a_glob",
+    "twist": "gzip_service_dumps_auth_698"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "curl_healthcheck_endpoint_analytics_699"
+  },
+  {
+    "tool": "run_bash",
+    "task_type": "inspect",
+    "twist": "service_logs_tail_auth_700"
+  }
+]
