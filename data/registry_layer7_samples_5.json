@@ -1,0 +1,32 @@
+[
+  {
+    "framework": "Express",
+    "task_type": "input_validation",
+    "resource_noun": "invoices",
+    "scenario_id": "express_input_validation_invoices_batchseed"
+  },
+  {
+    "framework": "FastAPI",
+    "task_type": "ownership_authorization",
+    "resource_noun": "posts",
+    "scenario_id": "fastapi_ownership_authorization_posts_batchseed"
+  },
+  {
+    "framework": "Django REST Framework",
+    "task_type": "rate_limiting",
+    "resource_noun": "comments",
+    "scenario_id": "django_rest_framework_rate_limiting_comments_batchseed"
+  },
+  {
+    "framework": "Rails API",
+    "task_type": "idempotency",
+    "resource_noun": "payments",
+    "scenario_id": "rails_api_idempotency_payments_batchseed"
+  },
+  {
+    "framework": "NestJS",
+    "task_type": "pagination",
+    "resource_noun": "tickets",
+    "scenario_id": "nestjs_pagination_tickets_batchseed"
+  }
+]

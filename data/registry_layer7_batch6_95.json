@@ -1,0 +1,572 @@
+[
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "templates",
+    "scenario_id": "gin_rate_limiting_templates_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "templates",
+    "scenario_id": "gin_idempotency_templates_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "templates",
+    "scenario_id": "gin_pagination_templates_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "templates",
+    "scenario_id": "gin_downstream_failure_templates_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "resource_lifecycle",
+    "resource_noun": "templates",
+    "scenario_id": "gin_resource_lifecycle_templates_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "input_validation",
+    "resource_noun": "exports",
+    "scenario_id": "gin_input_validation_exports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "ownership_authorization",
+    "resource_noun": "exports",
+    "scenario_id": "gin_ownership_authorization_exports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "exports",
+    "scenario_id": "gin_rate_limiting_exports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "exports",
+    "scenario_id": "gin_idempotency_exports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "exports",
+    "scenario_id": "gin_pagination_exports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "exports",
+    "scenario_id": "gin_downstream_failure_exports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "resource_lifecycle",
+    "resource_noun": "exports",
+    "scenario_id": "gin_resource_lifecycle_exports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "input_validation",
+    "resource_noun": "imports",
+    "scenario_id": "gin_input_validation_imports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "ownership_authorization",
+    "resource_noun": "imports",
+    "scenario_id": "gin_ownership_authorization_imports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "imports",
+    "scenario_id": "gin_rate_limiting_imports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "imports",
+    "scenario_id": "gin_idempotency_imports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "imports",
+    "scenario_id": "gin_pagination_imports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "imports",
+    "scenario_id": "gin_downstream_failure_imports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "resource_lifecycle",
+    "resource_noun": "imports",
+    "scenario_id": "gin_resource_lifecycle_imports_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "input_validation",
+    "resource_noun": "documents",
+    "scenario_id": "gin_input_validation_documents_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "ownership_authorization",
+    "resource_noun": "documents",
+    "scenario_id": "gin_ownership_authorization_documents_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "documents",
+    "scenario_id": "gin_rate_limiting_documents_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "documents",
+    "scenario_id": "gin_idempotency_documents_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "documents",
+    "scenario_id": "gin_pagination_documents_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "documents",
+    "scenario_id": "gin_downstream_failure_documents_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "resource_lifecycle",
+    "resource_noun": "documents",
+    "scenario_id": "gin_resource_lifecycle_documents_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "input_validation",
+    "resource_noun": "assets",
+    "scenario_id": "gin_input_validation_assets_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "ownership_authorization",
+    "resource_noun": "assets",
+    "scenario_id": "gin_ownership_authorization_assets_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "assets",
+    "scenario_id": "gin_rate_limiting_assets_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "assets",
+    "scenario_id": "gin_idempotency_assets_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "assets",
+    "scenario_id": "gin_pagination_assets_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "assets",
+    "scenario_id": "gin_downstream_failure_assets_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "resource_lifecycle",
+    "resource_noun": "assets",
+    "scenario_id": "gin_resource_lifecycle_assets_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "input_validation",
+    "resource_noun": "vehicles",
+    "scenario_id": "gin_input_validation_vehicles_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "ownership_authorization",
+    "resource_noun": "vehicles",
+    "scenario_id": "gin_ownership_authorization_vehicles_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "vehicles",
+    "scenario_id": "gin_rate_limiting_vehicles_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "vehicles",
+    "scenario_id": "gin_idempotency_vehicles_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "vehicles",
+    "scenario_id": "gin_pagination_vehicles_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "vehicles",
+    "scenario_id": "gin_downstream_failure_vehicles_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "resource_lifecycle",
+    "resource_noun": "vehicles",
+    "scenario_id": "gin_resource_lifecycle_vehicles_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "input_validation",
+    "resource_noun": "drivers",
+    "scenario_id": "gin_input_validation_drivers_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "ownership_authorization",
+    "resource_noun": "drivers",
+    "scenario_id": "gin_ownership_authorization_drivers_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "drivers",
+    "scenario_id": "gin_rate_limiting_drivers_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "drivers",
+    "scenario_id": "gin_idempotency_drivers_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "drivers",
+    "scenario_id": "gin_pagination_drivers_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "drivers",
+    "scenario_id": "gin_downstream_failure_drivers_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "resource_lifecycle",
+    "resource_noun": "drivers",
+    "scenario_id": "gin_resource_lifecycle_drivers_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "input_validation",
+    "resource_noun": "locations",
+    "scenario_id": "gin_input_validation_locations_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "ownership_authorization",
+    "resource_noun": "locations",
+    "scenario_id": "gin_ownership_authorization_locations_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "locations",
+    "scenario_id": "gin_rate_limiting_locations_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "locations",
+    "scenario_id": "gin_idempotency_locations_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "locations",
+    "scenario_id": "gin_pagination_locations_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "locations",
+    "scenario_id": "gin_downstream_failure_locations_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "resource_lifecycle",
+    "resource_noun": "locations",
+    "scenario_id": "gin_resource_lifecycle_locations_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "input_validation",
+    "resource_noun": "vendors",
+    "scenario_id": "gin_input_validation_vendors_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "ownership_authorization",
+    "resource_noun": "vendors",
+    "scenario_id": "gin_ownership_authorization_vendors_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "vendors",
+    "scenario_id": "gin_rate_limiting_vendors_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "vendors",
+    "scenario_id": "gin_idempotency_vendors_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "vendors",
+    "scenario_id": "gin_pagination_vendors_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "vendors",
+    "scenario_id": "gin_downstream_failure_vendors_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "resource_lifecycle",
+    "resource_noun": "vendors",
+    "scenario_id": "gin_resource_lifecycle_vendors_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "input_validation",
+    "resource_noun": "purchase_orders",
+    "scenario_id": "gin_input_validation_purchase_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "ownership_authorization",
+    "resource_noun": "purchase_orders",
+    "scenario_id": "gin_ownership_authorization_purchase_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "purchase_orders",
+    "scenario_id": "gin_rate_limiting_purchase_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "purchase_orders",
+    "scenario_id": "gin_idempotency_purchase_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "purchase_orders",
+    "scenario_id": "gin_pagination_purchase_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "purchase_orders",
+    "scenario_id": "gin_downstream_failure_purchase_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "resource_lifecycle",
+    "resource_noun": "purchase_orders",
+    "scenario_id": "gin_resource_lifecycle_purchase_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "input_validation",
+    "resource_noun": "work_orders",
+    "scenario_id": "gin_input_validation_work_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "ownership_authorization",
+    "resource_noun": "work_orders",
+    "scenario_id": "gin_ownership_authorization_work_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "work_orders",
+    "scenario_id": "gin_rate_limiting_work_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "work_orders",
+    "scenario_id": "gin_idempotency_work_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "work_orders",
+    "scenario_id": "gin_pagination_work_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "work_orders",
+    "scenario_id": "gin_downstream_failure_work_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "resource_lifecycle",
+    "resource_noun": "work_orders",
+    "scenario_id": "gin_resource_lifecycle_work_orders_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "input_validation",
+    "resource_noun": "inspections",
+    "scenario_id": "gin_input_validation_inspections_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "ownership_authorization",
+    "resource_noun": "inspections",
+    "scenario_id": "gin_ownership_authorization_inspections_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "inspections",
+    "scenario_id": "gin_rate_limiting_inspections_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "inspections",
+    "scenario_id": "gin_idempotency_inspections_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "inspections",
+    "scenario_id": "gin_pagination_inspections_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "inspections",
+    "scenario_id": "gin_downstream_failure_inspections_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "resource_lifecycle",
+    "resource_noun": "inspections",
+    "scenario_id": "gin_resource_lifecycle_inspections_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "input_validation",
+    "resource_noun": "licenses",
+    "scenario_id": "gin_input_validation_licenses_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "ownership_authorization",
+    "resource_noun": "licenses",
+    "scenario_id": "gin_ownership_authorization_licenses_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "licenses",
+    "scenario_id": "gin_rate_limiting_licenses_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "licenses",
+    "scenario_id": "gin_idempotency_licenses_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "licenses",
+    "scenario_id": "gin_pagination_licenses_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "licenses",
+    "scenario_id": "gin_downstream_failure_licenses_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "resource_lifecycle",
+    "resource_noun": "licenses",
+    "scenario_id": "gin_resource_lifecycle_licenses_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "input_validation",
+    "resource_noun": "coupons",
+    "scenario_id": "gin_input_validation_coupons_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "ownership_authorization",
+    "resource_noun": "coupons",
+    "scenario_id": "gin_ownership_authorization_coupons_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "rate_limiting",
+    "resource_noun": "coupons",
+    "scenario_id": "gin_rate_limiting_coupons_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "idempotency",
+    "resource_noun": "coupons",
+    "scenario_id": "gin_idempotency_coupons_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "pagination",
+    "resource_noun": "coupons",
+    "scenario_id": "gin_pagination_coupons_batch7"
+  },
+  {
+    "framework": "Gin",
+    "task_type": "downstream_failure",
+    "resource_noun": "coupons",
+    "scenario_id": "gin_downstream_failure_coupons_batch7"
+  }
+]
