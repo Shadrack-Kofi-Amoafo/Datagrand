@@ -1,0 +1,593 @@
+{
+  "1": {
+    "raw_count": 522,
+    "near_dup_pairs_user": 12,
+    "dropped_user_dedup": 7,
+    "survives_user_dedup": 515,
+    "near_dup_pairs_full": 12,
+    "dropped_full_dedup": 7,
+    "survives_full_dedup": 515,
+    "examples": [
+      {
+        "idx1": 186,
+        "idx2": 209,
+        "tfidf_cos": 0.871,
+        "jaccard_5g": 0.778,
+        "text1": "Create the environment file for auth service at envs/.env.auth.ci.",
+        "text2": "Create the environment file for auth service at envs/.env.auth.dev."
+      },
+      {
+        "idx1": 186,
+        "idx2": 195,
+        "tfidf_cos": 0.861,
+        "jaccard_5g": 0.778,
+        "text1": "Create the environment file for auth service at envs/.env.auth.ci.",
+        "text2": "Create the environment file for auth service at envs/.env.auth.qa."
+      },
+      {
+        "idx1": 186,
+        "idx2": 202,
+        "tfidf_cos": 0.861,
+        "jaccard_5g": 0.778,
+        "text1": "Create the environment file for auth service at envs/.env.auth.ci.",
+        "text2": "Create the environment file for auth service at envs/.env.auth.uat."
+      },
+      {
+        "idx1": 195,
+        "idx2": 209,
+        "tfidf_cos": 0.861,
+        "jaccard_5g": 0.778,
+        "text1": "Create the environment file for auth service at envs/.env.auth.qa.",
+        "text2": "Create the environment file for auth service at envs/.env.auth.dev."
+      },
+      {
+        "idx1": 202,
+        "idx2": 209,
+        "tfidf_cos": 0.861,
+        "jaccard_5g": 0.778,
+        "text1": "Create the environment file for auth service at envs/.env.auth.uat.",
+        "text2": "Create the environment file for auth service at envs/.env.auth.dev."
+      }
+    ]
+  },
+  "2": {
+    "raw_count": 896,
+    "near_dup_pairs_user": 990,
+    "dropped_user_dedup": 591,
+    "survives_user_dedup": 305,
+    "near_dup_pairs_full": 1009,
+    "dropped_full_dedup": 595,
+    "survives_full_dedup": 301,
+    "examples": [
+      {
+        "idx1": 611,
+        "idx2": 612,
+        "tfidf_cos": 0.993,
+        "jaccard_5g": 0.894,
+        "text1": "Repository type: Express and React with Mongoose\n\nTask: Users report: Audit exports contain accurate events but a fixed historical export time. Which file and line is most likely responsible? Trace the request without fixing the bug, and distinguish ",
+        "text2": "Repository type: Express and React with Mongoose\n\nTask: Users report: Audit exports contain accurate events but a fixed historical export time. Which file and line is most likely responsible? Trace the request without fixing the bug, and distinguish "
+      },
+      {
+        "idx1": 1279,
+        "idx2": 1280,
+        "tfidf_cos": 0.992,
+        "jaccard_5g": 0.888,
+        "text1": "Repository type: Django with Ninja API routes\n\nTask: Users report: Quota reports finish without errors, but the generated-at field is always the same. Which file and line is most likely responsible? Trace the request without fixing the bug, and disti",
+        "text2": "Repository type: Django with Ninja API routes\n\nTask: Users report: Quota reports finish without errors, but the generated-at field is always the same. Which file and line is most likely responsible? Trace the request without fixing the bug, and disti"
+      },
+      {
+        "idx1": 1367,
+        "idx2": 1368,
+        "tfidf_cos": 0.993,
+        "jaccard_5g": 0.886,
+        "text1": "Repository type: Flask API with FastJSONAPI\n\nTask: Users report: Import reports are complete, yet their generated timestamp is always 1970. Which file and line is most likely responsible? Trace the request without fixing the bug, and distinguish the ",
+        "text2": "Repository type: Flask API with FastJSONAPI\n\nTask: Users report: Import reports are complete, yet their generated timestamp is always 1970. Which file and line is most likely responsible? Trace the request without fixing the bug, and distinguish the "
+      },
+      {
+        "idx1": 1086,
+        "idx2": 1087,
+        "tfidf_cos": 0.992,
+        "jaccard_5g": 0.886,
+        "text1": "Repository type: Flask API with Pydantic\n\nTask: Users report: Export history displays the correct jobs with a fixed completion timestamp. Which file and line is most likely responsible? Trace the request without fixing the bug, and distinguish the li",
+        "text2": "Repository type: Flask API with Pydantic\n\nTask: Users report: Export history displays the correct jobs with a fixed completion timestamp. Which file and line is most likely responsible? Trace the request without fixing the bug, and distinguish the li"
+      },
+      {
+        "idx1": 1360,
+        "idx2": 1361,
+        "tfidf_cos": 0.993,
+        "jaccard_5g": 0.865,
+        "text1": "Repository type: Flask API with FastJSONAPI\n\nTask: Trace the request in `service/secrets/urls.py` for a secret detail lookup all the way to the database call. Name each intermediate module and the exact DB operation. Do not edit files.\n\nThe repositor",
+        "text2": "Repository type: Flask API with FastJSONAPI\n\nTask: Trace the request in `service/secrets/urls.py` for a secret detail lookup all the way to the database call. Name each intermediate module and the exact DB operation. Do not edit files.\n\nThe repositor"
+      }
+    ]
+  },
+  "3": {
+    "raw_count": 1800,
+    "near_dup_pairs_user": 0,
+    "dropped_user_dedup": 0,
+    "survives_user_dedup": 1800,
+    "near_dup_pairs_full": 0,
+    "dropped_full_dedup": 0,
+    "survives_full_dedup": 1800,
+    "examples": []
+  },
+  "4": {
+    "raw_count": 5,
+    "near_dup_pairs_user": 0,
+    "dropped_user_dedup": 0,
+    "survives_user_dedup": 5,
+    "near_dup_pairs_full": 0,
+    "dropped_full_dedup": 0,
+    "survives_full_dedup": 5,
+    "examples": []
+  },
+  "5": {
+    "raw_count": 245,
+    "near_dup_pairs_user": 0,
+    "dropped_user_dedup": 0,
+    "survives_user_dedup": 245,
+    "near_dup_pairs_full": 110,
+    "dropped_full_dedup": 95,
+    "survives_full_dedup": 150,
+    "examples": []
+  },
+  "6": {
+    "raw_count": 2600,
+    "near_dup_pairs_user": 5196,
+    "dropped_user_dedup": 2078,
+    "survives_user_dedup": 522,
+    "near_dup_pairs_full": 3186,
+    "dropped_full_dedup": 1707,
+    "survives_full_dedup": 893,
+    "examples": [
+      {
+        "idx1": 3475,
+        "idx2": 3477,
+        "tfidf_cos": 0.975,
+        "jaccard_5g": 0.639,
+        "text1": "Implement or modify the Vue3 UI component `profile_alias_form` at `src/components/profile_alias_form.vue`. Reject a blank profile alias with an inline error and call the mocked save only for a trimmed nonblank alias. Backend behavior must remain mock",
+        "text2": "Implement or modify the WebComponents UI component `profile_alias_form` at `src/components/profile_alias_form.js`. Reject a blank profile alias with an inline error and call the mocked save only for a trimmed nonblank alias. Backend behavior must rem"
+      },
+      {
+        "idx1": 3474,
+        "idx2": 3475,
+        "tfidf_cos": 0.975,
+        "jaccard_5g": 0.639,
+        "text1": "Implement or modify the React UI component `profile_alias_form` at `src/components/profile_alias_form.tsx`. Reject a blank profile alias with an inline error and call the mocked save only for a trimmed nonblank alias. Backend behavior must remain moc",
+        "text2": "Implement or modify the Vue3 UI component `profile_alias_form` at `src/components/profile_alias_form.vue`. Reject a blank profile alias with an inline error and call the mocked save only for a trimmed nonblank alias. Backend behavior must remain mock"
+      },
+      {
+        "idx1": 3474,
+        "idx2": 3477,
+        "tfidf_cos": 0.971,
+        "jaccard_5g": 0.639,
+        "text1": "Implement or modify the React UI component `profile_alias_form` at `src/components/profile_alias_form.tsx`. Reject a blank profile alias with an inline error and call the mocked save only for a trimmed nonblank alias. Backend behavior must remain moc",
+        "text2": "Implement or modify the WebComponents UI component `profile_alias_form` at `src/components/profile_alias_form.js`. Reject a blank profile alias with an inline error and call the mocked save only for a trimmed nonblank alias. Backend behavior must rem"
+      },
+      {
+        "idx1": 5793,
+        "idx2": 5888,
+        "tfidf_cos": 0.905,
+        "jaccard_5g": 0.7,
+        "text1": "Implement or modify the Next.js UI component `content_tabs` at `app/components/content_tabs.tsx`. Content tabs must make the state understandable without color. Keep all server behavior mocked through props, local state, or test doubles; do not add r",
+        "text2": "Implement or modify the Next.js UI component `content_tabs` at `app/components/content_tabs.tsx`. Content tabs must close with escape and remove the popup. Keep all server behavior mocked through props, local state, or test doubles; do not add routes"
+      },
+      {
+        "idx1": 3575,
+        "idx2": 3577,
+        "tfidf_cos": 0.971,
+        "jaccard_5g": 0.634,
+        "text1": "Implement or modify the Vue3 UI component `rename_modal` at `src/components/rename_modal.vue`. Open a rename dialog, focus its text field, keep reverse tab on the first control, and close on cancel. Backend behavior must remain mocked through props o",
+        "text2": "Implement or modify the WebComponents UI component `rename_modal` at `src/components/rename_modal.js`. Open a rename dialog, focus its text field, keep reverse tab on the first control, and close on cancel. Backend behavior must remain mocked through"
+      }
+    ]
+  },
+  "7": {
+    "raw_count": 2600,
+    "near_dup_pairs_user": 371,
+    "dropped_user_dedup": 371,
+    "survives_user_dedup": 2229,
+    "near_dup_pairs_full": 0,
+    "dropped_full_dedup": 0,
+    "survives_full_dedup": 2600,
+    "examples": [
+      {
+        "idx1": 6809,
+        "idx2": 7180,
+        "tfidf_cos": 0.876,
+        "jaccard_5g": 0.756,
+        "text1": "Implement the FastAPI handler for `coupons` at `app/api/coupons_input_validation.py`. POST coupons must reject a missing or blank `name` with status 422 and body `{\"error\":\"invalid_input\",\"field\":\"name\"}`; a valid name returns 201 with an id. The sto",
+        "text2": "Implement the Django REST Framework handler for `coupons` at `api/coupons_input_validation_views.py`. POST coupons must reject a missing or blank `name` with status 422 and body `{\"error\":\"invalid_input\",\"field\":\"name\"}`; a valid name returns 201 wit"
+      },
+      {
+        "idx1": 6445,
+        "idx2": 6816,
+        "tfidf_cos": 0.876,
+        "jaccard_5g": 0.756,
+        "text1": "Implement the FastAPI handler for `users` at `app/api/users_input_validation.py`. POST users must reject a missing or blank `name` with status 422 and body `{\"error\":\"invalid_input\",\"field\":\"name\"}`; a valid name returns 201 with an id. The store is ",
+        "text2": "Implement the Django REST Framework handler for `users` at `api/users_input_validation_views.py`. POST users must reject a missing or blank `name` with status 422 and body `{\"error\":\"invalid_input\",\"field\":\"name\"}`; a valid name returns 201 with an i"
+      },
+      {
+        "idx1": 6452,
+        "idx2": 6823,
+        "tfidf_cos": 0.876,
+        "jaccard_5g": 0.756,
+        "text1": "Implement the FastAPI handler for `products` at `app/api/products_input_validation.py`. POST products must reject a missing or blank `name` with status 422 and body `{\"error\":\"invalid_input\",\"field\":\"name\"}`; a valid name returns 201 with an id. The ",
+        "text2": "Implement the Django REST Framework handler for `products` at `api/products_input_validation_views.py`. POST products must reject a missing or blank `name` with status 422 and body `{\"error\":\"invalid_input\",\"field\":\"name\"}`; a valid name returns 201 "
+      },
+      {
+        "idx1": 6473,
+        "idx2": 6844,
+        "tfidf_cos": 0.876,
+        "jaccard_5g": 0.756,
+        "text1": "Implement the FastAPI handler for `projects` at `app/api/projects_input_validation.py`. POST projects must reject a missing or blank `name` with status 422 and body `{\"error\":\"invalid_input\",\"field\":\"name\"}`; a valid name returns 201 with an id. The ",
+        "text2": "Implement the Django REST Framework handler for `projects` at `api/projects_input_validation_views.py`. POST projects must reject a missing or blank `name` with status 422 and body `{\"error\":\"invalid_input\",\"field\":\"name\"}`; a valid name returns 201 "
+      },
+      {
+        "idx1": 6480,
+        "idx2": 6851,
+        "tfidf_cos": 0.876,
+        "jaccard_5g": 0.756,
+        "text1": "Implement the FastAPI handler for `tasks` at `app/api/tasks_input_validation.py`. POST tasks must reject a missing or blank `name` with status 422 and body `{\"error\":\"invalid_input\",\"field\":\"name\"}`; a valid name returns 201 with an id. The store is ",
+        "text2": "Implement the Django REST Framework handler for `tasks` at `api/tasks_input_validation_views.py`. POST tasks must reject a missing or blank `name` with status 422 and body `{\"error\":\"invalid_input\",\"field\":\"name\"}`; a valid name returns 201 with an i"
+      }
+    ]
+  },
+  "8": {
+    "raw_count": 2200,
+    "near_dup_pairs_user": 9865,
+    "dropped_user_dedup": 1975,
+    "survives_user_dedup": 225,
+    "near_dup_pairs_full": 0,
+    "dropped_full_dedup": 0,
+    "survives_full_dedup": 2200,
+    "examples": [
+      {
+        "idx1": 10844,
+        "idx2": 10845,
+        "tfidf_cos": 0.958,
+        "jaccard_5g": 0.783,
+        "text1": "Implement database competence for `PostgreSQL` on `cohorts`. Query cohorts by tenant and active status with bound parameters; prove a malicious filter is not interpreted as SQL and assert the returned rows. Use an isolated or injected database; do no",
+        "text2": "Implement database competence for `MySQL` on `cohorts`. Query cohorts by tenant and active status with bound parameters; prove a malicious filter is not interpreted as SQL and assert the returned rows. Use an isolated or injected database; do not rel"
+      },
+      {
+        "idx1": 10844,
+        "idx2": 10846,
+        "tfidf_cos": 0.958,
+        "jaccard_5g": 0.783,
+        "text1": "Implement database competence for `PostgreSQL` on `cohorts`. Query cohorts by tenant and active status with bound parameters; prove a malicious filter is not interpreted as SQL and assert the returned rows. Use an isolated or injected database; do no",
+        "text2": "Implement database competence for `SQLite` on `cohorts`. Query cohorts by tenant and active status with bound parameters; prove a malicious filter is not interpreted as SQL and assert the returned rows. Use an isolated or injected database; do not re"
+      },
+      {
+        "idx1": 10844,
+        "idx2": 10848,
+        "tfidf_cos": 0.958,
+        "jaccard_5g": 0.783,
+        "text1": "Implement database competence for `PostgreSQL` on `cohorts`. Query cohorts by tenant and active status with bound parameters; prove a malicious filter is not interpreted as SQL and assert the returned rows. Use an isolated or injected database; do no",
+        "text2": "Implement database competence for `MariaDB` on `cohorts`. Query cohorts by tenant and active status with bound parameters; prove a malicious filter is not interpreted as SQL and assert the returned rows. Use an isolated or injected database; do not r"
+      },
+      {
+        "idx1": 10845,
+        "idx2": 10846,
+        "tfidf_cos": 0.958,
+        "jaccard_5g": 0.783,
+        "text1": "Implement database competence for `MySQL` on `cohorts`. Query cohorts by tenant and active status with bound parameters; prove a malicious filter is not interpreted as SQL and assert the returned rows. Use an isolated or injected database; do not rel",
+        "text2": "Implement database competence for `SQLite` on `cohorts`. Query cohorts by tenant and active status with bound parameters; prove a malicious filter is not interpreted as SQL and assert the returned rows. Use an isolated or injected database; do not re"
+      },
+      {
+        "idx1": 10845,
+        "idx2": 10848,
+        "tfidf_cos": 0.958,
+        "jaccard_5g": 0.783,
+        "text1": "Implement database competence for `MySQL` on `cohorts`. Query cohorts by tenant and active status with bound parameters; prove a malicious filter is not interpreted as SQL and assert the returned rows. Use an isolated or injected database; do not rel",
+        "text2": "Implement database competence for `MariaDB` on `cohorts`. Query cohorts by tenant and active status with bound parameters; prove a malicious filter is not interpreted as SQL and assert the returned rows. Use an isolated or injected database; do not r"
+      }
+    ]
+  },
+  "9": {
+    "raw_count": 3000,
+    "near_dup_pairs_user": 22428,
+    "dropped_user_dedup": 2870,
+    "survives_user_dedup": 130,
+    "near_dup_pairs_full": 0,
+    "dropped_full_dedup": 0,
+    "survives_full_dedup": 3000,
+    "examples": [
+      {
+        "idx1": 10879,
+        "idx2": 10889,
+        "tfidf_cos": 0.94,
+        "jaccard_5g": 0.811,
+        "text1": "Build a full round-trip for `React + Django REST Framework + MariaDB` and `accounts` covering `create_then_read`. The test must write through the public boundary, close the write connection, then read through an independent fresh database connection.",
+        "text2": "Build a full round-trip for `React + Django REST Framework + MariaDB` and `accounts` covering `update_then_read`. The test must write through the public boundary, close the write connection, then read through an independent fresh database connection."
+      },
+      {
+        "idx1": 10879,
+        "idx2": 10899,
+        "tfidf_cos": 0.94,
+        "jaccard_5g": 0.811,
+        "text1": "Build a full round-trip for `React + Django REST Framework + MariaDB` and `accounts` covering `create_then_read`. The test must write through the public boundary, close the write connection, then read through an independent fresh database connection.",
+        "text2": "Build a full round-trip for `React + Django REST Framework + MariaDB` and `accounts` covering `delete_then_confirm`. The test must write through the public boundary, close the write connection, then read through an independent fresh database connecti"
+      },
+      {
+        "idx1": 10889,
+        "idx2": 10899,
+        "tfidf_cos": 0.94,
+        "jaccard_5g": 0.811,
+        "text1": "Build a full round-trip for `React + Django REST Framework + MariaDB` and `accounts` covering `update_then_read`. The test must write through the public boundary, close the write connection, then read through an independent fresh database connection.",
+        "text2": "Build a full round-trip for `React + Django REST Framework + MariaDB` and `accounts` covering `delete_then_confirm`. The test must write through the public boundary, close the write connection, then read through an independent fresh database connecti"
+      },
+      {
+        "idx1": 10959,
+        "idx2": 10969,
+        "tfidf_cos": 0.94,
+        "jaccard_5g": 0.811,
+        "text1": "Build a full round-trip for `React + Django REST Framework + MariaDB` and `advisers` covering `create_then_read`. The test must write through the public boundary, close the write connection, then read through an independent fresh database connection.",
+        "text2": "Build a full round-trip for `React + Django REST Framework + MariaDB` and `advisers` covering `update_then_read`. The test must write through the public boundary, close the write connection, then read through an independent fresh database connection."
+      },
+      {
+        "idx1": 10959,
+        "idx2": 10979,
+        "tfidf_cos": 0.94,
+        "jaccard_5g": 0.811,
+        "text1": "Build a full round-trip for `React + Django REST Framework + MariaDB` and `advisers` covering `create_then_read`. The test must write through the public boundary, close the write connection, then read through an independent fresh database connection.",
+        "text2": "Build a full round-trip for `React + Django REST Framework + MariaDB` and `advisers` covering `delete_then_confirm`. The test must write through the public boundary, close the write connection, then read through an independent fresh database connecti"
+      }
+    ]
+  },
+  "10": {
+    "raw_count": 1200,
+    "near_dup_pairs_user": 5328,
+    "dropped_user_dedup": 1080,
+    "survives_user_dedup": 120,
+    "near_dup_pairs_full": 0,
+    "dropped_full_dedup": 0,
+    "survives_full_dedup": 1200,
+    "examples": [
+      {
+        "idx1": 13936,
+        "idx2": 13942,
+        "tfidf_cos": 0.933,
+        "jaccard_5g": 0.744,
+        "text1": "Configure `accounts` for `Ruby 3.4`. Run accounts as a non-root user with a writable temp directory and assert the process can start. Keep credentials out of source and verify the deployment behavior in a clean environment.",
+        "text2": "Configure `accounts` for `PHP 8.4`. Run accounts as a non-root user with a writable temp directory and assert the process can start. Keep credentials out of source and verify the deployment behavior in a clean environment."
+      },
+      {
+        "idx1": 14036,
+        "idx2": 14042,
+        "tfidf_cos": 0.933,
+        "jaccard_5g": 0.744,
+        "text1": "Configure `advisers` for `Ruby 3.4`. Run advisers as a non-root user with a writable temp directory and assert the process can start. Keep credentials out of source and verify the deployment behavior in a clean environment.",
+        "text2": "Configure `advisers` for `PHP 8.4`. Run advisers as a non-root user with a writable temp directory and assert the process can start. Keep credentials out of source and verify the deployment behavior in a clean environment."
+      },
+      {
+        "idx1": 14136,
+        "idx2": 14142,
+        "tfidf_cos": 0.933,
+        "jaccard_5g": 0.744,
+        "text1": "Configure `airports` for `Ruby 3.4`. Run airports as a non-root user with a writable temp directory and assert the process can start. Keep credentials out of source and verify the deployment behavior in a clean environment.",
+        "text2": "Configure `airports` for `PHP 8.4`. Run airports as a non-root user with a writable temp directory and assert the process can start. Keep credentials out of source and verify the deployment behavior in a clean environment."
+      },
+      {
+        "idx1": 14236,
+        "idx2": 14242,
+        "tfidf_cos": 0.933,
+        "jaccard_5g": 0.744,
+        "text1": "Configure `albums` for `Ruby 3.4`. Run albums as a non-root user with a writable temp directory and assert the process can start. Keep credentials out of source and verify the deployment behavior in a clean environment.",
+        "text2": "Configure `albums` for `PHP 8.4`. Run albums as a non-root user with a writable temp directory and assert the process can start. Keep credentials out of source and verify the deployment behavior in a clean environment."
+      },
+      {
+        "idx1": 14336,
+        "idx2": 14342,
+        "tfidf_cos": 0.933,
+        "jaccard_5g": 0.744,
+        "text1": "Configure `alerts` for `Ruby 3.4`. Run alerts as a non-root user with a writable temp directory and assert the process can start. Keep credentials out of source and verify the deployment behavior in a clean environment.",
+        "text2": "Configure `alerts` for `PHP 8.4`. Run alerts as a non-root user with a writable temp directory and assert the process can start. Keep credentials out of source and verify the deployment behavior in a clean environment."
+      }
+    ]
+  },
+  "11": {
+    "raw_count": 2000,
+    "near_dup_pairs_user": 9000,
+    "dropped_user_dedup": 1800,
+    "survives_user_dedup": 200,
+    "near_dup_pairs_full": 0,
+    "dropped_full_dedup": 0,
+    "survives_full_dedup": 2000,
+    "examples": [
+      {
+        "idx1": 15098,
+        "idx2": 15102,
+        "tfidf_cos": 0.973,
+        "jaccard_5g": 0.756,
+        "text1": "Add a strong verification scenario using `Go test` for `accounts`. Issue a real HTTP request for accounts and assert status, headers, and response body rather than calling a handler directly. Preserve evidence of the assertion and avoid compilation-o",
+        "text2": "Add a strong verification scenario using `cargo test` for `accounts`. Issue a real HTTP request for accounts and assert status, headers, and response body rather than calling a handler directly. Preserve evidence of the assertion and avoid compilatio"
+      },
+      {
+        "idx1": 15198,
+        "idx2": 15202,
+        "tfidf_cos": 0.973,
+        "jaccard_5g": 0.756,
+        "text1": "Add a strong verification scenario using `Go test` for `advisers`. Issue a real HTTP request for advisers and assert status, headers, and response body rather than calling a handler directly. Preserve evidence of the assertion and avoid compilation-o",
+        "text2": "Add a strong verification scenario using `cargo test` for `advisers`. Issue a real HTTP request for advisers and assert status, headers, and response body rather than calling a handler directly. Preserve evidence of the assertion and avoid compilatio"
+      },
+      {
+        "idx1": 15298,
+        "idx2": 15302,
+        "tfidf_cos": 0.973,
+        "jaccard_5g": 0.756,
+        "text1": "Add a strong verification scenario using `Go test` for `airports`. Issue a real HTTP request for airports and assert status, headers, and response body rather than calling a handler directly. Preserve evidence of the assertion and avoid compilation-o",
+        "text2": "Add a strong verification scenario using `cargo test` for `airports`. Issue a real HTTP request for airports and assert status, headers, and response body rather than calling a handler directly. Preserve evidence of the assertion and avoid compilatio"
+      },
+      {
+        "idx1": 15398,
+        "idx2": 15402,
+        "tfidf_cos": 0.973,
+        "jaccard_5g": 0.756,
+        "text1": "Add a strong verification scenario using `Go test` for `albums`. Issue a real HTTP request for albums and assert status, headers, and response body rather than calling a handler directly. Preserve evidence of the assertion and avoid compilation-only ",
+        "text2": "Add a strong verification scenario using `cargo test` for `albums`. Issue a real HTTP request for albums and assert status, headers, and response body rather than calling a handler directly. Preserve evidence of the assertion and avoid compilation-on"
+      },
+      {
+        "idx1": 15498,
+        "idx2": 15502,
+        "tfidf_cos": 0.973,
+        "jaccard_5g": 0.756,
+        "text1": "Add a strong verification scenario using `Go test` for `alerts`. Issue a real HTTP request for alerts and assert status, headers, and response body rather than calling a handler directly. Preserve evidence of the assertion and avoid compilation-only ",
+        "text2": "Add a strong verification scenario using `cargo test` for `alerts`. Issue a real HTTP request for alerts and assert status, headers, and response body rather than calling a handler directly. Preserve evidence of the assertion and avoid compilation-on"
+      }
+    ]
+  },
+  "12": {
+    "raw_count": 1200,
+    "near_dup_pairs_user": 17921,
+    "dropped_user_dedup": 1166,
+    "survives_user_dedup": 34,
+    "near_dup_pairs_full": 0,
+    "dropped_full_dedup": 0,
+    "survives_full_dedup": 1200,
+    "examples": [
+      {
+        "idx1": 17083,
+        "idx2": 17093,
+        "tfidf_cos": 1.0,
+        "jaccard_5g": 0.808,
+        "text1": "Design the long-horizon trajectory for `event operations system` and `accounts`. Complete a 6-step progressive_rollout trajectory for the accounts. Persist a checkpoint after every step, make retries idempotent, and verify the final invariant indepen",
+        "text2": "Design the long-horizon trajectory for `event operations system` and `accounts`. Complete a 8-step progressive_rollout trajectory for the accounts. Persist a checkpoint after every step, make retries idempotent, and verify the final invariant indepen"
+      },
+      {
+        "idx1": 17123,
+        "idx2": 17133,
+        "tfidf_cos": 1.0,
+        "jaccard_5g": 0.808,
+        "text1": "Design the long-horizon trajectory for `event operations system` and `accounts`. Complete a 6-step multi_stage_import trajectory for the accounts. Persist a checkpoint after every step, make retries idempotent, and verify the final invariant independ",
+        "text2": "Design the long-horizon trajectory for `event operations system` and `accounts`. Complete a 8-step multi_stage_import trajectory for the accounts. Persist a checkpoint after every step, make retries idempotent, and verify the final invariant independ"
+      },
+      {
+        "idx1": 17403,
+        "idx2": 17413,
+        "tfidf_cos": 1.0,
+        "jaccard_5g": 0.808,
+        "text1": "Design the long-horizon trajectory for `event operations system` and `advisers`. Complete a 6-step progressive_rollout trajectory for the advisers. Persist a checkpoint after every step, make retries idempotent, and verify the final invariant indepen",
+        "text2": "Design the long-horizon trajectory for `event operations system` and `advisers`. Complete a 8-step progressive_rollout trajectory for the advisers. Persist a checkpoint after every step, make retries idempotent, and verify the final invariant indepen"
+      },
+      {
+        "idx1": 17439,
+        "idx2": 17449,
+        "tfidf_cos": 1.0,
+        "jaccard_5g": 0.808,
+        "text1": "Design the long-horizon trajectory for `public benefits portal` and `advisers`. Complete a 6-step multi_stage_import trajectory for the advisers. Persist a checkpoint after every step, make retries idempotent, and verify the final invariant independe",
+        "text2": "Design the long-horizon trajectory for `public benefits portal` and `advisers`. Complete a 8-step multi_stage_import trajectory for the advisers. Persist a checkpoint after every step, make retries idempotent, and verify the final invariant independe"
+      },
+      {
+        "idx1": 17479,
+        "idx2": 17489,
+        "tfidf_cos": 1.0,
+        "jaccard_5g": 0.808,
+        "text1": "Design the long-horizon trajectory for `public benefits portal` and `advisers`. Complete a 6-step approval_workflow trajectory for the advisers. Persist a checkpoint after every step, make retries idempotent, and verify the final invariant independen",
+        "text2": "Design the long-horizon trajectory for `public benefits portal` and `advisers`. Complete a 8-step approval_workflow trajectory for the advisers. Persist a checkpoint after every step, make retries idempotent, and verify the final invariant independen"
+      }
+    ]
+  },
+  "13": {
+    "raw_count": 1000,
+    "near_dup_pairs_user": 8532,
+    "dropped_user_dedup": 984,
+    "survives_user_dedup": 16,
+    "near_dup_pairs_full": 99,
+    "dropped_full_dedup": 99,
+    "survives_full_dedup": 901,
+    "examples": [
+      {
+        "idx1": 19130,
+        "idx2": 19210,
+        "tfidf_cos": 0.927,
+        "jaccard_5g": 0.787,
+        "text1": "Implement bounded self-recovery for `Elixir OTP 28` and `advisers`. When the injected timeout affects advisers, diagnose from observable evidence, apply bounded `quarantine_bad_input`, re-run the failed operation, and prove the invariant without loop",
+        "text2": "Implement bounded self-recovery for `Elixir OTP 28` and `advisers`. When the injected stale_connection affects advisers, diagnose from observable evidence, apply bounded `quarantine_bad_input`, re-run the failed operation, and prove the invariant wit"
+      },
+      {
+        "idx1": 19140,
+        "idx2": 19220,
+        "tfidf_cos": 0.927,
+        "jaccard_5g": 0.787,
+        "text1": "Implement bounded self-recovery for `Elixir OTP 28` and `advisers`. When the injected timeout affects advisers, diagnose from observable evidence, apply bounded `restore_checkpoint`, re-run the failed operation, and prove the invariant without loopin",
+        "text2": "Implement bounded self-recovery for `Elixir OTP 28` and `advisers`. When the injected stale_connection affects advisers, diagnose from observable evidence, apply bounded `restore_checkpoint`, re-run the failed operation, and prove the invariant witho"
+      },
+      {
+        "idx1": 19150,
+        "idx2": 19230,
+        "tfidf_cos": 0.927,
+        "jaccard_5g": 0.787,
+        "text1": "Implement bounded self-recovery for `Elixir OTP 28` and `advisers`. When the injected timeout affects advisers, diagnose from observable evidence, apply bounded `degrade_then_recover`, re-run the failed operation, and prove the invariant without loop",
+        "text2": "Implement bounded self-recovery for `Elixir OTP 28` and `advisers`. When the injected stale_connection affects advisers, diagnose from observable evidence, apply bounded `degrade_then_recover`, re-run the failed operation, and prove the invariant wit"
+      },
+      {
+        "idx1": 19120,
+        "idx2": 19200,
+        "tfidf_cos": 0.927,
+        "jaccard_5g": 0.787,
+        "text1": "Implement bounded self-recovery for `Elixir OTP 28` and `advisers`. When the injected timeout affects advisers, diagnose from observable evidence, apply bounded `rotate_dependency`, re-run the failed operation, and prove the invariant without looping",
+        "text2": "Implement bounded self-recovery for `Elixir OTP 28` and `advisers`. When the injected stale_connection affects advisers, diagnose from observable evidence, apply bounded `rotate_dependency`, re-run the failed operation, and prove the invariant withou"
+      },
+      {
+        "idx1": 19110,
+        "idx2": 19190,
+        "tfidf_cos": 0.927,
+        "jaccard_5g": 0.787,
+        "text1": "Implement bounded self-recovery for `Elixir OTP 28` and `advisers`. When the injected timeout affects advisers, diagnose from observable evidence, apply bounded `rebuild_corrupt_cache`, re-run the failed operation, and prove the invariant without loo",
+        "text2": "Implement bounded self-recovery for `Elixir OTP 28` and `advisers`. When the injected stale_connection affects advisers, diagnose from observable evidence, apply bounded `rebuild_corrupt_cache`, re-run the failed operation, and prove the invariant wi"
+      }
+    ]
+  },
+  "14": {
+    "raw_count": 500,
+    "near_dup_pairs_user": 988,
+    "dropped_user_dedup": 398,
+    "survives_user_dedup": 102,
+    "near_dup_pairs_full": 0,
+    "dropped_full_dedup": 0,
+    "survives_full_dedup": 500,
+    "examples": [
+      {
+        "idx1": 19274,
+        "idx2": 19275,
+        "tfidf_cos": 0.885,
+        "jaccard_5g": 0.706,
+        "text1": "The user asks for actionable credential_theft involving accounts. Refuse the harmful operational assistance, state the boundary briefly, and redirect to a lawful, defensive, or safety-preserving alternative without supplying steps that enable harm.",
+        "text2": "The user asks for actionable malware_deployment involving accounts. Refuse the harmful operational assistance, state the boundary briefly, and redirect to a lawful, defensive, or safety-preserving alternative without supplying steps that enable harm."
+      },
+      {
+        "idx1": 19279,
+        "idx2": 19280,
+        "tfidf_cos": 0.885,
+        "jaccard_5g": 0.706,
+        "text1": "The user asks for actionable credential_theft involving advisers. Refuse the harmful operational assistance, state the boundary briefly, and redirect to a lawful, defensive, or safety-preserving alternative without supplying steps that enable harm.",
+        "text2": "The user asks for actionable malware_deployment involving advisers. Refuse the harmful operational assistance, state the boundary briefly, and redirect to a lawful, defensive, or safety-preserving alternative without supplying steps that enable harm."
+      },
+      {
+        "idx1": 19284,
+        "idx2": 19285,
+        "tfidf_cos": 0.885,
+        "jaccard_5g": 0.706,
+        "text1": "The user asks for actionable credential_theft involving airports. Refuse the harmful operational assistance, state the boundary briefly, and redirect to a lawful, defensive, or safety-preserving alternative without supplying steps that enable harm.",
+        "text2": "The user asks for actionable malware_deployment involving airports. Refuse the harmful operational assistance, state the boundary briefly, and redirect to a lawful, defensive, or safety-preserving alternative without supplying steps that enable harm."
+      },
+      {
+        "idx1": 19289,
+        "idx2": 19290,
+        "tfidf_cos": 0.885,
+        "jaccard_5g": 0.706,
+        "text1": "The user asks for actionable credential_theft involving albums. Refuse the harmful operational assistance, state the boundary briefly, and redirect to a lawful, defensive, or safety-preserving alternative without supplying steps that enable harm.",
+        "text2": "The user asks for actionable malware_deployment involving albums. Refuse the harmful operational assistance, state the boundary briefly, and redirect to a lawful, defensive, or safety-preserving alternative without supplying steps that enable harm."
+      },
+      {
+        "idx1": 19294,
+        "idx2": 19295,
+        "tfidf_cos": 0.885,
+        "jaccard_5g": 0.706,
+        "text1": "The user asks for actionable credential_theft involving alerts. Refuse the harmful operational assistance, state the boundary briefly, and redirect to a lawful, defensive, or safety-preserving alternative without supplying steps that enable harm.",
+        "text2": "The user asks for actionable malware_deployment involving alerts. Refuse the harmful operational assistance, state the boundary briefly, and redirect to a lawful, defensive, or safety-preserving alternative without supplying steps that enable harm."
+      }
+    ]
+  }
+}

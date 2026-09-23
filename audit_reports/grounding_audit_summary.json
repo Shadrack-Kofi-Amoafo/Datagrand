@@ -1,0 +1,89 @@
+{
+  "counts": {
+    "1": {
+      "asserted_not_shown": 490,
+      "command_and_output_shown": 32,
+      "command_shown_output_missing": 0,
+      "plan_checks_not_fully_shown": 0
+    },
+    "2": {
+      "command_and_output_shown": 896,
+      "command_shown_output_missing": 0,
+      "asserted_not_shown": 0,
+      "plan_checks_not_fully_shown": 0
+    },
+    "3": {
+      "command_and_output_shown": 1800,
+      "command_shown_output_missing": 0,
+      "asserted_not_shown": 0,
+      "plan_checks_not_fully_shown": 0
+    },
+    "4": {
+      "command_and_output_shown": 5,
+      "command_shown_output_missing": 0,
+      "asserted_not_shown": 0,
+      "plan_checks_not_fully_shown": 0
+    },
+    "5": {
+      "plan_checks_not_fully_shown": 245,
+      "command_and_output_shown": 0,
+      "command_shown_output_missing": 0,
+      "asserted_not_shown": 0
+    },
+    "6": {
+      "command_and_output_shown": 2600,
+      "command_shown_output_missing": 0,
+      "asserted_not_shown": 0,
+      "plan_checks_not_fully_shown": 0
+    },
+    "7": {
+      "command_and_output_shown": 2600,
+      "command_shown_output_missing": 0,
+      "asserted_not_shown": 0,
+      "plan_checks_not_fully_shown": 0
+    },
+    "8": {
+      "command_and_output_shown": 2200,
+      "command_shown_output_missing": 0,
+      "asserted_not_shown": 0,
+      "plan_checks_not_fully_shown": 0
+    },
+    "9": {
+      "command_and_output_shown": 3000,
+      "command_shown_output_missing": 0,
+      "asserted_not_shown": 0,
+      "plan_checks_not_fully_shown": 0
+    },
+    "10": {
+      "command_and_output_shown": 1200,
+      "command_shown_output_missing": 0,
+      "asserted_not_shown": 0,
+      "plan_checks_not_fully_shown": 0
+    },
+    "11": {
+      "command_and_output_shown": 2000,
+      "command_shown_output_missing": 0,
+      "asserted_not_shown": 0,
+      "plan_checks_not_fully_shown": 0
+    },
+    "12": {
+      "command_and_output_shown": 1200,
+      "command_shown_output_missing": 0,
+      "asserted_not_shown": 0,
+      "plan_checks_not_fully_shown": 0
+    },
+    "13": {
+      "command_and_output_shown": 1000,
+      "command_shown_output_missing": 0,
+      "asserted_not_shown": 0,
+      "plan_checks_not_fully_shown": 0
+    },
+    "14": {
+      "command_and_output_shown": 500,
+      "command_shown_output_missing": 0,
+      "asserted_not_shown": 0,
+      "plan_checks_not_fully_shown": 0
+    }
+  },
+  "flagged_records_count": 490
+}
