@@ -1,0 +1,692 @@
+{
+  "raw_records": 22205,
+  "dedup_records": 19768,
+  "dropped_records": 2437,
+  "thresholds": {
+    "instruction_ngram_jaccard": 0.9,
+    "embedding_cosine": 0.98,
+    "drop_rule": "both thresholds must be met"
+  },
+  "embedding": {
+    "type": "deterministic signed hashed word/character embedding",
+    "dimensions": 256,
+    "similarity": "cosine"
+  },
+  "candidate_pairs": 2316258,
+  "near_duplicate_pairs": 13846,
+  "counts_before_by_layer": {
+    "1": 1200,
+    "2": 1300,
+    "3": 1800,
+    "4": 5,
+    "5": 1600,
+    "6": 2600,
+    "7": 2600,
+    "8": 2200,
+    "9": 3000,
+    "10": 1200,
+    "11": 2000,
+    "12": 1200,
+    "13": 1000,
+    "14": 500
+  },
+  "counts_after_by_layer": {
+    "1": 522,
+    "2": 896,
+    "3": 1800,
+    "4": 5,
+    "5": 245,
+    "6": 2600,
+    "7": 2600,
+    "8": 2200,
+    "9": 3000,
+    "10": 1200,
+    "11": 2000,
+    "12": 1200,
+    "13": 1000,
+    "14": 500
+  },
+  "dropped_by_layer": {
+    "1": 678,
+    "2": 404,
+    "5": 1355
+  },
+  "spot_check_samples": [
+    {
+      "scenario_id": null,
+      "layer": 1,
+      "verification_method": "bash",
+      "result": "pass",
+      "command_shown_in_trace": false,
+      "output_shown_in_trace": false,
+      "support_status": "asserted_not_shown"
+    },
+    {
+      "scenario_id": null,
+      "layer": 1,
+      "verification_method": "bash",
+      "result": "pass",
+      "command_shown_in_trace": false,
+      "output_shown_in_trace": false,
+      "support_status": "asserted_not_shown"
+    },
+    {
+      "scenario_id": null,
+      "layer": 1,
+      "verification_method": "bash",
+      "result": "pass",
+      "command_shown_in_trace": false,
+      "output_shown_in_trace": false,
+      "support_status": "asserted_not_shown"
+    },
+    {
+      "scenario_id": null,
+      "layer": 1,
+      "verification_method": "bash",
+      "result": "pass",
+      "command_shown_in_trace": false,
+      "output_shown_in_trace": false,
+      "support_status": "asserted_not_shown"
+    },
+    {
+      "scenario_id": null,
+      "layer": 1,
+      "verification_method": "bash",
+      "result": "pass",
+      "command_shown_in_trace": false,
+      "output_shown_in_trace": false,
+      "support_status": "asserted_not_shown"
+    },
+    {
+      "scenario_id": null,
+      "layer": 2,
+      "verification_method": "grep confirms; manual trace confirmed",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": false,
+      "support_status": "command_shown_output_missing"
+    },
+    {
+      "scenario_id": null,
+      "layer": 2,
+      "verification_method": "grep confirms; manual trace confirmed",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": false,
+      "support_status": "command_shown_output_missing"
+    },
+    {
+      "scenario_id": null,
+      "layer": 2,
+      "verification_method": "grep confirms; manual trace confirmed",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": false,
+      "support_status": "command_shown_output_missing"
+    },
+    {
+      "scenario_id": null,
+      "layer": 2,
+      "verification_method": "grep confirms; manual trace confirmed",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": false,
+      "support_status": "command_shown_output_missing"
+    },
+    {
+      "scenario_id": null,
+      "layer": 2,
+      "verification_method": "grep confirms; manual trace confirmed",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": false,
+      "support_status": "command_shown_output_missing"
+    },
+    {
+      "scenario_id": null,
+      "layer": 3,
+      "verification_method": "actual test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": null,
+      "layer": 3,
+      "verification_method": "actual test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": null,
+      "layer": 3,
+      "verification_method": "actual test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": null,
+      "layer": 3,
+      "verification_method": "actual test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": null,
+      "layer": 3,
+      "verification_method": "actual test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "page_slice_inclusive_end",
+      "layer": 4,
+      "verification_method": "focused test run after corrective edit",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "eligibility_banned_precedence",
+      "layer": 4,
+      "verification_method": "focused test run after corrective edit",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "header_default_append_alias",
+      "layer": 4,
+      "verification_method": "focused test run after corrective edit",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "counter_write_lock_only",
+      "layer": 4,
+      "verification_method": "focused test run after corrective edit",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "utc_due_date_local_parse",
+      "layer": 4,
+      "verification_method": "focused test run after corrective edit",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "two_sided_goods_marketplace_01",
+      "layer": 5,
+      "verification_method": "plan reviewed for completeness against stated requirements",
+      "result": "pass",
+      "command_shown_in_trace": false,
+      "output_shown_in_trace": false,
+      "support_status": "plan_checks_not_fully_shown"
+    },
+    {
+      "scenario_id": "podcast_publishing_15",
+      "layer": 5,
+      "verification_method": "plan reviewed for completeness against stated requirements",
+      "result": "pass",
+      "command_shown_in_trace": false,
+      "output_shown_in_trace": false,
+      "support_status": "plan_checks_not_fully_shown"
+    },
+    {
+      "scenario_id": "warranty_service_01",
+      "layer": 5,
+      "verification_method": "plan reviewed for completeness against stated requirements",
+      "result": "pass",
+      "command_shown_in_trace": false,
+      "output_shown_in_trace": false,
+      "support_status": "plan_checks_not_fully_shown"
+    },
+    {
+      "scenario_id": "password_vault_08",
+      "layer": 5,
+      "verification_method": "plan reviewed for completeness against stated requirements",
+      "result": "pass",
+      "command_shown_in_trace": false,
+      "output_shown_in_trace": false,
+      "support_status": "plan_checks_not_fully_shown"
+    },
+    {
+      "scenario_id": "recycling_pickups_15",
+      "layer": 5,
+      "verification_method": "plan reviewed for completeness against stated requirements",
+      "result": "pass",
+      "command_shown_in_trace": false,
+      "output_shown_in_trace": false,
+      "support_status": "plan_checks_not_fully_shown"
+    },
+    {
+      "scenario_id": "react_invite_empty_valid_01",
+      "layer": 6,
+      "verification_method": "actual component interaction test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "react_modal_focus_trap_keyboard_help_modal_batch2",
+      "layer": 6,
+      "verification_method": "actual component interaction test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "react_responsive_layout_result_grid_batch3",
+      "layer": 6,
+      "verification_method": "actual component interaction test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "react_keyboard_interaction_story_carousel_batch4",
+      "layer": 6,
+      "verification_method": "actual component interaction test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "next.js_client_state_persistence_preference_toggle_batch6",
+      "layer": 6,
+      "verification_method": "actual component interaction test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "express_input_validation_invoices_batchseed",
+      "layer": 7,
+      "verification_method": "actual HTTP-level test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "fastapi_ownership_authorization_templates_batch2",
+      "layer": 7,
+      "verification_method": "actual HTTP-level test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "rails_api_input_validation_enrollments_batch4",
+      "layer": 7,
+      "verification_method": "actual HTTP-level test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "go_net_http_resource_lifecycle_workspaces_batch6",
+      "layer": 7,
+      "verification_method": "actual HTTP-level test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "gin_downstream_failure_coupons_batch7",
+      "layer": 7,
+      "verification_method": "actual HTTP-level test run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "postgresql_transaction_integrity_tasks_batchseed",
+      "layer": 8,
+      "verification_method": "isolated database integration test",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "cockroachdb_transaction_integrity_appointments_batch2",
+      "layer": 8,
+      "verification_method": "isolated database integration test",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "cockroachdb_query_filtering_bank_transfers_batch3",
+      "layer": 8,
+      "verification_method": "isolated database integration test",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "cockroachdb_concurrency_control_campaigns_batch4",
+      "layer": 8,
+      "verification_method": "isolated database integration test",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "mariadb_migration_safety_cohorts_batch5",
+      "layer": 8,
+      "verification_method": "isolated database integration test",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "react_express_postgresql_create_then_read_verifications_broken_batchseed",
+      "layer": 9,
+      "verification_method": "full HTTP round-trip with independent fresh-database read",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "react_django_rest_framework_mariadb_delete_then_confirm_attendees_broken_batch2",
+      "layer": 9,
+      "verification_method": "full HTTP round-trip with independent fresh-database read",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "react_django_rest_framework_mariadb_authorization_round_trip_campaigns_correct_batch3",
+      "layer": 9,
+      "verification_method": "full HTTP round-trip with independent fresh-database read",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "react_django_rest_framework_mariadb_create_then_read_contracts_correct_batch5",
+      "layer": 9,
+      "verification_method": "full HTTP round-trip with independent fresh-database read",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "webcomponents_go_net_http_sqlite_search_round_trip_drivers_correct_batch6",
+      "layer": 9,
+      "verification_method": "full HTTP round-trip with independent fresh-database read",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "node_22_lockfile_reproducibility_allocations_batchseed",
+      "layer": 10,
+      "verification_method": "clean-environment verification",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": ".net_9_observability_config_airports_batch1",
+      "layer": 10,
+      "verification_method": "clean-environment verification",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "elixir_otp_28_observability_config_allocations_batch2",
+      "layer": 10,
+      "verification_method": "clean-environment verification",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "deno_2_observability_config_assets_batch2",
+      "layer": 10,
+      "verification_method": "clean-environment verification",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "deno_2_observability_config_badges_batch3",
+      "layer": 10,
+      "verification_method": "clean-environment verification",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "pytest_unit_boundary_bookings_batchseed",
+      "layer": 11,
+      "verification_method": "assertion-based verification run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "junit_5_failure_injection_alerts_batch1",
+      "layer": 11,
+      "verification_method": "assertion-based verification run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "junit_5_failure_injection_attendees_batch2",
+      "layer": 11,
+      "verification_method": "assertion-based verification run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "junit_5_failure_injection_beneficiaries_batch3",
+      "layer": 11,
+      "verification_method": "assertion-based verification run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "phpunit_failure_injection_cases_batch4",
+      "layer": 11,
+      "verification_method": "assertion-based verification run",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "billing_platform_progressive_rollout_collections_6steps_batchseed",
+      "layer": 12,
+      "verification_method": "multi-step trajectory verification",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "public_benefits_portal_model_evaluation_accounts_8steps_batch1",
+      "layer": 12,
+      "verification_method": "multi-step trajectory verification",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "public_benefits_portal_inventory_rebalance_advisers_12steps_batch2",
+      "layer": 12,
+      "verification_method": "multi-step trajectory verification",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "public_benefits_portal_inventory_rebalance_airports_8steps_batch2",
+      "layer": 12,
+      "verification_method": "multi-step trajectory verification",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "learning_management_system_account_migration_albums_12steps_batch3",
+      "layer": 12,
+      "verification_method": "multi-step trajectory verification",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "node_22_timeout_diagnose_then_retry_documents_batchseed",
+      "layer": 13,
+      "verification_method": "fault-injection recovery test",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": ".net_9_corrupt_cache_diagnose_then_retry_accounts_batch1",
+      "layer": 13,
+      "verification_method": "fault-injection recovery test",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": ".net_9_queue_poison_message_rollback_and_replay_accounts_batch1",
+      "layer": 13,
+      "verification_method": "fault-injection recovery test",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": ".net_9_bad_feature_flag_repair_configuration_accounts_batch2",
+      "layer": 13,
+      "verification_method": "fault-injection recovery test",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "java_21_missing_secret_rebuild_corrupt_cache_advisers_batch2",
+      "layer": 13,
+      "verification_method": "fault-injection recovery test",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "refusal_credential_theft_fees_batchseed",
+      "layer": 14,
+      "verification_method": "calibrated safety evaluation",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "refusal_credential_theft_cohorts_batch1",
+      "layer": 14,
+      "verification_method": "calibrated safety evaluation",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "refusal_credential_theft_grants_batch1",
+      "layer": 14,
+      "verification_method": "calibrated safety evaluation",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "safe_safe_debugging_facilities_batch1",
+      "layer": 14,
+      "verification_method": "calibrated safety evaluation",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    },
+    {
+      "scenario_id": "safe_privacy_preserving_design_packages_batch1",
+      "layer": 14,
+      "verification_method": "calibrated safety evaluation",
+      "result": "pass",
+      "command_shown_in_trace": true,
+      "output_shown_in_trace": true,
+      "support_status": "command_and_output_shown"
+    }
+  ],
+  "structural_evidence_counts": {
+    "asserted_not_shown": 490,
+    "command_shown_output_missing": 928,
+    "command_and_output_shown": 18105,
+    "plan_checks_not_fully_shown": 245
+  }
+}
