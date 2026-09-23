@@ -1,0 +1,37 @@
+[
+  {
+    "framework": "React",
+    "task_type": "form_validation",
+    "ui_element": "invite_form",
+    "styling": "CSS_modules",
+    "scenario_id": "react_invite_empty_valid_01"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "list_filter_sort",
+    "ui_element": "reading_list",
+    "styling": "Tailwind",
+    "scenario_id": "vue_reading_filter_empty_sort_02"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "modal_focus_trap",
+    "ui_element": "delete_modal",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_delete_modal_focus_cancel_03"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "state_lifting",
+    "ui_element": "cart_quantity_panel",
+    "styling": "plain_CSS",
+    "scenario_id": "web_components_sibling_quantity_total_04"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "optimistic_rollback",
+    "ui_element": "favorite_button",
+    "styling": "styled_components",
+    "scenario_id": "next_client_favorite_mock_failure_05"
+  }
+]
