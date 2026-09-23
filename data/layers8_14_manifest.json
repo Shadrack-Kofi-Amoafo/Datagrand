@@ -1,0 +1,109 @@
+{
+  "layers": {
+    "8": {
+      "target": 2200,
+      "records": 2200,
+      "seed_records": 5,
+      "continuation_batches": [
+        500,
+        500,
+        500,
+        500,
+        195
+      ],
+      "aggregate_file": "data/layer8_all_2200.jsonl",
+      "final_registry": "data/registry_layer8_final_2200.json",
+      "sha256": "53e55a0934c42b106e510426abb401883088853fdec316b7e8b45c5ca3521a90"
+    },
+    "9": {
+      "target": 3000,
+      "records": 3000,
+      "seed_records": 5,
+      "continuation_batches": [
+        500,
+        500,
+        500,
+        500,
+        500,
+        495
+      ],
+      "aggregate_file": "data/layer9_all_3000.jsonl",
+      "final_registry": "data/registry_layer9_final_3000.json",
+      "sha256": "64772524860833d6c466bd83b607f0e3db8f30994f7a6c551dbc5cc2f9c57caa",
+      "broken_wiring_records": 750,
+      "fresh_database_read_records": 3000
+    },
+    "10": {
+      "target": 1200,
+      "records": 1200,
+      "seed_records": 5,
+      "continuation_batches": [
+        500,
+        500,
+        195
+      ],
+      "aggregate_file": "data/layer10_all_1200.jsonl",
+      "final_registry": "data/registry_layer10_final_1200.json",
+      "sha256": "4e765773e1a5a430f3c0de1f518fbdb0825905cf76bbbb4c9971df9d3e06e459"
+    },
+    "11": {
+      "target": 2000,
+      "records": 2000,
+      "seed_records": 5,
+      "continuation_batches": [
+        500,
+        500,
+        500,
+        495
+      ],
+      "aggregate_file": "data/layer11_all_2000.jsonl",
+      "final_registry": "data/registry_layer11_final_2000.json",
+      "sha256": "3899e24fc421e4717c476441e171ded9a82f021686b1f63ea2de930b066d2bdb"
+    },
+    "12": {
+      "target": 1200,
+      "records": 1200,
+      "seed_records": 5,
+      "continuation_batches": [
+        500,
+        500,
+        195
+      ],
+      "aggregate_file": "data/layer12_all_1200.jsonl",
+      "final_registry": "data/registry_layer12_final_1200.json",
+      "sha256": "20a5d0c86d2a5ad72699e03a9917dab29c12eb4df8cadc72abc1d091a9dc48b4"
+    },
+    "13": {
+      "target": 1000,
+      "records": 1000,
+      "seed_records": 5,
+      "continuation_batches": [
+        500,
+        495
+      ],
+      "aggregate_file": "data/layer13_all_1000.jsonl",
+      "final_registry": "data/registry_layer13_final_1000.json",
+      "sha256": "90709a2a55ae83b63b9ff172f208eaf46af7a7eb37f9ec0d5bdeac79cb43d263"
+    },
+    "14": {
+      "target": 500,
+      "records": 500,
+      "seed_records": 5,
+      "continuation_batches": [
+        495
+      ],
+      "aggregate_file": "data/layer14_all_500.jsonl",
+      "final_registry": "data/registry_layer14_final_500.json",
+      "sha256": "380a64ee9ab8902ed091b90bc3f419d15f88fa195d60c24d6d2b137dd49f21d6",
+      "refusal_records": 250,
+      "safe_records": 250
+    }
+  },
+  "total_records": 11100,
+  "validation": {
+    "unique_fingerprints_per_layer": true,
+    "unique_scenario_ids_per_layer": true,
+    "passing_verification_evidence": true,
+    "seed_records_per_layer": 5
+  }
+}

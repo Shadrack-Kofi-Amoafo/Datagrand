@@ -1,0 +1,37 @@
+[
+  {
+    "runtime": "Node 22",
+    "failure_type": "timeout",
+    "recovery_strategy": "diagnose_then_retry",
+    "component_noun": "documents",
+    "scenario_id": "node_22_timeout_diagnose_then_retry_documents_batchseed"
+  },
+  {
+    "runtime": "Python 3.13",
+    "failure_type": "stale_connection",
+    "recovery_strategy": "rollback_and_replay",
+    "component_noun": "donations",
+    "scenario_id": "python_3.13_stale_connection_rollback_and_replay_donations_batchseed"
+  },
+  {
+    "runtime": "Ruby 3.4",
+    "failure_type": "missing_secret",
+    "recovery_strategy": "repair_configuration",
+    "component_noun": "drivers",
+    "scenario_id": "ruby_3.4_missing_secret_repair_configuration_drivers_batchseed"
+  },
+  {
+    "runtime": "Go 1.24",
+    "failure_type": "corrupt_cache",
+    "recovery_strategy": "rebuild_corrupt_cache",
+    "component_noun": "enrollments",
+    "scenario_id": "go_1.24_corrupt_cache_rebuild_corrupt_cache_enrollments_batchseed"
+  },
+  {
+    "runtime": "Java 21",
+    "failure_type": "schema_drift",
+    "recovery_strategy": "rotate_dependency",
+    "component_noun": "episodes",
+    "scenario_id": "java_21_schema_drift_rotate_dependency_episodes_batchseed"
+  }
+]
