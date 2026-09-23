@@ -1,0 +1,37 @@
+[
+  {
+    "domain": "marketplace",
+    "vagueness_level": "very_vague",
+    "ambiguity_type": "payment_handling",
+    "plan_style": "risk_first_milestones",
+    "scenario_id": "two_sided_goods_marketplace_01"
+  },
+  {
+    "domain": "booking_system",
+    "vagueness_level": "medium",
+    "ambiguity_type": "multi_tenancy",
+    "plan_style": "schedule_integrity_first",
+    "scenario_id": "appointments_availability_reminders_02"
+  },
+  {
+    "domain": "forum",
+    "vagueness_level": "grounded",
+    "ambiguity_type": "none",
+    "plan_style": "integration_first",
+    "scenario_id": "django_forum_threads_moderation_notifications_03"
+  },
+  {
+    "domain": "expense_tracker",
+    "vagueness_level": "medium",
+    "ambiguity_type": "data_retention",
+    "plan_style": "privacy_and_imports_first",
+    "scenario_id": "receipts_budgets_csv_export_04"
+  },
+  {
+    "domain": "chat_app",
+    "vagueness_level": "very_vague",
+    "ambiguity_type": "none",
+    "plan_style": "realtime_slice_first",
+    "scenario_id": "workspace_channels_direct_messages_05"
+  }
+]
