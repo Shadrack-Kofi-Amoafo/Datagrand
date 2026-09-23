@@ -1,0 +1,1269 @@
+[
+  {
+    "label": "layer 1 Tool Literacy (existing corpus)",
+    "records": 1200,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": true,
+        "detail": "1.00 records per scenario cell",
+        "metrics": {
+          "records_per_cell": 1.0,
+          "limit": 2.0,
+          "declared_variant_axes": []
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 1200
+        }
+      },
+      "tool_call_requirement": {
+        "pass": true,
+        "detail": "not required for this layer",
+        "metrics": {}
+      },
+      "combo_uniqueness": {
+        "pass": true,
+        "detail": "every sample occupies a distinct grid cell",
+        "metrics": {
+          "distinct_cells": 1200,
+          "worst_cell_reuse": 1,
+          "worst_cell": "twist=directory_missing_create_manifest | task_type=verify_exists_and_create | tool=list_dir",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": true,
+        "detail": "no sample shares its entity+operation with any other sample",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 0,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": ""
+        }
+      },
+      "template_diversity": {
+        "pass": false,
+        "detail": "template diversity 44% < required 60%",
+        "metrics": {
+          "distinct_templates": 522,
+          "template_diversity": 0.435,
+          "top_template_share": 0.0417,
+          "top_template_excerpt": "read the deployment configuration for analytics in configs analytics json",
+          "top_template_count": 50
+        }
+      },
+      "pool_capacity": {
+        "pass": true,
+        "detail": "entity pool 1199 meets requirement",
+        "metrics": {
+          "distinct_entities": 1199,
+          "distinct_operations": 20,
+          "distinct_constraints": {
+            "tool": 5
+          },
+          "grid_capacity": 119900,
+          "required_entity_pool": 120,
+          "batch_fills_grid": 0.01
+        }
+      },
+      "noun_quarantine": {
+        "pass": true,
+        "detail": "no quarantine pools configured",
+        "metrics": {}
+      }
+    }
+  },
+  {
+    "label": "layer 2 Navigation (existing corpus)",
+    "records": 1300,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": true,
+        "detail": "1.03 records per scenario cell",
+        "metrics": {
+          "records_per_cell": 1.034,
+          "limit": 2.0,
+          "declared_variant_axes": []
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 1300
+        }
+      },
+      "tool_call_requirement": {
+        "pass": true,
+        "detail": "not required for this layer",
+        "metrics": {}
+      },
+      "combo_uniqueness": {
+        "pass": false,
+        "detail": "one (entity, operation, mode) cell repeats 9x (limit 1)",
+        "metrics": {
+          "distinct_cells": 1257,
+          "worst_cell_reuse": 9,
+          "worst_cell": "symbol=config/routes.rb | task_type=trace_request_to_db | target_depth=1",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": false,
+        "detail": "1011 samples share entity+operation with another sample in this batch",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 1011,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": "symbol=config/routes.rb task_type=trace_request_to_db repeated 39x"
+        }
+      },
+      "template_diversity": {
+        "pass": false,
+        "detail": "template diversity 23% < required 60%",
+        "metrics": {
+          "distinct_templates": 300,
+          "template_diversity": 0.2308,
+          "top_template_share": 0.0038,
+          "top_template_excerpt": "repository type next js app router with prisma task in this next js app router with prisma repository where is <slot> actually defined trace the imports from <slot> and report the defining file and li",
+          "top_template_count": 5
+        }
+      },
+      "pool_capacity": {
+        "pass": true,
+        "detail": "entity pool 256 meets requirement",
+        "metrics": {
+          "distinct_entities": 256,
+          "distinct_operations": 5,
+          "distinct_constraints": {
+            "target_depth": 5
+          },
+          "grid_capacity": 6400,
+          "required_entity_pool": 200,
+          "batch_fills_grid": 0.203
+        }
+      },
+      "noun_quarantine": {
+        "pass": true,
+        "detail": "no quarantine pools configured",
+        "metrics": {}
+      }
+    }
+  },
+  {
+    "label": "layer 3 Function Coding (existing corpus)",
+    "records": 1795,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": true,
+        "detail": "1.02 records per scenario cell (declared variant axis: language)",
+        "metrics": {
+          "records_per_cell": 1.016,
+          "limit": 5.5,
+          "declared_variant_axes": [
+            "language"
+          ]
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 1795
+        }
+      },
+      "tool_call_requirement": {
+        "pass": true,
+        "detail": "not required for this layer",
+        "metrics": {}
+      },
+      "combo_uniqueness": {
+        "pass": false,
+        "detail": "one (entity, operation, mode) cell repeats 2x (limit 1)",
+        "metrics": {
+          "distinct_cells": 1766,
+          "worst_cell_reuse": 2,
+          "worst_cell": "problem_id=small_utility_class_01_retrybudget | spec_style=input_output_examples",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": false,
+        "detail": "29 samples share entity+operation with another sample in this batch",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 29,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": "problem_id=small_utility_class_01_retrybudget spec_style=input_output_examples repeated 2x"
+        }
+      },
+      "template_diversity": {
+        "pass": true,
+        "detail": "359 distinct sentence frames",
+        "metrics": {
+          "distinct_templates": 359,
+          "template_diversity": 0.2,
+          "top_template_share": 0.0028,
+          "top_template_excerpt": "implement <slot> in <slot> for this <x> layer 3 task return labels with duplicates removed while preserving first seen order <slot> becomes <slot> an empty list stays empty the implementation must rem",
+          "top_template_count": 5
+        }
+      },
+      "pool_capacity": {
+        "pass": true,
+        "detail": "entity pool 712 meets requirement",
+        "metrics": {
+          "distinct_entities": 712,
+          "distinct_operations": 3,
+          "distinct_constraints": {},
+          "grid_capacity": 2136,
+          "required_entity_pool": 360,
+          "batch_fills_grid": 0.84
+        }
+      },
+      "noun_quarantine": {
+        "pass": true,
+        "detail": "no quarantine pools configured",
+        "metrics": {}
+      }
+    }
+  },
+  {
+    "label": "layer 4 Debug Loop (existing corpus)",
+    "records": 5,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": true,
+        "detail": "batch smaller than 50: padding ratio not meaningful",
+        "metrics": {
+          "records": 5
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 5
+        }
+      },
+      "tool_call_requirement": {
+        "pass": true,
+        "detail": "not required for this layer",
+        "metrics": {}
+      },
+      "combo_uniqueness": {
+        "pass": true,
+        "detail": "every sample occupies a distinct grid cell",
+        "metrics": {
+          "distinct_cells": 5,
+          "worst_cell_reuse": 1,
+          "worst_cell": "scenario_id=page_slice_inclusive_end | bug_category=off_by_one | symptom_presentation=failing_unit_test",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": true,
+        "detail": "no sample shares its entity+operation with any other sample",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 0,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": ""
+        }
+      },
+      "template_diversity": {
+        "pass": true,
+        "detail": "batch smaller than 50: share thresholds not meaningful",
+        "metrics": {
+          "records": 5
+        }
+      },
+      "pool_capacity": {
+        "pass": false,
+        "detail": "entity pool 5 < required 2800 for this layer's target",
+        "metrics": {
+          "distinct_entities": 5,
+          "distinct_operations": 5,
+          "distinct_constraints": {
+            "symptom_presentation": 3
+          },
+          "grid_capacity": 75,
+          "required_entity_pool": 2800,
+          "batch_fills_grid": 0.067
+        }
+      },
+      "noun_quarantine": {
+        "pass": true,
+        "detail": "noun quarantine ok (0% overlap)",
+        "metrics": {
+          "quarantine_overlap_share": 0.0,
+          "quarantined_pool_size": 48,
+          "overlapping_entities": []
+        }
+      }
+    }
+  },
+  {
+    "label": "layer 5 Planning (existing corpus)",
+    "records": 1600,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": true,
+        "detail": "1.53 records per scenario cell",
+        "metrics": {
+          "records_per_cell": 1.533,
+          "limit": 2.0,
+          "declared_variant_axes": []
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 1600
+        }
+      },
+      "tool_call_requirement": {
+        "pass": false,
+        "detail": "0 records contain a tool call",
+        "metrics": {
+          "records_without_tool_call": 1600,
+          "records": 1600,
+          "first_offenders": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      },
+      "combo_uniqueness": {
+        "pass": false,
+        "detail": "one (entity, operation, mode) cell repeats 2x (limit 1)",
+        "metrics": {
+          "distinct_cells": 1044,
+          "worst_cell_reuse": 2,
+          "worst_cell": "domain=blog_comments | ambiguity_type=none | plan_style=data_contract_first",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": false,
+        "detail": "1355 samples share entity+operation with another sample in this batch",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 1355,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": "domain=blog_comments ambiguity_type=none repeated 17x"
+        }
+      },
+      "template_diversity": {
+        "pass": false,
+        "detail": "template diversity 15% < required 50%",
+        "metrics": {
+          "distinct_templates": 245,
+          "template_diversity": 0.1531,
+          "top_template_share": 0.0044,
+          "top_template_excerpt": "build a blog with comments",
+          "top_template_count": 7
+        }
+      },
+      "pool_capacity": {
+        "pass": false,
+        "detail": "entity pool 85 < required 120 for this layer's target",
+        "metrics": {
+          "distinct_entities": 85,
+          "distinct_operations": 5,
+          "distinct_constraints": {
+            "plan_style": 14
+          },
+          "grid_capacity": 5950,
+          "required_entity_pool": 120,
+          "batch_fills_grid": 0.269
+        }
+      },
+      "noun_quarantine": {
+        "pass": true,
+        "detail": "no quarantine pools configured",
+        "metrics": {}
+      }
+    }
+  },
+  {
+    "label": "layer 6 Frontend (existing corpus)",
+    "records": 2600,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": false,
+        "detail": "4.96 records per scenario cell > limit 2.00: the label axis is doing the padding, not the scenario",
+        "metrics": {
+          "records_per_cell": 4.962,
+          "limit": 2.0,
+          "declared_variant_axes": []
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 2600
+        }
+      },
+      "tool_call_requirement": {
+        "pass": true,
+        "detail": "not required for this layer",
+        "metrics": {}
+      },
+      "combo_uniqueness": {
+        "pass": false,
+        "detail": "one (entity, operation, mode) cell repeats 5x (limit 1)",
+        "metrics": {
+          "distinct_cells": 524,
+          "worst_cell_reuse": 5,
+          "worst_cell": "ui_element=profile_alias_form | task_type=form_validation",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": false,
+        "detail": "2076 samples share entity+operation with another sample in this batch",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 2076,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": "ui_element=profile_alias_form task_type=form_validation repeated 5x"
+        }
+      },
+      "template_diversity": {
+        "pass": false,
+        "detail": "template diversity 20% < required 50%",
+        "metrics": {
+          "distinct_templates": 524,
+          "template_diversity": 0.2015,
+          "top_template_share": 0.0019,
+          "top_template_excerpt": "implement or modify the <x> ui component <slot> at <slot> reject a blank profile alias with an inline error and call the mocked save only for a trimmed nonblank alias backend behavior must remain mock",
+          "top_template_count": 5
+        }
+      },
+      "pool_capacity": {
+        "pass": false,
+        "detail": "entity pool 521 < required 1300 for this layer's target",
+        "metrics": {
+          "distinct_entities": 521,
+          "distinct_operations": 10,
+          "distinct_constraints": {},
+          "grid_capacity": 5210,
+          "required_entity_pool": 1300,
+          "batch_fills_grid": 0.499
+        }
+      },
+      "noun_quarantine": {
+        "pass": true,
+        "detail": "no quarantine pools configured",
+        "metrics": {}
+      }
+    }
+  },
+  {
+    "label": "layer 7 Backend (existing corpus)",
+    "records": 2600,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": false,
+        "detail": "6.91 records per scenario cell > limit 2.00: the label axis is doing the padding, not the scenario",
+        "metrics": {
+          "records_per_cell": 6.915,
+          "limit": 2.0,
+          "declared_variant_axes": []
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 2600
+        }
+      },
+      "tool_call_requirement": {
+        "pass": true,
+        "detail": "not required for this layer",
+        "metrics": {}
+      },
+      "combo_uniqueness": {
+        "pass": false,
+        "detail": "one (entity, operation, mode) cell repeats 7x (limit 1)",
+        "metrics": {
+          "distinct_cells": 376,
+          "worst_cell_reuse": 7,
+          "worst_cell": "resource_noun=users | task_type=input_validation",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": false,
+        "detail": "2224 samples share entity+operation with another sample in this batch",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 2224,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": "resource_noun=users task_type=input_validation repeated 7x"
+        }
+      },
+      "template_diversity": {
+        "pass": false,
+        "detail": "template diversity 1% < required 50%; single frame covers 14% of the batch > limit 5%",
+        "metrics": {
+          "distinct_templates": 28,
+          "template_diversity": 0.0108,
+          "top_template_share": 0.135,
+          "top_template_excerpt": "implement the <x> handler for <slot> at <slot> post <x> must reject a missing or blank <slot> with status 422 and body <slot> a valid name <x> 201 with an id the store is an injected in memory mock do",
+          "top_template_count": 351
+        }
+      },
+      "pool_capacity": {
+        "pass": false,
+        "detail": "entity pool 58 < required 400 for this layer's target",
+        "metrics": {
+          "distinct_entities": 58,
+          "distinct_operations": 7,
+          "distinct_constraints": {},
+          "grid_capacity": 406,
+          "required_entity_pool": 400,
+          "batch_fills_grid": 6.404
+        }
+      },
+      "noun_quarantine": {
+        "pass": false,
+        "detail": "26% of entity nouns already burned in other layers (limit 20%)",
+        "metrics": {
+          "quarantine_overlap_share": 0.2638,
+          "quarantined_pool_size": 48,
+          "overlapping_entities": [
+            "alerts",
+            "appointments",
+            "assets",
+            "bookings",
+            "campaigns",
+            "claims",
+            "comments",
+            "coupons",
+            "courses",
+            "deliveries",
+            "devices",
+            "documents",
+            "drivers",
+            "tasks",
+            "teams",
+            "tickets"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "label": "layer 8 Database (existing corpus)",
+    "records": 2200,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": false,
+        "detail": "9.78 records per scenario cell > limit 2.00: the label axis is doing the padding, not the scenario",
+        "metrics": {
+          "records_per_cell": 9.778,
+          "limit": 2.0,
+          "declared_variant_axes": []
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 2200
+        }
+      },
+      "tool_call_requirement": {
+        "pass": true,
+        "detail": "not required for this layer",
+        "metrics": {}
+      },
+      "combo_uniqueness": {
+        "pass": false,
+        "detail": "one (entity, operation, mode) cell repeats 10x (limit 1)",
+        "metrics": {
+          "distinct_cells": 225,
+          "worst_cell_reuse": 10,
+          "worst_cell": "object_noun=accounts | task_type=transaction_integrity",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": false,
+        "detail": "1975 samples share entity+operation with another sample in this batch",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 1975,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": "object_noun=accounts task_type=transaction_integrity repeated 10x"
+        }
+      },
+      "template_diversity": {
+        "pass": false,
+        "detail": "template diversity 0% < required 40%; single frame covers 11% of the batch > limit 5%",
+        "metrics": {
+          "distinct_templates": 9,
+          "template_diversity": 0.0041,
+          "top_template_share": 0.1141,
+          "top_template_excerpt": "implement database competence for <slot> on <slot> keep the <x> transfer atomic debit and credit commit together or neither commits using an injected connection and an assertion on balances use an iso",
+          "top_template_count": 251
+        }
+      },
+      "pool_capacity": {
+        "pass": false,
+        "detail": "entity pool 30 < required 150 for this layer's target",
+        "metrics": {
+          "distinct_entities": 30,
+          "distinct_operations": 9,
+          "distinct_constraints": {},
+          "grid_capacity": 270,
+          "required_entity_pool": 150,
+          "batch_fills_grid": 8.148
+        }
+      },
+      "noun_quarantine": {
+        "pass": false,
+        "detail": "100% of entity nouns already burned in other layers (limit 20%)",
+        "metrics": {
+          "quarantine_overlap_share": 0.9991,
+          "quarantined_pool_size": 88,
+          "overlapping_entities": [
+            "accounts",
+            "advisers",
+            "airports",
+            "albums",
+            "alerts",
+            "allocations",
+            "appointments",
+            "artifacts",
+            "assets",
+            "attendees",
+            "auctions",
+            "badges",
+            "bank_transfers",
+            "batches",
+            "beneficiaries",
+            "bookings",
+            "budgets",
+            "builds",
+            "campaigns",
+            "cases",
+            "catalogs",
+            "channels",
+            "checkins",
+            "claims",
+            "cohorts"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "label": "layer 9 Integration (existing corpus)",
+    "records": 3000,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": false,
+        "detail": "9.80 records per scenario cell > limit 2.00: the label axis is doing the padding, not the scenario",
+        "metrics": {
+          "records_per_cell": 9.804,
+          "limit": 2.0,
+          "declared_variant_axes": []
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 3000
+        }
+      },
+      "tool_call_requirement": {
+        "pass": true,
+        "detail": "not required for this layer",
+        "metrics": {}
+      },
+      "combo_uniqueness": {
+        "pass": false,
+        "detail": "one (entity, operation, mode) cell repeats 10x (limit 1)",
+        "metrics": {
+          "distinct_cells": 306,
+          "worst_cell_reuse": 10,
+          "worst_cell": "resource_noun=accounts | task_type=create_then_read | wiring_state=broken",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": false,
+        "detail": "2695 samples share entity+operation with another sample in this batch",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 2695,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": "resource_noun=accounts task_type=create_then_read repeated 10x"
+        }
+      },
+      "template_diversity": {
+        "pass": false,
+        "detail": "template diversity 0% < required 50%; single frame covers 75% of the batch > limit 5%",
+        "metrics": {
+          "distinct_templates": 2,
+          "template_diversity": 0.0007,
+          "top_template_share": 0.75,
+          "top_template_excerpt": "build a full round trip for <slot> and <slot> covering <slot> the test must write through the public boundary close the write connection then read through an independent fresh database connection use ",
+          "top_template_count": 2250
+        }
+      },
+      "pool_capacity": {
+        "pass": false,
+        "detail": "entity pool 43 < required 150 for this layer's target",
+        "metrics": {
+          "distinct_entities": 43,
+          "distinct_operations": 8,
+          "distinct_constraints": {
+            "wiring_state": 2
+          },
+          "grid_capacity": 688,
+          "required_entity_pool": 150,
+          "batch_fills_grid": 4.36
+        }
+      },
+      "noun_quarantine": {
+        "pass": false,
+        "detail": "100% of entity nouns already burned in other layers (limit 20%)",
+        "metrics": {
+          "quarantine_overlap_share": 0.9983,
+          "quarantined_pool_size": 76,
+          "overlapping_entities": [
+            "accounts",
+            "advisers",
+            "airports",
+            "albums",
+            "alerts",
+            "allocations",
+            "appointments",
+            "artifacts",
+            "assets",
+            "attendees",
+            "auctions",
+            "badges",
+            "bank_transfers",
+            "batches",
+            "beneficiaries",
+            "bookings",
+            "budgets",
+            "builds",
+            "campaigns",
+            "cases",
+            "catalogs",
+            "channels",
+            "checkins",
+            "claims",
+            "cohorts"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "label": "layer 10 Env/Deps (existing corpus)",
+    "records": 1200,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": false,
+        "detail": "10.00 records per scenario cell > limit 2.00: the label axis is doing the padding, not the scenario",
+        "metrics": {
+          "records_per_cell": 10.0,
+          "limit": 2.0,
+          "declared_variant_axes": []
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 1200
+        }
+      },
+      "tool_call_requirement": {
+        "pass": true,
+        "detail": "not required for this layer",
+        "metrics": {}
+      },
+      "combo_uniqueness": {
+        "pass": false,
+        "detail": "one (entity, operation, mode) cell repeats 10x (limit 1)",
+        "metrics": {
+          "distinct_cells": 120,
+          "worst_cell_reuse": 10,
+          "worst_cell": "environment_noun=allocations | task_type=lockfile_reproducibility",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": false,
+        "detail": "1080 samples share entity+operation with another sample in this batch",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 1080,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": "environment_noun=allocations task_type=lockfile_reproducibility repeated 10x"
+        }
+      },
+      "template_diversity": {
+        "pass": false,
+        "detail": "template diversity 1% < required 50%; single frame covers 10% of the batch > limit 5%",
+        "metrics": {
+          "distinct_templates": 10,
+          "template_diversity": 0.0083,
+          "top_template_share": 0.1,
+          "top_template_excerpt": "configure <slot> for <slot> pin and install dependencies for <x> from the lockfile with a clean cache reject drift keep credentials out of source and verify the deployment behavior in a clean environm",
+          "top_template_count": 120
+        }
+      },
+      "pool_capacity": {
+        "pass": false,
+        "detail": "entity pool 12 < required 60 for this layer's target",
+        "metrics": {
+          "distinct_entities": 12,
+          "distinct_operations": 10,
+          "distinct_constraints": {},
+          "grid_capacity": 120,
+          "required_entity_pool": 60,
+          "batch_fills_grid": 10.0
+        }
+      },
+      "noun_quarantine": {
+        "pass": false,
+        "detail": "100% of entity nouns already burned in other layers (limit 20%)",
+        "metrics": {
+          "quarantine_overlap_share": 1.0,
+          "quarantined_pool_size": 48,
+          "overlapping_entities": [
+            "accounts",
+            "advisers",
+            "airports",
+            "albums",
+            "alerts",
+            "allocations",
+            "appointments",
+            "artifacts",
+            "assets",
+            "attendees",
+            "auctions",
+            "badges"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "label": "layer 11 Testing (existing corpus)",
+    "records": 2000,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": false,
+        "detail": "10.00 records per scenario cell > limit 2.00: the label axis is doing the padding, not the scenario",
+        "metrics": {
+          "records_per_cell": 10.0,
+          "limit": 2.0,
+          "declared_variant_axes": []
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 2000
+        }
+      },
+      "tool_call_requirement": {
+        "pass": true,
+        "detail": "not required for this layer",
+        "metrics": {}
+      },
+      "combo_uniqueness": {
+        "pass": false,
+        "detail": "one (entity, operation, mode) cell repeats 10x (limit 1)",
+        "metrics": {
+          "distinct_cells": 200,
+          "worst_cell_reuse": 10,
+          "worst_cell": "subject_noun=bookings | task_type=unit_boundary",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": false,
+        "detail": "1800 samples share entity+operation with another sample in this batch",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 1800,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": "subject_noun=bookings task_type=unit_boundary repeated 10x"
+        }
+      },
+      "template_diversity": {
+        "pass": false,
+        "detail": "template diversity 0% < required 50%; single frame covers 10% of the batch > limit 5%",
+        "metrics": {
+          "distinct_templates": 10,
+          "template_diversity": 0.005,
+          "top_template_share": 0.1,
+          "top_template_excerpt": "add a strong verification scenario using <slot> for <slot> test the <x> decision boundary with a mocked dependency and assert both success and the rejected edge preserve evidence of the assertion and ",
+          "top_template_count": 200
+        }
+      },
+      "pool_capacity": {
+        "pass": false,
+        "detail": "entity pool 20 < required 100 for this layer's target",
+        "metrics": {
+          "distinct_entities": 20,
+          "distinct_operations": 10,
+          "distinct_constraints": {},
+          "grid_capacity": 200,
+          "required_entity_pool": 100,
+          "batch_fills_grid": 10.0
+        }
+      },
+      "noun_quarantine": {
+        "pass": false,
+        "detail": "100% of entity nouns already burned in other layers (limit 20%)",
+        "metrics": {
+          "quarantine_overlap_share": 1.0,
+          "quarantined_pool_size": 48,
+          "overlapping_entities": [
+            "accounts",
+            "advisers",
+            "airports",
+            "albums",
+            "alerts",
+            "allocations",
+            "appointments",
+            "artifacts",
+            "assets",
+            "attendees",
+            "auctions",
+            "badges",
+            "bank_transfers",
+            "batches",
+            "beneficiaries",
+            "bookings",
+            "budgets",
+            "builds",
+            "campaigns",
+            "cases"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "label": "layer 12 Long-Horizon (existing corpus)",
+    "records": 1200,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": false,
+        "detail": "9.60 records per scenario cell > limit 2.00: the label axis is doing the padding, not the scenario",
+        "metrics": {
+          "records_per_cell": 9.6,
+          "limit": 2.0,
+          "declared_variant_axes": []
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 1200
+        }
+      },
+      "tool_call_requirement": {
+        "pass": true,
+        "detail": "not required for this layer",
+        "metrics": {}
+      },
+      "combo_uniqueness": {
+        "pass": false,
+        "detail": "one (entity, operation, mode) cell repeats 10x (limit 1)",
+        "metrics": {
+          "distinct_cells": 125,
+          "worst_cell_reuse": 10,
+          "worst_cell": "domain_noun=accounts | trajectory_type=progressive_rollout | horizon_steps=6",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": false,
+        "detail": "1165 samples share entity+operation with another sample in this batch",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 1165,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": "domain_noun=accounts trajectory_type=progressive_rollout repeated 40x"
+        }
+      },
+      "template_diversity": {
+        "pass": false,
+        "detail": "template diversity 0% < required 50%; single frame covers 25% of the batch > limit 5%",
+        "metrics": {
+          "distinct_templates": 4,
+          "template_diversity": 0.0033,
+          "top_template_share": 0.2517,
+          "top_template_excerpt": "design the long horizon trajectory for <slot> and <slot> complete a 6 step <x> trajectory for the <x> persist a checkpoint after every step make retries idempotent and verify the final invariant indep",
+          "top_template_count": 302
+        }
+      },
+      "pool_capacity": {
+        "pass": false,
+        "detail": "entity pool 9 < required 75 for this layer's target",
+        "metrics": {
+          "distinct_entities": 9,
+          "distinct_operations": 8,
+          "distinct_constraints": {
+            "horizon_steps": 4
+          },
+          "grid_capacity": 288,
+          "required_entity_pool": 75,
+          "batch_fills_grid": 4.167
+        }
+      },
+      "noun_quarantine": {
+        "pass": false,
+        "detail": "100% of entity nouns already burned in other layers (limit 20%)",
+        "metrics": {
+          "quarantine_overlap_share": 1.0,
+          "quarantined_pool_size": 76,
+          "overlapping_entities": [
+            "accounts",
+            "advisers",
+            "airports",
+            "albums",
+            "collections",
+            "comments",
+            "commissions",
+            "contracts",
+            "coupons"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "label": "layer 13 Self-Correction (existing corpus)",
+    "records": 1000,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": false,
+        "detail": "9.52 records per scenario cell > limit 2.00: the label axis is doing the padding, not the scenario",
+        "metrics": {
+          "records_per_cell": 9.524,
+          "limit": 2.0,
+          "declared_variant_axes": []
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 1000
+        }
+      },
+      "tool_call_requirement": {
+        "pass": true,
+        "detail": "not required for this layer",
+        "metrics": {}
+      },
+      "combo_uniqueness": {
+        "pass": false,
+        "detail": "one (entity, operation, mode) cell repeats 10x (limit 1)",
+        "metrics": {
+          "distinct_cells": 105,
+          "worst_cell_reuse": 10,
+          "worst_cell": "component_noun=accounts | failure_type=timeout | recovery_strategy=diagnose_then_retry",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": false,
+        "detail": "895 samples share entity+operation with another sample in this batch",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 895,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": "component_noun=accounts failure_type=timeout recovery_strategy=diagnose_then_retry repeated 10x"
+        }
+      },
+      "template_diversity": {
+        "pass": false,
+        "detail": "template diversity 0% < required 50%; single frame covers 100% of the batch > limit 5%",
+        "metrics": {
+          "distinct_templates": 1,
+          "template_diversity": 0.001,
+          "top_template_share": 1.0,
+          "top_template_excerpt": "implement bounded self recovery for <slot> and <slot> when the injected <x> affects <x> diagnose from observable evidence apply bounded <slot> re run the failed operation and prove the invariant witho",
+          "top_template_count": 1000
+        }
+      },
+      "pool_capacity": {
+        "pass": false,
+        "detail": "entity pool 7 < required 32 for this layer's target",
+        "metrics": {
+          "distinct_entities": 7,
+          "distinct_operations": 18,
+          "distinct_constraints": {},
+          "grid_capacity": 126,
+          "required_entity_pool": 32,
+          "batch_fills_grid": 7.937
+        }
+      },
+      "noun_quarantine": {
+        "pass": false,
+        "detail": "100% of entity nouns already burned in other layers (limit 20%)",
+        "metrics": {
+          "quarantine_overlap_share": 1.0,
+          "quarantined_pool_size": 76,
+          "overlapping_entities": [
+            "accounts",
+            "advisers",
+            "documents",
+            "donations",
+            "drivers",
+            "enrollments",
+            "episodes"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "label": "layer 14 Safety (existing corpus)",
+    "records": 500,
+    "reference_records": 0,
+    "verdict": "FAIL",
+    "checks": {
+      "label_padding": {
+        "pass": true,
+        "detail": "1.00 records per scenario cell",
+        "metrics": {
+          "records_per_cell": 1.0,
+          "limit": 2.0,
+          "declared_variant_axes": []
+        }
+      },
+      "schema": {
+        "pass": true,
+        "detail": "ok",
+        "metrics": {
+          "records": 500
+        }
+      },
+      "tool_call_requirement": {
+        "pass": true,
+        "detail": "not required for this layer",
+        "metrics": {}
+      },
+      "combo_uniqueness": {
+        "pass": true,
+        "detail": "every sample occupies a distinct grid cell",
+        "metrics": {
+          "distinct_cells": 500,
+          "worst_cell_reuse": 1,
+          "worst_cell": "domain_noun=fees | safety_category=credential_theft | calibration_group=refusal",
+          "reference_cell_collisions": 0
+        }
+      },
+      "entity_operation_uniqueness": {
+        "pass": true,
+        "detail": "no sample shares its entity+operation with any other sample",
+        "metrics": {
+          "within_batch_entity_operation_repeats": 0,
+          "cross_reference_label_only_swaps": 0,
+          "worst_group": ""
+        }
+      },
+      "template_diversity": {
+        "pass": false,
+        "detail": "template diversity 0% < required 5%; single frame covers 50% of the batch > limit 5%",
+        "metrics": {
+          "distinct_templates": 2,
+          "template_diversity": 0.004,
+          "top_template_share": 0.5,
+          "top_template_excerpt": "the user asks for actionable <x> involving <x> refuse the harmful operational assistance state the boundary briefly and redirect to a lawful defensive or <x> ty preserving alternative without supplyin",
+          "top_template_count": 250
+        }
+      },
+      "pool_capacity": {
+        "pass": false,
+        "detail": "entity pool 71 < required 250 for this layer's target",
+        "metrics": {
+          "distinct_entities": 71,
+          "distinct_operations": 10,
+          "distinct_constraints": {
+            "calibration_group": 2
+          },
+          "grid_capacity": 1420,
+          "required_entity_pool": 250,
+          "batch_fills_grid": 0.352
+        }
+      },
+      "noun_quarantine": {
+        "pass": false,
+        "detail": "56% of entity nouns already burned in other layers (limit 5%)",
+        "metrics": {
+          "quarantine_overlap_share": 0.56,
+          "quarantined_pool_size": 48,
+          "overlapping_entities": [
+            "accounts",
+            "advisers",
+            "airports",
+            "albums",
+            "alerts",
+            "allocations",
+            "appointments",
+            "artifacts",
+            "assets",
+            "attendees",
+            "auctions",
+            "badges",
+            "bank_transfers",
+            "batches",
+            "beneficiaries",
+            "bookings",
+            "budgets",
+            "builds",
+            "campaigns",
+            "cases",
+            "catalogs",
+            "channels",
+            "checkins",
+            "claims",
+            "cohorts"
+          ]
+        }
+      }
+    }
+  }
+]
