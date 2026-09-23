@@ -1,0 +1,434 @@
+{
+  "_comment": "Per-layer configuration for pregen_dup_gate.py. entity_fields/operation_fields/mode_fields define the 3-axis scenario grid that must be unique per sample. label_fields are the technology/runtime labels that must NEVER be the only thing that varies. min_entity_pool is the fresh-pool size required to reach the layer target without reusing a (entity, operation, mode) cell more than max_combo_reuse times.",
+  "defaults": {
+    "max_combo_reuse": 1,
+    "min_template_fraction": 0.5,
+    "max_template_share": 0.05,
+    "max_cluster_share": 0.02,
+    "min_entity_pool": 0,
+    "max_quarantine_overlap": 0.2,
+    "similarity_threshold": 0.9,
+    "similarity_ngram": 5,
+    "max_label_padding_factor": 2.0
+  },
+  "layers": {
+    "1": {
+      "name": "Tool Literacy",
+      "target": 1200,
+      "entity_fields": [
+        "twist"
+      ],
+      "operation_fields": [
+        "task_type"
+      ],
+      "mode_fields": [
+        "tool"
+      ],
+      "label_fields": [],
+      "min_entity_pool": 120,
+      "min_template_fraction": 0.6,
+      "max_combo_reuse": 1,
+      "notes": "Grid is healthy in count (1200 combos, max reuse 1). Failure is phrasing (522 frames for 1200 samples, largest frame 50x) plus 93.9% ungrounded verification.",
+      "constraint_fields": [
+        "tool"
+      ]
+    },
+    "2": {
+      "name": "Navigation",
+      "target": 1300,
+      "entity_fields": [
+        "symbol"
+      ],
+      "operation_fields": [
+        "task_type"
+      ],
+      "mode_fields": [
+        "target_depth",
+        "repo_type"
+      ],
+      "label_fields": [
+        "repo_type"
+      ],
+      "min_entity_pool": 200,
+      "min_template_fraction": 0.6,
+      "max_combo_reuse": 1,
+      "notes": "repo_type (60 generic layout labels) is context, not content. Real cells are (symbol x task_type) = 289 for 1300 records: one symbol re-described at several depths in a byte-identical sentence.",
+      "constraint_fields": [
+        "target_depth"
+      ],
+      "normalizers": {}
+    },
+    "3": {
+      "name": "Function Coding",
+      "target": 1800,
+      "entity_fields": [
+        "problem_id"
+      ],
+      "operation_fields": [
+        "spec_style"
+      ],
+      "mode_fields": [
+        "language"
+      ],
+      "label_fields": [
+        "language"
+      ],
+      "min_entity_pool": 360,
+      "min_template_fraction": 0.2,
+      "max_combo_reuse": 1,
+      "declared_variant_axes": [
+        "language"
+      ],
+      "notes": "DECLARED variant axis: 359 problem specs x 5 languages = 1795 records. Effective distinct content is the 828 distinct problem specs, and the 5x language factor is intentional (same problem, different language) \u2014 report it as a declared axis, never as 1795 unique samples.",
+      "constraint_fields": [],
+      "max_label_padding_factor": 5.5,
+      "normalizers": {
+        "problem_id": {
+          "strip_prefix_regex": "^(typescript|python|javascript|go|java|ruby|php)_"
+        }
+      }
+    },
+    "4": {
+      "name": "Debug Loop",
+      "target": 2800,
+      "entity_fields": [
+        "scenario_id"
+      ],
+      "operation_fields": [
+        "bug_category"
+      ],
+      "mode_fields": [
+        "symptom_presentation",
+        "language"
+      ],
+      "label_fields": [
+        "language"
+      ],
+      "min_entity_pool": 2800,
+      "min_template_fraction": 0.4,
+      "max_combo_reuse": 1,
+      "notes": "Only 5 records exist; 2795 missing. Regenerate from scratch against this gate rather than topping up 5 samples.",
+      "constraint_fields": [
+        "symptom_presentation"
+      ]
+    },
+    "5": {
+      "name": "Planning",
+      "target": 1600,
+      "entity_fields": [
+        "domain"
+      ],
+      "operation_fields": [
+        "ambiguity_type"
+      ],
+      "mode_fields": [
+        "plan_style"
+      ],
+      "label_fields": [],
+      "min_entity_pool": 120,
+      "min_template_fraction": 0.5,
+      "max_combo_reuse": 1,
+      "requires_tool_call": true,
+      "notes": "0% of 1600 existing samples contain any tool call despite the 'plan then act on step 1' requirement. Both defects (245 frames, no tool call) must be fixed in the same regeneration pass.",
+      "constraint_fields": [
+        "plan_style"
+      ]
+    },
+    "6": {
+      "name": "Frontend",
+      "target": 2600,
+      "entity_fields": [
+        "ui_element"
+      ],
+      "operation_fields": [
+        "task_type"
+      ],
+      "mode_fields": [
+        "framework",
+        "styling"
+      ],
+      "label_fields": [
+        "framework",
+        "styling"
+      ],
+      "min_entity_pool": 1300,
+      "min_template_fraction": 0.5,
+      "max_combo_reuse": 1,
+      "notes": "524 (ui_element, task_type) cells for 2600 records: the layer is a 5x Cartesian pad over framework. Framework may be a co-varying axis, never the padding axis.",
+      "constraint_fields": []
+    },
+    "7": {
+      "name": "Backend",
+      "target": 2600,
+      "entity_fields": [
+        "resource_noun"
+      ],
+      "operation_fields": [
+        "task_type"
+      ],
+      "mode_fields": [
+        "framework"
+      ],
+      "label_fields": [
+        "framework"
+      ],
+      "min_entity_pool": 400,
+      "min_template_fraction": 0.5,
+      "max_combo_reuse": 1,
+      "notes": "376 (resource, task) cells x ~7 framework repeats = 2600. 2520/2600 records sit in char-ngram clusters of 10+.",
+      "constraint_fields": []
+    },
+    "8": {
+      "name": "Database",
+      "target": 2200,
+      "entity_fields": [
+        "object_noun"
+      ],
+      "operation_fields": [
+        "task_type"
+      ],
+      "mode_fields": [
+        "database_engine"
+      ],
+      "label_fields": [
+        "database_engine"
+      ],
+      "min_entity_pool": 150,
+      "min_template_fraction": 0.4,
+      "max_combo_reuse": 1,
+      "notes": "225 cells x ~10 engine repeats = 2200, delivered through 9 sentence frames. Char-ngram clustering collapses the whole layer into 9 clusters.",
+      "constraint_fields": []
+    },
+    "9": {
+      "name": "Integration",
+      "target": 3000,
+      "entity_fields": [
+        "resource_noun"
+      ],
+      "operation_fields": [
+        "task_type"
+      ],
+      "mode_fields": [
+        "wiring_state",
+        "stack"
+      ],
+      "label_fields": [
+        "stack"
+      ],
+      "min_entity_pool": 150,
+      "min_template_fraction": 0.5,
+      "max_combo_reuse": 1,
+      "notes": "306 cells x ~10 stack repeats = 3000, delivered through 2 sentence frames (largest frame 2250). Entity pool must grow from 43 to >=150 before more budget is spent.",
+      "constraint_fields": [
+        "wiring_state"
+      ]
+    },
+    "10": {
+      "name": "Env/Deps",
+      "target": 1200,
+      "entity_fields": [
+        "environment_noun"
+      ],
+      "operation_fields": [
+        "task_type"
+      ],
+      "mode_fields": [
+        "runtime"
+      ],
+      "label_fields": [
+        "runtime"
+      ],
+      "min_entity_pool": 60,
+      "min_template_fraction": 0.5,
+      "max_combo_reuse": 1,
+      "notes": "120 cells x 10 runtime repeats = 1200 through 10 frames (120x each).",
+      "constraint_fields": []
+    },
+    "11": {
+      "name": "Testing",
+      "target": 2000,
+      "entity_fields": [
+        "subject_noun"
+      ],
+      "operation_fields": [
+        "task_type"
+      ],
+      "mode_fields": [
+        "test_stack"
+      ],
+      "label_fields": [
+        "test_stack"
+      ],
+      "min_entity_pool": 100,
+      "min_template_fraction": 0.5,
+      "max_combo_reuse": 1,
+      "notes": "200 cells x 10 runner repeats = 2000 through 10 frames (200x each).",
+      "constraint_fields": []
+    },
+    "12": {
+      "name": "Long-Horizon",
+      "target": 1200,
+      "entity_fields": [
+        "domain_noun"
+      ],
+      "operation_fields": [
+        "trajectory_type"
+      ],
+      "mode_fields": [
+        "horizon_steps",
+        "system"
+      ],
+      "label_fields": [
+        "system"
+      ],
+      "min_entity_pool": 75,
+      "min_template_fraction": 0.5,
+      "max_combo_reuse": 1,
+      "notes": "35 cells x 40 label repeats = 1200 records through 4 frames; all 1200 records form one char-ngram cluster. Highest-severity layer alongside 9 and 13.",
+      "constraint_fields": [
+        "horizon_steps"
+      ]
+    },
+    "13": {
+      "name": "Self-Correction",
+      "target": 1000,
+      "entity_fields": [
+        "component_noun"
+      ],
+      "operation_fields": [
+        "failure_type",
+        "recovery_strategy"
+      ],
+      "mode_fields": [
+        "runtime"
+      ],
+      "label_fields": [
+        "runtime"
+      ],
+      "min_entity_pool": 32,
+      "min_template_fraction": 0.5,
+      "max_combo_reuse": 1,
+      "notes": "105 cells x ~10 runtime-label repeats = 1000 records delivered through exactly 1 sentence frame; all 1000 records form a single char-ngram cluster. runtime is a label, not a scenario axis.",
+      "constraint_fields": []
+    },
+    "14": {
+      "name": "Safety",
+      "target": 500,
+      "entity_fields": [
+        "domain_noun"
+      ],
+      "operation_fields": [
+        "safety_category"
+      ],
+      "mode_fields": [
+        "calibration_group"
+      ],
+      "label_fields": [],
+      "min_entity_pool": 250,
+      "min_template_fraction": 0.05,
+      "max_combo_reuse": 1,
+      "max_quarantine_overlap": 0.05,
+      "notes": "Combo grid is fine (500 unique cells) but there are only 2 frames for 500 records and the domain noun is drawn from a generic list shared with the engineering layers, producing incoherent pairs such as 'credential_theft involving fees'. Domains must be drawn from a category-specific pool.",
+      "constraint_fields": [
+        "calibration_group"
+      ]
+    }
+  },
+  "reference_files": {
+    "_comment": "Globs of already-generated records per layer, used as the conflict reference (a new batch may not duplicate anything already accepted).",
+    "1": [
+      "data/layer1_final_1200.jsonl"
+    ],
+    "2": [
+      "data/layer2_batch*.jsonl"
+    ],
+    "3": [
+      "data/layer3_batch*.jsonl"
+    ],
+    "4": [
+      "data/layer4_samples_5.jsonl"
+    ],
+    "5": [
+      "data/layer5_all_1600.jsonl"
+    ],
+    "6": [
+      "data/layer6_all_2600.jsonl"
+    ],
+    "7": [
+      "data/layer7_all_2600.jsonl"
+    ],
+    "8": [
+      "data/layer8_all_2200.jsonl"
+    ],
+    "9": [
+      "data/layer9_all_3000.jsonl"
+    ],
+    "10": [
+      "data/layer10_all_1200.jsonl"
+    ],
+    "11": [
+      "data/layer11_all_2000.jsonl"
+    ],
+    "12": [
+      "data/layer12_all_1200.jsonl"
+    ],
+    "13": [
+      "data/layer13_all_1000.jsonl"
+    ],
+    "14": [
+      "data/layer14_all_500.jsonl"
+    ]
+  },
+  "quarantine_files": {
+    "_comment": "Entity nouns already burned in other layers. A new batch must draw fresh nouns: reuse of these pools is capped by max_quarantine_overlap.",
+    "1": [],
+    "2": [],
+    "3": [],
+    "4": [
+      "data/layer9_all_3000.jsonl",
+      "data/layer8_all_2200.jsonl"
+    ],
+    "5": [],
+    "6": [],
+    "7": [
+      "data/layer9_all_3000.jsonl",
+      "data/layer8_all_2200.jsonl",
+      "data/layer11_all_2000.jsonl"
+    ],
+    "8": [
+      "data/layer9_all_3000.jsonl",
+      "data/layer7_all_2600.jsonl",
+      "data/layer11_all_2000.jsonl"
+    ],
+    "9": [
+      "data/layer8_all_2200.jsonl",
+      "data/layer10_all_1200.jsonl",
+      "data/layer11_all_2000.jsonl",
+      "data/layer14_all_500.jsonl"
+    ],
+    "10": [
+      "data/layer9_all_3000.jsonl",
+      "data/layer8_all_2200.jsonl",
+      "data/layer11_all_2000.jsonl"
+    ],
+    "11": [
+      "data/layer9_all_3000.jsonl",
+      "data/layer8_all_2200.jsonl",
+      "data/layer10_all_1200.jsonl"
+    ],
+    "12": [
+      "data/layer9_all_3000.jsonl",
+      "data/layer14_all_500.jsonl"
+    ],
+    "13": [
+      "data/layer9_all_3000.jsonl",
+      "data/layer14_all_500.jsonl"
+    ],
+    "14": [
+      "data/layer9_all_3000.jsonl",
+      "data/layer8_all_2200.jsonl",
+      "data/layer10_all_1200.jsonl",
+      "data/layer11_all_2000.jsonl"
+    ]
+  }
+}
