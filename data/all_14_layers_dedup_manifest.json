@@ -1,0 +1,42 @@
+{
+  "merged_file": "data/all_14_layers_merged_dedup.jsonl",
+  "registry": "data/registry_all_14_layers_dedup.json",
+  "verification_audit": "data/verification_spot_check_audit.json",
+  "raw_records": 22205,
+  "dedup_records": 19768,
+  "dropped_records": 2437,
+  "counts_after_by_layer": {
+    "1": 522,
+    "2": 896,
+    "3": 1800,
+    "4": 5,
+    "5": 245,
+    "6": 2600,
+    "7": 2600,
+    "8": 2200,
+    "9": 3000,
+    "10": 1200,
+    "11": 2000,
+    "12": 1200,
+    "13": 1000,
+    "14": 500
+  },
+  "dedup_thresholds": {
+    "instruction_ngram_jaccard": 0.9,
+    "embedding_cosine": 0.98,
+    "drop_rule": "both"
+  },
+  "rebalance_policy": "No padding after dedup; underfilled layers remain underfilled.",
+  "evidence_status_counts": {
+    "asserted_not_shown": 490,
+    "command_shown_output_missing": 928,
+    "command_and_output_shown": 18105,
+    "plan_checks_not_fully_shown": 245
+  },
+  "underfilled_layers": {
+    "1": 522,
+    "2": 896,
+    "5": 245
+  },
+  "verification_policy": "Records retain original verification fields plus verification_audit; unsupported pass claims are surfaced rather than silently treated as executed evidence."
+}

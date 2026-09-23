@@ -1,0 +1,4772 @@
+[
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_pure_data_transform_21_dedupeTags"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_pure_data_transform_22_shiftWindow"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_pure_data_transform_23_clampTemperatures"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_pure_data_transform_24_bucketSamples"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_pure_data_transform_25_alternatePages"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_pure_data_transform_26_joinIntervals"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_pure_data_transform_27_sumCharges"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_pure_data_transform_28_groupByRegion"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_pure_data_transform_29_orderByDeadline"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_pure_data_transform_30_trimFields"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_pure_data_transform_31_flattenOneLevel"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_pure_data_transform_32_differenceValues"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_pure_data_transform_33_stablePartition"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_pure_data_transform_34_fillMissingDays"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_pure_data_transform_35_mapDefined"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_pure_data_transform_36_uniqueSortedCodes"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_validation_function_21_isAsciiWord"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_validation_function_22_isCssHex"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_validation_function_23_isDisplayName"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_validation_function_24_isUnitFraction"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_validation_function_25_isPlainFilename"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_validation_function_26_isSortedInts"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_validation_function_27_isRealLeapDay"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_validation_function_28_isPositiveCount"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_validation_function_29_isIpv6Address"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_validation_function_30_hasAllFlags"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_validation_function_31_isSafePort"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_validation_function_32_isUpperCode"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_validation_function_33_isEvenInteger"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_validation_function_34_isEmailLike"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_validation_function_35_isIsoDateTime"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_validation_function_36_isRecordShape"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_parsing_helper_21_parseLatLon"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_parsing_helper_22_parseBitRate"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_parsing_helper_23_parseIsoDuration"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_parsing_helper_24_parseBuildNumber"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_parsing_helper_25_parseCookiePair"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_parsing_helper_26_parseYesNo"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_parsing_helper_27_parseDecimalCents"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_parsing_helper_28_parseOffsetRange"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_parsing_helper_29_parseCompactDate"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_parsing_helper_30_parseCsvTags"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_parsing_helper_31_parseHexByte"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_parsing_helper_32_parseKeyList"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_parsing_helper_33_parseVersionRange"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_parsing_helper_34_parseMonthName"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_parsing_helper_35_parseCsvNumber"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_parsing_helper_36_parseColorTriplet"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_date_currency_formatting_21_formatCentsUsd"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_date_currency_formatting_22_formatLocalDay"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_date_currency_formatting_23_calendarQuarter"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_date_currency_formatting_24_formatClock"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_date_currency_formatting_25_formatPercentTwo"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_date_currency_formatting_26_formatMebibytes"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_date_currency_formatting_27_weekdayName"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_date_currency_formatting_28_padTicket"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_date_currency_formatting_29_dutySummary"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_date_currency_formatting_30_quarterBounds"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_date_currency_formatting_31_formatSignedCents"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_date_currency_formatting_32_formatMonthName"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_date_currency_formatting_33_formatHours"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_date_currency_formatting_34_formatRate"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_date_currency_formatting_35_formatDayOfYear"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_date_currency_formatting_36_yearBounds"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_small_utility_class_21_attemptLedger"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_small_utility_class_22_cursorMark"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_small_utility_class_23_fahrenheitValue"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_small_utility_class_24_contactEmail"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_small_utility_class_25_buildNumber"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_small_utility_class_26_rollingNames"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_small_utility_class_27_moneyCents"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_small_utility_class_28_quotaCounter"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_small_utility_class_29_geoFence"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_small_utility_class_30_lastWord"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_small_utility_class_31_boundedStack"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_small_utility_class_32_flagSet"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_small_utility_class_33_rangeValue"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_small_utility_class_34_retryDelay"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_small_utility_class_35_slugValue"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_small_utility_class_36_versionPair"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_regex_parsing_helper_21_extractLinks"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_regex_parsing_helper_22_maskMailbox"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_regex_parsing_helper_23_findMarker"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_regex_parsing_helper_24_extractHandles"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_regex_parsing_helper_25_normalizeDialString"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_regex_parsing_helper_26_maskReference"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_regex_parsing_helper_27_hostFromHttp"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_regex_parsing_helper_28_splitPascal"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_regex_parsing_helper_29_readQuotedAttrs"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_regex_parsing_helper_30_hidePasswords"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_regex_parsing_helper_31_extractVersion"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_regex_parsing_helper_32_stripMarkup"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_regex_parsing_helper_33_findHexColors"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_regex_parsing_helper_34_redactBearer"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_regex_parsing_helper_35_splitWords"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_regex_parsing_helper_36_parseMentions"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_route_handler_21_findReceipt"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_route_handler_22_checkEntitlement"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_route_handler_23_reserveHandle"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_route_handler_24_serviceStatus"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_route_handler_25_estimateParcel"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_route_handler_26_acceptCallback"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_route_handler_27_lookupTariff"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_route_handler_28_selectLanguage"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_route_handler_29_summarizeBasket"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_route_handler_30_archiveAlert"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_route_handler_31_createSession"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_route_handler_32_readInvoice"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_route_handler_33_publishDraft"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_route_handler_34_checkQuota"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_route_handler_35_deleteLabel"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_route_handler_36_refreshCache"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_serialization_helper_21_csvField"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_serialization_helper_22_jsonDecimal"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_serialization_helper_23_encodeSettings"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_serialization_helper_24_splitPipeValues"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_serialization_helper_25_encodeQuery"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_serialization_helper_26_decodeMap"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_serialization_helper_27_formatHeaders"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_serialization_helper_28_bitMask"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_serialization_helper_29_readColumns"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_serialization_helper_30_writeNdjson"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_serialization_helper_31_encodePathParts"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_serialization_helper_32_decodeBoolList"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_serialization_helper_33_stableMapJson"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_serialization_helper_34_parseIntegerList"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_serialization_helper_35_formatKeyValue"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_serialization_helper_36_quoteShellArg"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_pagination_helper_21_pageWindow"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_pagination_helper_22_hasAfterCursor"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_pagination_helper_23_validIndexWindow"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_pagination_helper_24_clampOffsetLimit"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_pagination_helper_25_reversePageStart"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_pagination_helper_26_moreResults"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_pagination_helper_27_decodePageCursor"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_pagination_helper_28_maxOffset"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_pagination_helper_29_reachesStop"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_pagination_helper_30_pageForIndex"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_pagination_helper_31_pageCount"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_pagination_helper_32_cursorDistance"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_pagination_helper_33_clampPage"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_pagination_helper_34_offsetForPage"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_pagination_helper_35_isPageSize"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_pagination_helper_36_takePage"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_presentational_21_badgeText"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_presentational_22_meterText"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_presentational_23_trailText"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_presentational_24_blankPanel"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_presentational_25_initialText"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_presentational_26_amountText"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_presentational_27_tagMarkup"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_presentational_28_switchMarkup"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_presentational_29_alertMarkup"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_presentational_30_countText"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_presentational_31_linkText"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_presentational_32_progressText"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "typescript_presentational_33_tableHead"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "docstring_spec",
+    "problem_id": "typescript_presentational_34_noticeText"
+  },
+  {
+    "language": "TypeScript",
+    "function_category": "presentational_component",
+    "spec_style": "input_output_examples",
+    "problem_id": "typescript_presentational_35_avatarText"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_pure_data_transform_21_dedupe_tags"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_pure_data_transform_22_shift_window"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_pure_data_transform_23_clamp_temperatures"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_pure_data_transform_24_bucket_samples"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_pure_data_transform_25_alternate_pages"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_pure_data_transform_26_join_intervals"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_pure_data_transform_27_sum_charges"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_pure_data_transform_28_group_by_region"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_pure_data_transform_29_order_by_deadline"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_pure_data_transform_30_trim_fields"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_pure_data_transform_31_flatten_one_level"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_pure_data_transform_32_difference_values"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_pure_data_transform_33_stable_partition"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_pure_data_transform_34_fill_missing_days"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_pure_data_transform_35_map_defined"
+  },
+  {
+    "language": "Python",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_pure_data_transform_36_unique_sorted_codes"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_validation_function_21_is_ascii_word"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_validation_function_22_is_css_hex"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_validation_function_23_is_display_name"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_validation_function_24_is_unit_fraction"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_validation_function_25_is_plain_filename"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_validation_function_26_is_sorted_ints"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_validation_function_27_is_real_leap_day"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_validation_function_28_is_positive_count"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_validation_function_29_is_ipv6_address"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_validation_function_30_has_all_flags"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_validation_function_31_is_safe_port"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_validation_function_32_is_upper_code"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_validation_function_33_is_even_integer"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_validation_function_34_is_email_like"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_validation_function_35_is_iso_date_time"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_validation_function_36_is_record_shape"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_parsing_helper_21_parse_lat_lon"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_parsing_helper_22_parse_bit_rate"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_parsing_helper_23_parse_iso_duration"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_parsing_helper_24_parse_build_number"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_parsing_helper_25_parse_cookie_pair"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_parsing_helper_26_parse_yes_no"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_parsing_helper_27_parse_decimal_cents"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_parsing_helper_28_parse_offset_range"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_parsing_helper_29_parse_compact_date"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_parsing_helper_30_parse_csv_tags"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_parsing_helper_31_parse_hex_byte"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_parsing_helper_32_parse_key_list"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_parsing_helper_33_parse_version_range"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_parsing_helper_34_parse_month_name"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_parsing_helper_35_parse_csv_number"
+  },
+  {
+    "language": "Python",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_parsing_helper_36_parse_color_triplet"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_date_currency_formatting_21_format_cents_usd"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_date_currency_formatting_22_format_local_day"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_date_currency_formatting_23_calendar_quarter"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_date_currency_formatting_24_format_clock"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_date_currency_formatting_25_format_percent_two"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_date_currency_formatting_26_format_mebibytes"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_date_currency_formatting_27_weekday_name"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_date_currency_formatting_28_pad_ticket"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_date_currency_formatting_29_duty_summary"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_date_currency_formatting_30_quarter_bounds"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_date_currency_formatting_31_format_signed_cents"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_date_currency_formatting_32_format_month_name"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_date_currency_formatting_33_format_hours"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_date_currency_formatting_34_format_rate"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_date_currency_formatting_35_format_day_of_year"
+  },
+  {
+    "language": "Python",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_date_currency_formatting_36_year_bounds"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_small_utility_class_21_attempt_ledger"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_small_utility_class_22_cursor_mark"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_small_utility_class_23_fahrenheit_value"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_small_utility_class_24_contact_email"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_small_utility_class_25_build_number"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_small_utility_class_26_rolling_names"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_small_utility_class_27_money_cents"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_small_utility_class_28_quota_counter"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_small_utility_class_29_geo_fence"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_small_utility_class_30_last_word"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_small_utility_class_31_bounded_stack"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_small_utility_class_32_flag_set"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_small_utility_class_33_range_value"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_small_utility_class_34_retry_delay"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_small_utility_class_35_slug_value"
+  },
+  {
+    "language": "Python",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_small_utility_class_36_version_pair"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_regex_parsing_helper_21_extract_links"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_regex_parsing_helper_22_mask_mailbox"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_regex_parsing_helper_23_find_marker"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_regex_parsing_helper_24_extract_handles"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_regex_parsing_helper_25_normalize_dial_string"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_regex_parsing_helper_26_mask_reference"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_regex_parsing_helper_27_host_from_http"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_regex_parsing_helper_28_split_pascal"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_regex_parsing_helper_29_read_quoted_attrs"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_regex_parsing_helper_30_hide_passwords"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_regex_parsing_helper_31_extract_version"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_regex_parsing_helper_32_strip_markup"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_regex_parsing_helper_33_find_hex_colors"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_regex_parsing_helper_34_redact_bearer"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_regex_parsing_helper_35_split_words"
+  },
+  {
+    "language": "Python",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_regex_parsing_helper_36_parse_mentions"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_route_handler_21_find_receipt"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_route_handler_22_check_entitlement"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_route_handler_23_reserve_handle"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_route_handler_24_service_status"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_route_handler_25_estimate_parcel"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_route_handler_26_accept_callback"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_route_handler_27_lookup_tariff"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_route_handler_28_select_language"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_route_handler_29_summarize_basket"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_route_handler_30_archive_alert"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_route_handler_31_create_session"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_route_handler_32_read_invoice"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_route_handler_33_publish_draft"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_route_handler_34_check_quota"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_route_handler_35_delete_label"
+  },
+  {
+    "language": "Python",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_route_handler_36_refresh_cache"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_serialization_helper_21_csv_field"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_serialization_helper_22_json_decimal"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_serialization_helper_23_encode_settings"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_serialization_helper_24_split_pipe_values"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_serialization_helper_25_encode_query"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_serialization_helper_26_decode_map"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_serialization_helper_27_format_headers"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_serialization_helper_28_bit_mask"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_serialization_helper_29_read_columns"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_serialization_helper_30_write_ndjson"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_serialization_helper_31_encode_path_parts"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_serialization_helper_32_decode_bool_list"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_serialization_helper_33_stable_map_json"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_serialization_helper_34_parse_integer_list"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_serialization_helper_35_format_key_value"
+  },
+  {
+    "language": "Python",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_serialization_helper_36_quote_shell_arg"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_pagination_helper_21_page_window"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_pagination_helper_22_has_after_cursor"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_pagination_helper_23_valid_index_window"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_pagination_helper_24_clamp_offset_limit"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_pagination_helper_25_reverse_page_start"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_pagination_helper_26_more_results"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_pagination_helper_27_decode_page_cursor"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_pagination_helper_28_max_offset"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_pagination_helper_29_reaches_stop"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_pagination_helper_30_page_for_index"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_pagination_helper_31_page_count"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_pagination_helper_32_cursor_distance"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_pagination_helper_33_clamp_page"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_pagination_helper_34_offset_for_page"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_pagination_helper_35_is_page_size"
+  },
+  {
+    "language": "Python",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_pagination_helper_36_take_page"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_presentational_21_badge_text"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_presentational_22_meter_text"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_presentational_23_trail_text"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_presentational_24_blank_panel"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_presentational_25_initial_text"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_presentational_26_amount_text"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_presentational_27_tag_markup"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_presentational_28_switch_markup"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_presentational_29_alert_markup"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_presentational_30_count_text"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_presentational_31_link_text"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_presentational_32_progress_text"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "python_presentational_33_table_head"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "python_presentational_34_notice_text"
+  },
+  {
+    "language": "Python",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "python_presentational_35_avatar_text"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_pure_data_transform_21_dedupeTags"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_pure_data_transform_22_shiftWindow"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_pure_data_transform_23_clampTemperatures"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_pure_data_transform_24_bucketSamples"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_pure_data_transform_25_alternatePages"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_pure_data_transform_26_joinIntervals"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_pure_data_transform_27_sumCharges"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_pure_data_transform_28_groupByRegion"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_pure_data_transform_29_orderByDeadline"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_pure_data_transform_30_trimFields"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_pure_data_transform_31_flattenOneLevel"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_pure_data_transform_32_differenceValues"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_pure_data_transform_33_stablePartition"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_pure_data_transform_34_fillMissingDays"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_pure_data_transform_35_mapDefined"
+  },
+  {
+    "language": "Go",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_pure_data_transform_36_uniqueSortedCodes"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_validation_function_21_isAsciiWord"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_validation_function_22_isCssHex"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_validation_function_23_isDisplayName"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_validation_function_24_isUnitFraction"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_validation_function_25_isPlainFilename"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_validation_function_26_isSortedInts"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_validation_function_27_isRealLeapDay"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_validation_function_28_isPositiveCount"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_validation_function_29_isIpv6Address"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_validation_function_30_hasAllFlags"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_validation_function_31_isSafePort"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_validation_function_32_isUpperCode"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_validation_function_33_isEvenInteger"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_validation_function_34_isEmailLike"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_validation_function_35_isIsoDateTime"
+  },
+  {
+    "language": "Go",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_validation_function_36_isRecordShape"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_parsing_helper_21_parseLatLon"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_parsing_helper_22_parseBitRate"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_parsing_helper_23_parseIsoDuration"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_parsing_helper_24_parseBuildNumber"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_parsing_helper_25_parseCookiePair"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_parsing_helper_26_parseYesNo"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_parsing_helper_27_parseDecimalCents"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_parsing_helper_28_parseOffsetRange"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_parsing_helper_29_parseCompactDate"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_parsing_helper_30_parseCsvTags"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_parsing_helper_31_parseHexByte"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_parsing_helper_32_parseKeyList"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_parsing_helper_33_parseVersionRange"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_parsing_helper_34_parseMonthName"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_parsing_helper_35_parseCsvNumber"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_parsing_helper_36_parseColorTriplet"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_date_currency_formatting_21_formatCentsUsd"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_date_currency_formatting_22_formatLocalDay"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_date_currency_formatting_23_calendarQuarter"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_date_currency_formatting_24_formatClock"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_date_currency_formatting_25_formatPercentTwo"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_date_currency_formatting_26_formatMebibytes"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_date_currency_formatting_27_weekdayName"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_date_currency_formatting_28_padTicket"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_date_currency_formatting_29_dutySummary"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_date_currency_formatting_30_quarterBounds"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_date_currency_formatting_31_formatSignedCents"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_date_currency_formatting_32_formatMonthName"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_date_currency_formatting_33_formatHours"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_date_currency_formatting_34_formatRate"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_date_currency_formatting_35_formatDayOfYear"
+  },
+  {
+    "language": "Go",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_date_currency_formatting_36_yearBounds"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_small_utility_class_21_AttemptLedger"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_small_utility_class_22_CursorMark"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_small_utility_class_23_FahrenheitValue"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_small_utility_class_24_ContactEmail"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_small_utility_class_25_BuildNumber"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_small_utility_class_26_RollingNames"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_small_utility_class_27_MoneyCents"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_small_utility_class_28_QuotaCounter"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_small_utility_class_29_GeoFence"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_small_utility_class_30_LastWord"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_small_utility_class_31_BoundedStack"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_small_utility_class_32_FlagSet"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_small_utility_class_33_RangeValue"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_small_utility_class_34_RetryDelay"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_small_utility_class_35_SlugValue"
+  },
+  {
+    "language": "Go",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_small_utility_class_36_VersionPair"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_regex_parsing_helper_21_extractLinks"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_regex_parsing_helper_22_maskMailbox"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_regex_parsing_helper_23_findMarker"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_regex_parsing_helper_24_extractHandles"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_regex_parsing_helper_25_normalizeDialString"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_regex_parsing_helper_26_maskReference"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_regex_parsing_helper_27_hostFromHttp"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_regex_parsing_helper_28_splitPascal"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_regex_parsing_helper_29_readQuotedAttrs"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_regex_parsing_helper_30_hidePasswords"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_regex_parsing_helper_31_extractVersion"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_regex_parsing_helper_32_stripMarkup"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_regex_parsing_helper_33_findHexColors"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_regex_parsing_helper_34_redactBearer"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_regex_parsing_helper_35_splitWords"
+  },
+  {
+    "language": "Go",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_regex_parsing_helper_36_parseMentions"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_route_handler_21_findReceipt"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_route_handler_22_checkEntitlement"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_route_handler_23_reserveHandle"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_route_handler_24_serviceStatus"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_route_handler_25_estimateParcel"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_route_handler_26_acceptCallback"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_route_handler_27_lookupTariff"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_route_handler_28_selectLanguage"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_route_handler_29_summarizeBasket"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_route_handler_30_archiveAlert"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_route_handler_31_createSession"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_route_handler_32_readInvoice"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_route_handler_33_publishDraft"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_route_handler_34_checkQuota"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_route_handler_35_deleteLabel"
+  },
+  {
+    "language": "Go",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_route_handler_36_refreshCache"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_serialization_helper_21_csvField"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_serialization_helper_22_jsonDecimal"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_serialization_helper_23_encodeSettings"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_serialization_helper_24_splitPipeValues"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_serialization_helper_25_encodeQuery"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_serialization_helper_26_decodeMap"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_serialization_helper_27_formatHeaders"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_serialization_helper_28_bitMask"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_serialization_helper_29_readColumns"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_serialization_helper_30_writeNdjson"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_serialization_helper_31_encodePathParts"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_serialization_helper_32_decodeBoolList"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_serialization_helper_33_stableMapJson"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_serialization_helper_34_parseIntegerList"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_serialization_helper_35_formatKeyValue"
+  },
+  {
+    "language": "Go",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_serialization_helper_36_quoteShellArg"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_pagination_helper_21_pageWindow"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_pagination_helper_22_hasAfterCursor"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_pagination_helper_23_validIndexWindow"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_pagination_helper_24_clampOffsetLimit"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_pagination_helper_25_reversePageStart"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_pagination_helper_26_moreResults"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_pagination_helper_27_decodePageCursor"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_pagination_helper_28_maxOffset"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_pagination_helper_29_reachesStop"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_pagination_helper_30_pageForIndex"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_pagination_helper_31_pageCount"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_pagination_helper_32_cursorDistance"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_pagination_helper_33_clampPage"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_pagination_helper_34_offsetForPage"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_pagination_helper_35_isPageSize"
+  },
+  {
+    "language": "Go",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_pagination_helper_36_takePage"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_presentational_21_badgeText"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_presentational_22_meterText"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_presentational_23_trailText"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_presentational_24_blankPanel"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_presentational_25_initialText"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_presentational_26_amountText"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_presentational_27_tagMarkup"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_presentational_28_switchMarkup"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_presentational_29_alertMarkup"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_presentational_30_countText"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_presentational_31_linkText"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_presentational_32_progressText"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "go_presentational_33_tableHead"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "go_presentational_34_noticeText"
+  },
+  {
+    "language": "Go",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "go_presentational_35_avatarText"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_pure_data_transform_21_dedupe_tags"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_pure_data_transform_22_shift_window"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_pure_data_transform_23_clamp_temperatures"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_pure_data_transform_24_bucket_samples"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_pure_data_transform_25_alternate_pages"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_pure_data_transform_26_join_intervals"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_pure_data_transform_27_sum_charges"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_pure_data_transform_28_group_by_region"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_pure_data_transform_29_order_by_deadline"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_pure_data_transform_30_trim_fields"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_pure_data_transform_31_flatten_one_level"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_pure_data_transform_32_difference_values"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_pure_data_transform_33_stable_partition"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_pure_data_transform_34_fill_missing_days"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_pure_data_transform_35_map_defined"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_pure_data_transform_36_unique_sorted_codes"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_validation_function_21_is_ascii_word"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_validation_function_22_is_css_hex"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_validation_function_23_is_display_name"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_validation_function_24_is_unit_fraction"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_validation_function_25_is_plain_filename"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_validation_function_26_is_sorted_ints"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_validation_function_27_is_real_leap_day"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_validation_function_28_is_positive_count"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_validation_function_29_is_ipv6_address"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_validation_function_30_has_all_flags"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_validation_function_31_is_safe_port"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_validation_function_32_is_upper_code"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_validation_function_33_is_even_integer"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_validation_function_34_is_email_like"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_validation_function_35_is_iso_date_time"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_validation_function_36_is_record_shape"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_parsing_helper_21_parse_lat_lon"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_parsing_helper_22_parse_bit_rate"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_parsing_helper_23_parse_iso_duration"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_parsing_helper_24_parse_build_number"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_parsing_helper_25_parse_cookie_pair"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_parsing_helper_26_parse_yes_no"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_parsing_helper_27_parse_decimal_cents"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_parsing_helper_28_parse_offset_range"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_parsing_helper_29_parse_compact_date"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_parsing_helper_30_parse_csv_tags"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_parsing_helper_31_parse_hex_byte"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_parsing_helper_32_parse_key_list"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_parsing_helper_33_parse_version_range"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_parsing_helper_34_parse_month_name"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_parsing_helper_35_parse_csv_number"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_parsing_helper_36_parse_color_triplet"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_date_currency_formatting_21_format_cents_usd"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_date_currency_formatting_22_format_local_day"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_date_currency_formatting_23_calendar_quarter"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_date_currency_formatting_24_format_clock"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_date_currency_formatting_25_format_percent_two"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_date_currency_formatting_26_format_mebibytes"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_date_currency_formatting_27_weekday_name"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_date_currency_formatting_28_pad_ticket"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_date_currency_formatting_29_duty_summary"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_date_currency_formatting_30_quarter_bounds"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_date_currency_formatting_31_format_signed_cents"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_date_currency_formatting_32_format_month_name"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_date_currency_formatting_33_format_hours"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_date_currency_formatting_34_format_rate"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_date_currency_formatting_35_format_day_of_year"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_date_currency_formatting_36_year_bounds"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_small_utility_class_21_attempt_ledger"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_small_utility_class_22_cursor_mark"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_small_utility_class_23_fahrenheit_value"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_small_utility_class_24_contact_email"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_small_utility_class_25_build_number"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_small_utility_class_26_rolling_names"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_small_utility_class_27_money_cents"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_small_utility_class_28_quota_counter"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_small_utility_class_29_geo_fence"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_small_utility_class_30_last_word"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_small_utility_class_31_bounded_stack"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_small_utility_class_32_flag_set"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_small_utility_class_33_range_value"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_small_utility_class_34_retry_delay"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_small_utility_class_35_slug_value"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_small_utility_class_36_version_pair"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_regex_parsing_helper_21_extract_links"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_regex_parsing_helper_22_mask_mailbox"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_regex_parsing_helper_23_find_marker"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_regex_parsing_helper_24_extract_handles"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_regex_parsing_helper_25_normalize_dial_string"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_regex_parsing_helper_26_mask_reference"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_regex_parsing_helper_27_host_from_http"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_regex_parsing_helper_28_split_pascal"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_regex_parsing_helper_29_read_quoted_attrs"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_regex_parsing_helper_30_hide_passwords"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_regex_parsing_helper_31_extract_version"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_regex_parsing_helper_32_strip_markup"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_regex_parsing_helper_33_find_hex_colors"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_regex_parsing_helper_34_redact_bearer"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_regex_parsing_helper_35_split_words"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_regex_parsing_helper_36_parse_mentions"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_route_handler_21_find_receipt"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_route_handler_22_check_entitlement"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_route_handler_23_reserve_handle"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_route_handler_24_service_status"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_route_handler_25_estimate_parcel"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_route_handler_26_accept_callback"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_route_handler_27_lookup_tariff"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_route_handler_28_select_language"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_route_handler_29_summarize_basket"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_route_handler_30_archive_alert"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_route_handler_31_create_session"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_route_handler_32_read_invoice"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_route_handler_33_publish_draft"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_route_handler_34_check_quota"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_route_handler_35_delete_label"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_route_handler_36_refresh_cache"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_serialization_helper_21_csv_field"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_serialization_helper_22_json_decimal"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_serialization_helper_23_encode_settings"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_serialization_helper_24_split_pipe_values"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_serialization_helper_25_encode_query"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_serialization_helper_26_decode_map"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_serialization_helper_27_format_headers"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_serialization_helper_28_bit_mask"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_serialization_helper_29_read_columns"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_serialization_helper_30_write_ndjson"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_serialization_helper_31_encode_path_parts"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_serialization_helper_32_decode_bool_list"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_serialization_helper_33_stable_map_json"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_serialization_helper_34_parse_integer_list"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_serialization_helper_35_format_key_value"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_serialization_helper_36_quote_shell_arg"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_pagination_helper_21_page_window"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_pagination_helper_22_has_after_cursor"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_pagination_helper_23_valid_index_window"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_pagination_helper_24_clamp_offset_limit"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_pagination_helper_25_reverse_page_start"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_pagination_helper_26_more_results"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_pagination_helper_27_decode_page_cursor"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_pagination_helper_28_max_offset"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_pagination_helper_29_reaches_stop"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_pagination_helper_30_page_for_index"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_pagination_helper_31_page_count"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_pagination_helper_32_cursor_distance"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_pagination_helper_33_clamp_page"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_pagination_helper_34_offset_for_page"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_pagination_helper_35_is_page_size"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_pagination_helper_36_take_page"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_presentational_21_badge_text"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_presentational_22_meter_text"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_presentational_23_trail_text"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_presentational_24_blank_panel"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_presentational_25_initial_text"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_presentational_26_amount_text"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_presentational_27_tag_markup"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_presentational_28_switch_markup"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_presentational_29_alert_markup"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_presentational_30_count_text"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_presentational_31_link_text"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_presentational_32_progress_text"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "ruby_presentational_33_table_head"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "ruby_presentational_34_notice_text"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "ruby_presentational_35_avatar_text"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_pure_data_transform_21_dedupeTags"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_pure_data_transform_22_shiftWindow"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_pure_data_transform_23_clampTemperatures"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_pure_data_transform_24_bucketSamples"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_pure_data_transform_25_alternatePages"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_pure_data_transform_26_joinIntervals"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_pure_data_transform_27_sumCharges"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_pure_data_transform_28_groupByRegion"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_pure_data_transform_29_orderByDeadline"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_pure_data_transform_30_trimFields"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_pure_data_transform_31_flattenOneLevel"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_pure_data_transform_32_differenceValues"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_pure_data_transform_33_stablePartition"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_pure_data_transform_34_fillMissingDays"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_pure_data_transform_35_mapDefined"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_pure_data_transform_36_uniqueSortedCodes"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_validation_function_21_isAsciiWord"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_validation_function_22_isCssHex"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_validation_function_23_isDisplayName"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_validation_function_24_isUnitFraction"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_validation_function_25_isPlainFilename"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_validation_function_26_isSortedInts"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_validation_function_27_isRealLeapDay"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_validation_function_28_isPositiveCount"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_validation_function_29_isIpv6Address"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_validation_function_30_hasAllFlags"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_validation_function_31_isSafePort"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_validation_function_32_isUpperCode"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_validation_function_33_isEvenInteger"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_validation_function_34_isEmailLike"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_validation_function_35_isIsoDateTime"
+  },
+  {
+    "language": "PHP",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_validation_function_36_isRecordShape"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_parsing_helper_21_parseLatLon"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_parsing_helper_22_parseBitRate"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_parsing_helper_23_parseIsoDuration"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_parsing_helper_24_parseBuildNumber"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_parsing_helper_25_parseCookiePair"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_parsing_helper_26_parseYesNo"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_parsing_helper_27_parseDecimalCents"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_parsing_helper_28_parseOffsetRange"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_parsing_helper_29_parseCompactDate"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_parsing_helper_30_parseCsvTags"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_parsing_helper_31_parseHexByte"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_parsing_helper_32_parseKeyList"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_parsing_helper_33_parseVersionRange"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_parsing_helper_34_parseMonthName"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_parsing_helper_35_parseCsvNumber"
+  },
+  {
+    "language": "PHP",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_parsing_helper_36_parseColorTriplet"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_date_currency_formatting_21_formatCentsUsd"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_date_currency_formatting_22_formatLocalDay"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_date_currency_formatting_23_calendarQuarter"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_date_currency_formatting_24_formatClock"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_date_currency_formatting_25_formatPercentTwo"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_date_currency_formatting_26_formatMebibytes"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_date_currency_formatting_27_weekdayName"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_date_currency_formatting_28_padTicket"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_date_currency_formatting_29_dutySummary"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_date_currency_formatting_30_quarterBounds"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_date_currency_formatting_31_formatSignedCents"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_date_currency_formatting_32_formatMonthName"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_date_currency_formatting_33_formatHours"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_date_currency_formatting_34_formatRate"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_date_currency_formatting_35_formatDayOfYear"
+  },
+  {
+    "language": "PHP",
+    "function_category": "date_currency_formatting",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_date_currency_formatting_36_yearBounds"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_small_utility_class_21_attemptLedger"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_small_utility_class_22_cursorMark"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_small_utility_class_23_fahrenheitValue"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_small_utility_class_24_contactEmail"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_small_utility_class_25_buildNumber"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_small_utility_class_26_rollingNames"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_small_utility_class_27_moneyCents"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_small_utility_class_28_quotaCounter"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_small_utility_class_29_geoFence"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_small_utility_class_30_lastWord"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_small_utility_class_31_boundedStack"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_small_utility_class_32_flagSet"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_small_utility_class_33_rangeValue"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_small_utility_class_34_retryDelay"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_small_utility_class_35_slugValue"
+  },
+  {
+    "language": "PHP",
+    "function_category": "small_utility_class",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_small_utility_class_36_versionPair"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_regex_parsing_helper_21_extractLinks"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_regex_parsing_helper_22_maskMailbox"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_regex_parsing_helper_23_findMarker"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_regex_parsing_helper_24_extractHandles"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_regex_parsing_helper_25_normalizeDialString"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_regex_parsing_helper_26_maskReference"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_regex_parsing_helper_27_hostFromHttp"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_regex_parsing_helper_28_splitPascal"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_regex_parsing_helper_29_readQuotedAttrs"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_regex_parsing_helper_30_hidePasswords"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_regex_parsing_helper_31_extractVersion"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_regex_parsing_helper_32_stripMarkup"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_regex_parsing_helper_33_findHexColors"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_regex_parsing_helper_34_redactBearer"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_regex_parsing_helper_35_splitWords"
+  },
+  {
+    "language": "PHP",
+    "function_category": "regex_parsing_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_regex_parsing_helper_36_parseMentions"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_route_handler_21_findReceipt"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_route_handler_22_checkEntitlement"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_route_handler_23_reserveHandle"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_route_handler_24_serviceStatus"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_route_handler_25_estimateParcel"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_route_handler_26_acceptCallback"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_route_handler_27_lookupTariff"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_route_handler_28_selectLanguage"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_route_handler_29_summarizeBasket"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_route_handler_30_archiveAlert"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_route_handler_31_createSession"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_route_handler_32_readInvoice"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_route_handler_33_publishDraft"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_route_handler_34_checkQuota"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_route_handler_35_deleteLabel"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_route_handler_36_refreshCache"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_serialization_helper_21_csvField"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_serialization_helper_22_jsonDecimal"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_serialization_helper_23_encodeSettings"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_serialization_helper_24_splitPipeValues"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_serialization_helper_25_encodeQuery"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_serialization_helper_26_decodeMap"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_serialization_helper_27_formatHeaders"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_serialization_helper_28_bitMask"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_serialization_helper_29_readColumns"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_serialization_helper_30_writeNdjson"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_serialization_helper_31_encodePathParts"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_serialization_helper_32_decodeBoolList"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_serialization_helper_33_stableMapJson"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_serialization_helper_34_parseIntegerList"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_serialization_helper_35_formatKeyValue"
+  },
+  {
+    "language": "PHP",
+    "function_category": "serialization_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_serialization_helper_36_quoteShellArg"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_pagination_helper_21_pageWindow"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_pagination_helper_22_hasAfterCursor"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_pagination_helper_23_validIndexWindow"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_pagination_helper_24_clampOffsetLimit"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_pagination_helper_25_reversePageStart"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_pagination_helper_26_moreResults"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_pagination_helper_27_decodePageCursor"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_pagination_helper_28_maxOffset"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_pagination_helper_29_reachesStop"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_pagination_helper_30_pageForIndex"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_pagination_helper_31_pageCount"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_pagination_helper_32_cursorDistance"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_pagination_helper_33_clampPage"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_pagination_helper_34_offsetForPage"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_pagination_helper_35_isPageSize"
+  },
+  {
+    "language": "PHP",
+    "function_category": "pagination_helper",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_pagination_helper_36_takePage"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_presentational_21_badgeText"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_presentational_22_meterText"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_presentational_23_trailText"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_presentational_24_blankPanel"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_presentational_25_initialText"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_presentational_26_amountText"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_presentational_27_tagMarkup"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_presentational_28_switchMarkup"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_presentational_29_alertMarkup"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_presentational_30_countText"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_presentational_31_linkText"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_presentational_32_progressText"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "docstring_spec",
+    "problem_id": "php_presentational_33_tableHead"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "input_output_examples",
+    "problem_id": "php_presentational_34_noticeText"
+  },
+  {
+    "language": "PHP",
+    "function_category": "presentational_renderer",
+    "spec_style": "failing_test_function_missing",
+    "problem_id": "php_presentational_35_avatarText"
+  }
+]

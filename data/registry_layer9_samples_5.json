@@ -1,0 +1,37 @@
+[
+  {
+    "stack": "React + Express + PostgreSQL",
+    "task_type": "create_then_read",
+    "resource_noun": "verifications",
+    "wiring_state": "broken",
+    "scenario_id": "react_express_postgresql_create_then_read_verifications_broken_batchseed"
+  },
+  {
+    "stack": "Vue + FastAPI + PostgreSQL",
+    "task_type": "update_then_read",
+    "resource_noun": "waitlists",
+    "wiring_state": "correct",
+    "scenario_id": "vue_fastapi_postgresql_update_then_read_waitlists_correct_batchseed"
+  },
+  {
+    "stack": "Svelte + Rails API + MySQL",
+    "task_type": "delete_then_confirm",
+    "resource_noun": "warehouses",
+    "wiring_state": "correct",
+    "scenario_id": "svelte_rails_api_mysql_delete_then_confirm_warehouses_correct_batchseed"
+  },
+  {
+    "stack": "Next.js + NestJS + PostgreSQL",
+    "task_type": "search_round_trip",
+    "resource_noun": "webhooks",
+    "wiring_state": "correct",
+    "scenario_id": "next.js_nestjs_postgresql_search_round_trip_webhooks_correct_batchseed"
+  },
+  {
+    "stack": "WebComponents + Go net/http + SQLite",
+    "task_type": "pagination_round_trip",
+    "resource_noun": "workflows",
+    "wiring_state": "correct",
+    "scenario_id": "webcomponents_go_net_http_sqlite_pagination_round_trip_workflows_correct_batchseed"
+  }
+]

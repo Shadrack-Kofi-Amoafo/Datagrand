@@ -1,0 +1,32 @@
+[
+  {
+    "test_stack": "pytest",
+    "task_type": "unit_boundary",
+    "subject_noun": "bookings",
+    "scenario_id": "pytest_unit_boundary_bookings_batchseed"
+  },
+  {
+    "test_stack": "Vitest",
+    "task_type": "integration_contract",
+    "subject_noun": "budgets",
+    "scenario_id": "vitest_integration_contract_budgets_batchseed"
+  },
+  {
+    "test_stack": "Jest",
+    "task_type": "http_contract",
+    "subject_noun": "builds",
+    "scenario_id": "jest_http_contract_builds_batchseed"
+  },
+  {
+    "test_stack": "RSpec",
+    "task_type": "property_based",
+    "subject_noun": "campaigns",
+    "scenario_id": "rspec_property_based_campaigns_batchseed"
+  },
+  {
+    "test_stack": "Go test",
+    "task_type": "mutation_resistance",
+    "subject_noun": "cases",
+    "scenario_id": "go_test_mutation_resistance_cases_batchseed"
+  }
+]

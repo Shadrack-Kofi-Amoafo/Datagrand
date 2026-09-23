@@ -1,0 +1,32 @@
+[
+  {
+    "database_engine": "PostgreSQL",
+    "task_type": "transaction_integrity",
+    "object_noun": "tasks",
+    "scenario_id": "postgresql_transaction_integrity_tasks_batchseed"
+  },
+  {
+    "database_engine": "MySQL",
+    "task_type": "query_filtering",
+    "object_noun": "teams",
+    "scenario_id": "mysql_query_filtering_teams_batchseed"
+  },
+  {
+    "database_engine": "SQLite",
+    "task_type": "concurrency_control",
+    "object_noun": "tickets",
+    "scenario_id": "sqlite_concurrency_control_tickets_batchseed"
+  },
+  {
+    "database_engine": "SQL Server",
+    "task_type": "migration_safety",
+    "object_noun": "time_entries",
+    "scenario_id": "sql_server_migration_safety_time_entries_batchseed"
+  },
+  {
+    "database_engine": "MariaDB",
+    "task_type": "constraint_enforcement",
+    "object_noun": "transfers",
+    "scenario_id": "mariadb_constraint_enforcement_transfers_batchseed"
+  }
+]

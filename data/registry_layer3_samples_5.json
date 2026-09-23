@@ -1,0 +1,27 @@
+[
+  {
+    "language": "TypeScript",
+    "function_category": "pure_data_transform",
+    "spec_style": "docstring_spec"
+  },
+  {
+    "language": "Python",
+    "function_category": "validation_function",
+    "spec_style": "input_output_examples"
+  },
+  {
+    "language": "Go",
+    "function_category": "parsing_helper",
+    "spec_style": "failing_test_function_missing"
+  },
+  {
+    "language": "Ruby",
+    "function_category": "small_utility_class",
+    "spec_style": "docstring_spec"
+  },
+  {
+    "language": "PHP",
+    "function_category": "route_handler",
+    "spec_style": "input_output_examples"
+  }
+]

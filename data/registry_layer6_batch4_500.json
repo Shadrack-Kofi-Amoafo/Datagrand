@@ -1,0 +1,3502 @@
+[
+  {
+    "framework": "React",
+    "task_type": "form_validation",
+    "ui_element": "account_form",
+    "styling": "CSS_variables",
+    "scenario_id": "react_form_validation_account_form_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "form_validation",
+    "ui_element": "account_form",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_form_validation_account_form_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "form_validation",
+    "ui_element": "account_form",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_form_validation_account_form_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "form_validation",
+    "ui_element": "account_form",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_form_validation_account_form_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "form_validation",
+    "ui_element": "account_form",
+    "styling": "styled_components",
+    "scenario_id": "next.js_form_validation_account_form_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "form_validation",
+    "ui_element": "tax_form",
+    "styling": "CSS_modules",
+    "scenario_id": "react_form_validation_tax_form_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "form_validation",
+    "ui_element": "tax_form",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_form_validation_tax_form_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "form_validation",
+    "ui_element": "tax_form",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_form_validation_tax_form_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "form_validation",
+    "ui_element": "tax_form",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_form_validation_tax_form_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "form_validation",
+    "ui_element": "tax_form",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_form_validation_tax_form_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "form_validation",
+    "ui_element": "emergency_form",
+    "styling": "Tailwind",
+    "scenario_id": "react_form_validation_emergency_form_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "form_validation",
+    "ui_element": "emergency_form",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_form_validation_emergency_form_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "form_validation",
+    "ui_element": "emergency_form",
+    "styling": "styled_components",
+    "scenario_id": "svelte_form_validation_emergency_form_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "form_validation",
+    "ui_element": "emergency_form",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_form_validation_emergency_form_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "form_validation",
+    "ui_element": "emergency_form",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_form_validation_emergency_form_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "form_validation",
+    "ui_element": "privacy_form",
+    "styling": "plain_CSS",
+    "scenario_id": "react_form_validation_privacy_form_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "form_validation",
+    "ui_element": "privacy_form",
+    "styling": "styled_components",
+    "scenario_id": "vue3_form_validation_privacy_form_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "form_validation",
+    "ui_element": "privacy_form",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_form_validation_privacy_form_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "form_validation",
+    "ui_element": "privacy_form",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_form_validation_privacy_form_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "form_validation",
+    "ui_element": "privacy_form",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_form_validation_privacy_form_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "form_validation",
+    "ui_element": "pickup_form",
+    "styling": "styled_components",
+    "scenario_id": "react_form_validation_pickup_form_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "form_validation",
+    "ui_element": "pickup_form",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_form_validation_pickup_form_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "form_validation",
+    "ui_element": "pickup_form",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_form_validation_pickup_form_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "form_validation",
+    "ui_element": "pickup_form",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_form_validation_pickup_form_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "form_validation",
+    "ui_element": "pickup_form",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_form_validation_pickup_form_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "form_validation",
+    "ui_element": "rating_form",
+    "styling": "CSS_variables",
+    "scenario_id": "react_form_validation_rating_form_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "form_validation",
+    "ui_element": "rating_form",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_form_validation_rating_form_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "form_validation",
+    "ui_element": "rating_form",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_form_validation_rating_form_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "form_validation",
+    "ui_element": "rating_form",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_form_validation_rating_form_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "form_validation",
+    "ui_element": "rating_form",
+    "styling": "styled_components",
+    "scenario_id": "next.js_form_validation_rating_form_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "form_validation",
+    "ui_element": "query_form",
+    "styling": "CSS_modules",
+    "scenario_id": "react_form_validation_query_form_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "form_validation",
+    "ui_element": "query_form",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_form_validation_query_form_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "form_validation",
+    "ui_element": "query_form",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_form_validation_query_form_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "form_validation",
+    "ui_element": "query_form",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_form_validation_query_form_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "form_validation",
+    "ui_element": "query_form",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_form_validation_query_form_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "form_validation",
+    "ui_element": "verification_form",
+    "styling": "Tailwind",
+    "scenario_id": "react_form_validation_verification_form_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "form_validation",
+    "ui_element": "verification_form",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_form_validation_verification_form_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "form_validation",
+    "ui_element": "verification_form",
+    "styling": "styled_components",
+    "scenario_id": "svelte_form_validation_verification_form_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "form_validation",
+    "ui_element": "verification_form",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_form_validation_verification_form_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "form_validation",
+    "ui_element": "verification_form",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_form_validation_verification_form_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "form_validation",
+    "ui_element": "bulk_import_form",
+    "styling": "plain_CSS",
+    "scenario_id": "react_form_validation_bulk_import_form_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "form_validation",
+    "ui_element": "bulk_import_form",
+    "styling": "styled_components",
+    "scenario_id": "vue3_form_validation_bulk_import_form_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "form_validation",
+    "ui_element": "bulk_import_form",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_form_validation_bulk_import_form_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "form_validation",
+    "ui_element": "bulk_import_form",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_form_validation_bulk_import_form_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "form_validation",
+    "ui_element": "bulk_import_form",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_form_validation_bulk_import_form_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "form_validation",
+    "ui_element": "availability_form",
+    "styling": "styled_components",
+    "scenario_id": "react_form_validation_availability_form_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "form_validation",
+    "ui_element": "availability_form",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_form_validation_availability_form_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "form_validation",
+    "ui_element": "availability_form",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_form_validation_availability_form_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "form_validation",
+    "ui_element": "availability_form",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_form_validation_availability_form_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "form_validation",
+    "ui_element": "availability_form",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_form_validation_availability_form_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "list_filter_sort",
+    "ui_element": "supplier_list",
+    "styling": "CSS_variables",
+    "scenario_id": "react_list_filter_sort_supplier_list_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "list_filter_sort",
+    "ui_element": "supplier_list",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_list_filter_sort_supplier_list_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "list_filter_sort",
+    "ui_element": "supplier_list",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_list_filter_sort_supplier_list_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "list_filter_sort",
+    "ui_element": "supplier_list",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_list_filter_sort_supplier_list_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "list_filter_sort",
+    "ui_element": "supplier_list",
+    "styling": "styled_components",
+    "scenario_id": "next.js_list_filter_sort_supplier_list_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "list_filter_sort",
+    "ui_element": "employee_list",
+    "styling": "CSS_modules",
+    "scenario_id": "react_list_filter_sort_employee_list_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "list_filter_sort",
+    "ui_element": "employee_list",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_list_filter_sort_employee_list_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "list_filter_sort",
+    "ui_element": "employee_list",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_list_filter_sort_employee_list_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "list_filter_sort",
+    "ui_element": "employee_list",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_list_filter_sort_employee_list_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "list_filter_sort",
+    "ui_element": "employee_list",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_list_filter_sort_employee_list_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "list_filter_sort",
+    "ui_element": "package_list",
+    "styling": "Tailwind",
+    "scenario_id": "react_list_filter_sort_package_list_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "list_filter_sort",
+    "ui_element": "package_list",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_list_filter_sort_package_list_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "list_filter_sort",
+    "ui_element": "package_list",
+    "styling": "styled_components",
+    "scenario_id": "svelte_list_filter_sort_package_list_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "list_filter_sort",
+    "ui_element": "package_list",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_list_filter_sort_package_list_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "list_filter_sort",
+    "ui_element": "package_list",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_list_filter_sort_package_list_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "list_filter_sort",
+    "ui_element": "refund_list",
+    "styling": "plain_CSS",
+    "scenario_id": "react_list_filter_sort_refund_list_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "list_filter_sort",
+    "ui_element": "refund_list",
+    "styling": "styled_components",
+    "scenario_id": "vue3_list_filter_sort_refund_list_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "list_filter_sort",
+    "ui_element": "refund_list",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_list_filter_sort_refund_list_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "list_filter_sort",
+    "ui_element": "refund_list",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_list_filter_sort_refund_list_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "list_filter_sort",
+    "ui_element": "refund_list",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_list_filter_sort_refund_list_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "list_filter_sort",
+    "ui_element": "contract_list",
+    "styling": "styled_components",
+    "scenario_id": "react_list_filter_sort_contract_list_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "list_filter_sort",
+    "ui_element": "contract_list",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_list_filter_sort_contract_list_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "list_filter_sort",
+    "ui_element": "contract_list",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_list_filter_sort_contract_list_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "list_filter_sort",
+    "ui_element": "contract_list",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_list_filter_sort_contract_list_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "list_filter_sort",
+    "ui_element": "contract_list",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_list_filter_sort_contract_list_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "list_filter_sort",
+    "ui_element": "appointment_list",
+    "styling": "CSS_variables",
+    "scenario_id": "react_list_filter_sort_appointment_list_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "list_filter_sort",
+    "ui_element": "appointment_list",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_list_filter_sort_appointment_list_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "list_filter_sort",
+    "ui_element": "appointment_list",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_list_filter_sort_appointment_list_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "list_filter_sort",
+    "ui_element": "appointment_list",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_list_filter_sort_appointment_list_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "list_filter_sort",
+    "ui_element": "appointment_list",
+    "styling": "styled_components",
+    "scenario_id": "next.js_list_filter_sort_appointment_list_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "list_filter_sort",
+    "ui_element": "email_list",
+    "styling": "CSS_modules",
+    "scenario_id": "react_list_filter_sort_email_list_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "list_filter_sort",
+    "ui_element": "email_list",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_list_filter_sort_email_list_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "list_filter_sort",
+    "ui_element": "email_list",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_list_filter_sort_email_list_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "list_filter_sort",
+    "ui_element": "email_list",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_list_filter_sort_email_list_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "list_filter_sort",
+    "ui_element": "email_list",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_list_filter_sort_email_list_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "list_filter_sort",
+    "ui_element": "project_list",
+    "styling": "Tailwind",
+    "scenario_id": "react_list_filter_sort_project_list_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "list_filter_sort",
+    "ui_element": "project_list",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_list_filter_sort_project_list_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "list_filter_sort",
+    "ui_element": "project_list",
+    "styling": "styled_components",
+    "scenario_id": "svelte_list_filter_sort_project_list_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "list_filter_sort",
+    "ui_element": "project_list",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_list_filter_sort_project_list_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "list_filter_sort",
+    "ui_element": "project_list",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_list_filter_sort_project_list_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "list_filter_sort",
+    "ui_element": "case_list",
+    "styling": "plain_CSS",
+    "scenario_id": "react_list_filter_sort_case_list_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "list_filter_sort",
+    "ui_element": "case_list",
+    "styling": "styled_components",
+    "scenario_id": "vue3_list_filter_sort_case_list_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "list_filter_sort",
+    "ui_element": "case_list",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_list_filter_sort_case_list_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "list_filter_sort",
+    "ui_element": "case_list",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_list_filter_sort_case_list_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "list_filter_sort",
+    "ui_element": "case_list",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_list_filter_sort_case_list_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "list_filter_sort",
+    "ui_element": "plan_list",
+    "styling": "styled_components",
+    "scenario_id": "react_list_filter_sort_plan_list_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "list_filter_sort",
+    "ui_element": "plan_list",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_list_filter_sort_plan_list_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "list_filter_sort",
+    "ui_element": "plan_list",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_list_filter_sort_plan_list_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "list_filter_sort",
+    "ui_element": "plan_list",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_list_filter_sort_plan_list_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "list_filter_sort",
+    "ui_element": "plan_list",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_list_filter_sort_plan_list_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "modal_focus_trap",
+    "ui_element": "rename_project_modal",
+    "styling": "CSS_variables",
+    "scenario_id": "react_modal_focus_trap_rename_project_modal_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "modal_focus_trap",
+    "ui_element": "rename_project_modal",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_modal_focus_trap_rename_project_modal_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "modal_focus_trap",
+    "ui_element": "rename_project_modal",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_modal_focus_trap_rename_project_modal_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "modal_focus_trap",
+    "ui_element": "rename_project_modal",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_modal_focus_trap_rename_project_modal_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "modal_focus_trap",
+    "ui_element": "rename_project_modal",
+    "styling": "styled_components",
+    "scenario_id": "next.js_modal_focus_trap_rename_project_modal_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "modal_focus_trap",
+    "ui_element": "approve_modal",
+    "styling": "CSS_modules",
+    "scenario_id": "react_modal_focus_trap_approve_modal_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "modal_focus_trap",
+    "ui_element": "approve_modal",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_modal_focus_trap_approve_modal_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "modal_focus_trap",
+    "ui_element": "approve_modal",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_modal_focus_trap_approve_modal_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "modal_focus_trap",
+    "ui_element": "approve_modal",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_modal_focus_trap_approve_modal_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "modal_focus_trap",
+    "ui_element": "approve_modal",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_modal_focus_trap_approve_modal_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "modal_focus_trap",
+    "ui_element": "clone_modal",
+    "styling": "Tailwind",
+    "scenario_id": "react_modal_focus_trap_clone_modal_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "modal_focus_trap",
+    "ui_element": "clone_modal",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_modal_focus_trap_clone_modal_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "modal_focus_trap",
+    "ui_element": "clone_modal",
+    "styling": "styled_components",
+    "scenario_id": "svelte_modal_focus_trap_clone_modal_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "modal_focus_trap",
+    "ui_element": "clone_modal",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_modal_focus_trap_clone_modal_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "modal_focus_trap",
+    "ui_element": "clone_modal",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_modal_focus_trap_clone_modal_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "modal_focus_trap",
+    "ui_element": "transfer_modal",
+    "styling": "plain_CSS",
+    "scenario_id": "react_modal_focus_trap_transfer_modal_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "modal_focus_trap",
+    "ui_element": "transfer_modal",
+    "styling": "styled_components",
+    "scenario_id": "vue3_modal_focus_trap_transfer_modal_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "modal_focus_trap",
+    "ui_element": "transfer_modal",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_modal_focus_trap_transfer_modal_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "modal_focus_trap",
+    "ui_element": "transfer_modal",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_modal_focus_trap_transfer_modal_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "modal_focus_trap",
+    "ui_element": "transfer_modal",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_modal_focus_trap_transfer_modal_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "modal_focus_trap",
+    "ui_element": "add_contact_modal",
+    "styling": "styled_components",
+    "scenario_id": "react_modal_focus_trap_add_contact_modal_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "modal_focus_trap",
+    "ui_element": "add_contact_modal",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_modal_focus_trap_add_contact_modal_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "modal_focus_trap",
+    "ui_element": "add_contact_modal",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_modal_focus_trap_add_contact_modal_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "modal_focus_trap",
+    "ui_element": "add_contact_modal",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_modal_focus_trap_add_contact_modal_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "modal_focus_trap",
+    "ui_element": "add_contact_modal",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_modal_focus_trap_add_contact_modal_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "modal_focus_trap",
+    "ui_element": "preview_modal",
+    "styling": "CSS_variables",
+    "scenario_id": "react_modal_focus_trap_preview_modal_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "modal_focus_trap",
+    "ui_element": "preview_modal",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_modal_focus_trap_preview_modal_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "modal_focus_trap",
+    "ui_element": "preview_modal",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_modal_focus_trap_preview_modal_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "modal_focus_trap",
+    "ui_element": "preview_modal",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_modal_focus_trap_preview_modal_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "modal_focus_trap",
+    "ui_element": "preview_modal",
+    "styling": "styled_components",
+    "scenario_id": "next.js_modal_focus_trap_preview_modal_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "modal_focus_trap",
+    "ui_element": "rule_modal",
+    "styling": "CSS_modules",
+    "scenario_id": "react_modal_focus_trap_rule_modal_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "modal_focus_trap",
+    "ui_element": "rule_modal",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_modal_focus_trap_rule_modal_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "modal_focus_trap",
+    "ui_element": "rule_modal",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_modal_focus_trap_rule_modal_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "modal_focus_trap",
+    "ui_element": "rule_modal",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_modal_focus_trap_rule_modal_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "modal_focus_trap",
+    "ui_element": "rule_modal",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_modal_focus_trap_rule_modal_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "modal_focus_trap",
+    "ui_element": "region_modal",
+    "styling": "Tailwind",
+    "scenario_id": "react_modal_focus_trap_region_modal_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "modal_focus_trap",
+    "ui_element": "region_modal",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_modal_focus_trap_region_modal_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "modal_focus_trap",
+    "ui_element": "region_modal",
+    "styling": "styled_components",
+    "scenario_id": "svelte_modal_focus_trap_region_modal_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "modal_focus_trap",
+    "ui_element": "region_modal",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_modal_focus_trap_region_modal_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "modal_focus_trap",
+    "ui_element": "region_modal",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_modal_focus_trap_region_modal_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "modal_focus_trap",
+    "ui_element": "reminder_modal",
+    "styling": "plain_CSS",
+    "scenario_id": "react_modal_focus_trap_reminder_modal_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "modal_focus_trap",
+    "ui_element": "reminder_modal",
+    "styling": "styled_components",
+    "scenario_id": "vue3_modal_focus_trap_reminder_modal_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "modal_focus_trap",
+    "ui_element": "reminder_modal",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_modal_focus_trap_reminder_modal_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "modal_focus_trap",
+    "ui_element": "reminder_modal",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_modal_focus_trap_reminder_modal_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "modal_focus_trap",
+    "ui_element": "reminder_modal",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_modal_focus_trap_reminder_modal_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "modal_focus_trap",
+    "ui_element": "danger_modal",
+    "styling": "styled_components",
+    "scenario_id": "react_modal_focus_trap_danger_modal_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "modal_focus_trap",
+    "ui_element": "danger_modal",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_modal_focus_trap_danger_modal_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "modal_focus_trap",
+    "ui_element": "danger_modal",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_modal_focus_trap_danger_modal_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "modal_focus_trap",
+    "ui_element": "danger_modal",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_modal_focus_trap_danger_modal_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "modal_focus_trap",
+    "ui_element": "danger_modal",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_modal_focus_trap_danger_modal_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "state_lifting",
+    "ui_element": "amount_summary",
+    "styling": "CSS_variables",
+    "scenario_id": "react_state_lifting_amount_summary_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "state_lifting",
+    "ui_element": "amount_summary",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_state_lifting_amount_summary_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "state_lifting",
+    "ui_element": "amount_summary",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_state_lifting_amount_summary_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "state_lifting",
+    "ui_element": "amount_summary",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_state_lifting_amount_summary_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "state_lifting",
+    "ui_element": "amount_summary",
+    "styling": "styled_components",
+    "scenario_id": "next.js_state_lifting_amount_summary_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "state_lifting",
+    "ui_element": "active_filter_summary",
+    "styling": "CSS_modules",
+    "scenario_id": "react_state_lifting_active_filter_summary_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "state_lifting",
+    "ui_element": "active_filter_summary",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_state_lifting_active_filter_summary_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "state_lifting",
+    "ui_element": "active_filter_summary",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_state_lifting_active_filter_summary_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "state_lifting",
+    "ui_element": "active_filter_summary",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_state_lifting_active_filter_summary_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "state_lifting",
+    "ui_element": "active_filter_summary",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_state_lifting_active_filter_summary_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "state_lifting",
+    "ui_element": "courier_summary",
+    "styling": "Tailwind",
+    "scenario_id": "react_state_lifting_courier_summary_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "state_lifting",
+    "ui_element": "courier_summary",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_state_lifting_courier_summary_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "state_lifting",
+    "ui_element": "courier_summary",
+    "styling": "styled_components",
+    "scenario_id": "svelte_state_lifting_courier_summary_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "state_lifting",
+    "ui_element": "courier_summary",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_state_lifting_courier_summary_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "state_lifting",
+    "ui_element": "courier_summary",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_state_lifting_courier_summary_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "state_lifting",
+    "ui_element": "attachment_summary",
+    "styling": "plain_CSS",
+    "scenario_id": "react_state_lifting_attachment_summary_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "state_lifting",
+    "ui_element": "attachment_summary",
+    "styling": "styled_components",
+    "scenario_id": "vue3_state_lifting_attachment_summary_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "state_lifting",
+    "ui_element": "attachment_summary",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_state_lifting_attachment_summary_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "state_lifting",
+    "ui_element": "attachment_summary",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_state_lifting_attachment_summary_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "state_lifting",
+    "ui_element": "attachment_summary",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_state_lifting_attachment_summary_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "state_lifting",
+    "ui_element": "score_summary",
+    "styling": "styled_components",
+    "scenario_id": "react_state_lifting_score_summary_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "state_lifting",
+    "ui_element": "score_summary",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_state_lifting_score_summary_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "state_lifting",
+    "ui_element": "score_summary",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_state_lifting_score_summary_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "state_lifting",
+    "ui_element": "score_summary",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_state_lifting_score_summary_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "state_lifting",
+    "ui_element": "score_summary",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_state_lifting_score_summary_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "state_lifting",
+    "ui_element": "member_summary",
+    "styling": "CSS_variables",
+    "scenario_id": "react_state_lifting_member_summary_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "state_lifting",
+    "ui_element": "member_summary",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_state_lifting_member_summary_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "state_lifting",
+    "ui_element": "member_summary",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_state_lifting_member_summary_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "state_lifting",
+    "ui_element": "member_summary",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_state_lifting_member_summary_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "state_lifting",
+    "ui_element": "member_summary",
+    "styling": "styled_components",
+    "scenario_id": "next.js_state_lifting_member_summary_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "state_lifting",
+    "ui_element": "limit_summary",
+    "styling": "CSS_modules",
+    "scenario_id": "react_state_lifting_limit_summary_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "state_lifting",
+    "ui_element": "limit_summary",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_state_lifting_limit_summary_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "state_lifting",
+    "ui_element": "limit_summary",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_state_lifting_limit_summary_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "state_lifting",
+    "ui_element": "limit_summary",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_state_lifting_limit_summary_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "state_lifting",
+    "ui_element": "limit_summary",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_state_lifting_limit_summary_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "state_lifting",
+    "ui_element": "path_summary",
+    "styling": "Tailwind",
+    "scenario_id": "react_state_lifting_path_summary_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "state_lifting",
+    "ui_element": "path_summary",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_state_lifting_path_summary_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "state_lifting",
+    "ui_element": "path_summary",
+    "styling": "styled_components",
+    "scenario_id": "svelte_state_lifting_path_summary_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "state_lifting",
+    "ui_element": "path_summary",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_state_lifting_path_summary_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "state_lifting",
+    "ui_element": "path_summary",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_state_lifting_path_summary_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "state_lifting",
+    "ui_element": "phase_summary",
+    "styling": "plain_CSS",
+    "scenario_id": "react_state_lifting_phase_summary_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "state_lifting",
+    "ui_element": "phase_summary",
+    "styling": "styled_components",
+    "scenario_id": "vue3_state_lifting_phase_summary_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "state_lifting",
+    "ui_element": "phase_summary",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_state_lifting_phase_summary_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "state_lifting",
+    "ui_element": "phase_summary",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_state_lifting_phase_summary_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "state_lifting",
+    "ui_element": "phase_summary",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_state_lifting_phase_summary_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "state_lifting",
+    "ui_element": "checked_summary",
+    "styling": "styled_components",
+    "scenario_id": "react_state_lifting_checked_summary_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "state_lifting",
+    "ui_element": "checked_summary",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_state_lifting_checked_summary_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "state_lifting",
+    "ui_element": "checked_summary",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_state_lifting_checked_summary_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "state_lifting",
+    "ui_element": "checked_summary",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_state_lifting_checked_summary_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "state_lifting",
+    "ui_element": "checked_summary",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_state_lifting_checked_summary_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "optimistic_rollback",
+    "ui_element": "accept_button_v2",
+    "styling": "CSS_variables",
+    "scenario_id": "react_optimistic_rollback_accept_button_v2_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "optimistic_rollback",
+    "ui_element": "accept_button_v2",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_optimistic_rollback_accept_button_v2_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "optimistic_rollback",
+    "ui_element": "accept_button_v2",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_optimistic_rollback_accept_button_v2_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "optimistic_rollback",
+    "ui_element": "accept_button_v2",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_optimistic_rollback_accept_button_v2_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "optimistic_rollback",
+    "ui_element": "accept_button_v2",
+    "styling": "styled_components",
+    "scenario_id": "next.js_optimistic_rollback_accept_button_v2_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "optimistic_rollback",
+    "ui_element": "reply_button",
+    "styling": "CSS_modules",
+    "scenario_id": "react_optimistic_rollback_reply_button_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "optimistic_rollback",
+    "ui_element": "reply_button",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_optimistic_rollback_reply_button_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "optimistic_rollback",
+    "ui_element": "reply_button",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_optimistic_rollback_reply_button_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "optimistic_rollback",
+    "ui_element": "reply_button",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_optimistic_rollback_reply_button_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "optimistic_rollback",
+    "ui_element": "reply_button",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_optimistic_rollback_reply_button_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "optimistic_rollback",
+    "ui_element": "visibility_toggle",
+    "styling": "Tailwind",
+    "scenario_id": "react_optimistic_rollback_visibility_toggle_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "optimistic_rollback",
+    "ui_element": "visibility_toggle",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_optimistic_rollback_visibility_toggle_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "optimistic_rollback",
+    "ui_element": "visibility_toggle",
+    "styling": "styled_components",
+    "scenario_id": "svelte_optimistic_rollback_visibility_toggle_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "optimistic_rollback",
+    "ui_element": "visibility_toggle",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_optimistic_rollback_visibility_toggle_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "optimistic_rollback",
+    "ui_element": "visibility_toggle",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_optimistic_rollback_visibility_toggle_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "optimistic_rollback",
+    "ui_element": "checkin_action",
+    "styling": "plain_CSS",
+    "scenario_id": "react_optimistic_rollback_checkin_action_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "optimistic_rollback",
+    "ui_element": "checkin_action",
+    "styling": "styled_components",
+    "scenario_id": "vue3_optimistic_rollback_checkin_action_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "optimistic_rollback",
+    "ui_element": "checkin_action",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_optimistic_rollback_checkin_action_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "optimistic_rollback",
+    "ui_element": "checkin_action",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_optimistic_rollback_checkin_action_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "optimistic_rollback",
+    "ui_element": "checkin_action",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_optimistic_rollback_checkin_action_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "optimistic_rollback",
+    "ui_element": "finish_button",
+    "styling": "styled_components",
+    "scenario_id": "react_optimistic_rollback_finish_button_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "optimistic_rollback",
+    "ui_element": "finish_button",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_optimistic_rollback_finish_button_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "optimistic_rollback",
+    "ui_element": "finish_button",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_optimistic_rollback_finish_button_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "optimistic_rollback",
+    "ui_element": "finish_button",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_optimistic_rollback_finish_button_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "optimistic_rollback",
+    "ui_element": "finish_button",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_optimistic_rollback_finish_button_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "optimistic_rollback",
+    "ui_element": "release_toggle",
+    "styling": "CSS_variables",
+    "scenario_id": "react_optimistic_rollback_release_toggle_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "optimistic_rollback",
+    "ui_element": "release_toggle",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_optimistic_rollback_release_toggle_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "optimistic_rollback",
+    "ui_element": "release_toggle",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_optimistic_rollback_release_toggle_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "optimistic_rollback",
+    "ui_element": "release_toggle",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_optimistic_rollback_release_toggle_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "optimistic_rollback",
+    "ui_element": "release_toggle",
+    "styling": "styled_components",
+    "scenario_id": "next.js_optimistic_rollback_release_toggle_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "optimistic_rollback",
+    "ui_element": "confirm_button",
+    "styling": "CSS_modules",
+    "scenario_id": "react_optimistic_rollback_confirm_button_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "optimistic_rollback",
+    "ui_element": "confirm_button",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_optimistic_rollback_confirm_button_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "optimistic_rollback",
+    "ui_element": "confirm_button",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_optimistic_rollback_confirm_button_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "optimistic_rollback",
+    "ui_element": "confirm_button",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_optimistic_rollback_confirm_button_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "optimistic_rollback",
+    "ui_element": "confirm_button",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_optimistic_rollback_confirm_button_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "optimistic_rollback",
+    "ui_element": "delegate_button",
+    "styling": "Tailwind",
+    "scenario_id": "react_optimistic_rollback_delegate_button_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "optimistic_rollback",
+    "ui_element": "delegate_button",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_optimistic_rollback_delegate_button_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "optimistic_rollback",
+    "ui_element": "delegate_button",
+    "styling": "styled_components",
+    "scenario_id": "svelte_optimistic_rollback_delegate_button_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "optimistic_rollback",
+    "ui_element": "delegate_button",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_optimistic_rollback_delegate_button_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "optimistic_rollback",
+    "ui_element": "delegate_button",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_optimistic_rollback_delegate_button_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "optimistic_rollback",
+    "ui_element": "resolve_button",
+    "styling": "plain_CSS",
+    "scenario_id": "react_optimistic_rollback_resolve_button_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "optimistic_rollback",
+    "ui_element": "resolve_button",
+    "styling": "styled_components",
+    "scenario_id": "vue3_optimistic_rollback_resolve_button_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "optimistic_rollback",
+    "ui_element": "resolve_button",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_optimistic_rollback_resolve_button_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "optimistic_rollback",
+    "ui_element": "resolve_button",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_optimistic_rollback_resolve_button_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "optimistic_rollback",
+    "ui_element": "resolve_button",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_optimistic_rollback_resolve_button_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "optimistic_rollback",
+    "ui_element": "refresh_button",
+    "styling": "styled_components",
+    "scenario_id": "react_optimistic_rollback_refresh_button_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "optimistic_rollback",
+    "ui_element": "refresh_button",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_optimistic_rollback_refresh_button_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "optimistic_rollback",
+    "ui_element": "refresh_button",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_optimistic_rollback_refresh_button_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "optimistic_rollback",
+    "ui_element": "refresh_button",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_optimistic_rollback_refresh_button_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "optimistic_rollback",
+    "ui_element": "refresh_button",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_optimistic_rollback_refresh_button_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "responsive_layout",
+    "ui_element": "topbar_nav",
+    "styling": "CSS_variables",
+    "scenario_id": "react_responsive_layout_topbar_nav_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "responsive_layout",
+    "ui_element": "topbar_nav",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_responsive_layout_topbar_nav_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "responsive_layout",
+    "ui_element": "topbar_nav",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_responsive_layout_topbar_nav_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "responsive_layout",
+    "ui_element": "topbar_nav",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_responsive_layout_topbar_nav_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "responsive_layout",
+    "ui_element": "topbar_nav",
+    "styling": "styled_components",
+    "scenario_id": "next.js_responsive_layout_topbar_nav_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "responsive_layout",
+    "ui_element": "hero_stats",
+    "styling": "CSS_modules",
+    "scenario_id": "react_responsive_layout_hero_stats_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "responsive_layout",
+    "ui_element": "hero_stats",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_responsive_layout_hero_stats_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "responsive_layout",
+    "ui_element": "hero_stats",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_responsive_layout_hero_stats_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "responsive_layout",
+    "ui_element": "hero_stats",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_responsive_layout_hero_stats_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "responsive_layout",
+    "ui_element": "hero_stats",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_responsive_layout_hero_stats_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "responsive_layout",
+    "ui_element": "text_columns",
+    "styling": "Tailwind",
+    "scenario_id": "react_responsive_layout_text_columns_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "responsive_layout",
+    "ui_element": "text_columns",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_responsive_layout_text_columns_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "responsive_layout",
+    "ui_element": "text_columns",
+    "styling": "styled_components",
+    "scenario_id": "svelte_responsive_layout_text_columns_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "responsive_layout",
+    "ui_element": "text_columns",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_responsive_layout_text_columns_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "responsive_layout",
+    "ui_element": "text_columns",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_responsive_layout_text_columns_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "responsive_layout",
+    "ui_element": "facet_bar",
+    "styling": "plain_CSS",
+    "scenario_id": "react_responsive_layout_facet_bar_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "responsive_layout",
+    "ui_element": "facet_bar",
+    "styling": "styled_components",
+    "scenario_id": "vue3_responsive_layout_facet_bar_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "responsive_layout",
+    "ui_element": "facet_bar",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_responsive_layout_facet_bar_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "responsive_layout",
+    "ui_element": "facet_bar",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_responsive_layout_facet_bar_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "responsive_layout",
+    "ui_element": "facet_bar",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_responsive_layout_facet_bar_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "responsive_layout",
+    "ui_element": "agenda_layout",
+    "styling": "styled_components",
+    "scenario_id": "react_responsive_layout_agenda_layout_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "responsive_layout",
+    "ui_element": "agenda_layout",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_responsive_layout_agenda_layout_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "responsive_layout",
+    "ui_element": "agenda_layout",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_responsive_layout_agenda_layout_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "responsive_layout",
+    "ui_element": "agenda_layout",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_responsive_layout_agenda_layout_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "responsive_layout",
+    "ui_element": "agenda_layout",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_responsive_layout_agenda_layout_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "responsive_layout",
+    "ui_element": "price_table",
+    "styling": "CSS_variables",
+    "scenario_id": "react_responsive_layout_price_table_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "responsive_layout",
+    "ui_element": "price_table",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_responsive_layout_price_table_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "responsive_layout",
+    "ui_element": "price_table",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_responsive_layout_price_table_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "responsive_layout",
+    "ui_element": "price_table",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_responsive_layout_price_table_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "responsive_layout",
+    "ui_element": "price_table",
+    "styling": "styled_components",
+    "scenario_id": "next.js_responsive_layout_price_table_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "responsive_layout",
+    "ui_element": "user_header",
+    "styling": "CSS_modules",
+    "scenario_id": "react_responsive_layout_user_header_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "responsive_layout",
+    "ui_element": "user_header",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_responsive_layout_user_header_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "responsive_layout",
+    "ui_element": "user_header",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_responsive_layout_user_header_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "responsive_layout",
+    "ui_element": "user_header",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_responsive_layout_user_header_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "responsive_layout",
+    "ui_element": "user_header",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_responsive_layout_user_header_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "responsive_layout",
+    "ui_element": "thumbnail_wall",
+    "styling": "Tailwind",
+    "scenario_id": "react_responsive_layout_thumbnail_wall_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "responsive_layout",
+    "ui_element": "thumbnail_wall",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_responsive_layout_thumbnail_wall_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "responsive_layout",
+    "ui_element": "thumbnail_wall",
+    "styling": "styled_components",
+    "scenario_id": "svelte_responsive_layout_thumbnail_wall_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "responsive_layout",
+    "ui_element": "thumbnail_wall",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_responsive_layout_thumbnail_wall_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "responsive_layout",
+    "ui_element": "thumbnail_wall",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_responsive_layout_thumbnail_wall_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "responsive_layout",
+    "ui_element": "invoice_columns",
+    "styling": "plain_CSS",
+    "scenario_id": "react_responsive_layout_invoice_columns_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "responsive_layout",
+    "ui_element": "invoice_columns",
+    "styling": "styled_components",
+    "scenario_id": "vue3_responsive_layout_invoice_columns_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "responsive_layout",
+    "ui_element": "invoice_columns",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_responsive_layout_invoice_columns_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "responsive_layout",
+    "ui_element": "invoice_columns",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_responsive_layout_invoice_columns_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "responsive_layout",
+    "ui_element": "invoice_columns",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_responsive_layout_invoice_columns_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "responsive_layout",
+    "ui_element": "lane_board",
+    "styling": "styled_components",
+    "scenario_id": "react_responsive_layout_lane_board_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "responsive_layout",
+    "ui_element": "lane_board",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_responsive_layout_lane_board_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "responsive_layout",
+    "ui_element": "lane_board",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_responsive_layout_lane_board_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "responsive_layout",
+    "ui_element": "lane_board",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_responsive_layout_lane_board_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "responsive_layout",
+    "ui_element": "lane_board",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_responsive_layout_lane_board_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "accessibility_fix",
+    "ui_element": "dismiss_button",
+    "styling": "CSS_variables",
+    "scenario_id": "react_accessibility_fix_dismiss_button_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "accessibility_fix",
+    "ui_element": "dismiss_button",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_accessibility_fix_dismiss_button_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "accessibility_fix",
+    "ui_element": "dismiss_button",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_accessibility_fix_dismiss_button_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "accessibility_fix",
+    "ui_element": "dismiss_button",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_accessibility_fix_dismiss_button_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "accessibility_fix",
+    "ui_element": "dismiss_button",
+    "styling": "styled_components",
+    "scenario_id": "next.js_accessibility_fix_dismiss_button_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "accessibility_fix",
+    "ui_element": "severity_badge",
+    "styling": "CSS_modules",
+    "scenario_id": "react_accessibility_fix_severity_badge_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "accessibility_fix",
+    "ui_element": "severity_badge",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_accessibility_fix_severity_badge_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "accessibility_fix",
+    "ui_element": "severity_badge",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_accessibility_fix_severity_badge_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "accessibility_fix",
+    "ui_element": "severity_badge",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_accessibility_fix_severity_badge_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "accessibility_fix",
+    "ui_element": "severity_badge",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_accessibility_fix_severity_badge_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "accessibility_fix",
+    "ui_element": "control_hint",
+    "styling": "Tailwind",
+    "scenario_id": "react_accessibility_fix_control_hint_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "accessibility_fix",
+    "ui_element": "control_hint",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_accessibility_fix_control_hint_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "accessibility_fix",
+    "ui_element": "control_hint",
+    "styling": "styled_components",
+    "scenario_id": "svelte_accessibility_fix_control_hint_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "accessibility_fix",
+    "ui_element": "control_hint",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_accessibility_fix_control_hint_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "accessibility_fix",
+    "ui_element": "control_hint",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_accessibility_fix_control_hint_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "accessibility_fix",
+    "ui_element": "panel_tabs",
+    "styling": "plain_CSS",
+    "scenario_id": "react_accessibility_fix_panel_tabs_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "accessibility_fix",
+    "ui_element": "panel_tabs",
+    "styling": "styled_components",
+    "scenario_id": "vue3_accessibility_fix_panel_tabs_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "accessibility_fix",
+    "ui_element": "panel_tabs",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_accessibility_fix_panel_tabs_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "accessibility_fix",
+    "ui_element": "panel_tabs",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_accessibility_fix_panel_tabs_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "accessibility_fix",
+    "ui_element": "panel_tabs",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_accessibility_fix_panel_tabs_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "accessibility_fix",
+    "ui_element": "details_card",
+    "styling": "styled_components",
+    "scenario_id": "react_accessibility_fix_details_card_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "accessibility_fix",
+    "ui_element": "details_card",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_accessibility_fix_details_card_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "accessibility_fix",
+    "ui_element": "details_card",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_accessibility_fix_details_card_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "accessibility_fix",
+    "ui_element": "details_card",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_accessibility_fix_details_card_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "accessibility_fix",
+    "ui_element": "details_card",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_accessibility_fix_details_card_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "accessibility_fix",
+    "ui_element": "page_nav",
+    "styling": "CSS_variables",
+    "scenario_id": "react_accessibility_fix_page_nav_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "accessibility_fix",
+    "ui_element": "page_nav",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_accessibility_fix_page_nav_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "accessibility_fix",
+    "ui_element": "page_nav",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_accessibility_fix_page_nav_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "accessibility_fix",
+    "ui_element": "page_nav",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_accessibility_fix_page_nav_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "accessibility_fix",
+    "ui_element": "page_nav",
+    "styling": "styled_components",
+    "scenario_id": "next.js_accessibility_fix_page_nav_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "accessibility_fix",
+    "ui_element": "column_sort",
+    "styling": "CSS_modules",
+    "scenario_id": "react_accessibility_fix_column_sort_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "accessibility_fix",
+    "ui_element": "column_sort",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_accessibility_fix_column_sort_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "accessibility_fix",
+    "ui_element": "column_sort",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_accessibility_fix_column_sort_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "accessibility_fix",
+    "ui_element": "column_sort",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_accessibility_fix_column_sort_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "accessibility_fix",
+    "ui_element": "column_sort",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_accessibility_fix_column_sort_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "accessibility_fix",
+    "ui_element": "content_main",
+    "styling": "Tailwind",
+    "scenario_id": "react_accessibility_fix_content_main_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "accessibility_fix",
+    "ui_element": "content_main",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_accessibility_fix_content_main_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "accessibility_fix",
+    "ui_element": "content_main",
+    "styling": "styled_components",
+    "scenario_id": "svelte_accessibility_fix_content_main_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "accessibility_fix",
+    "ui_element": "content_main",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_accessibility_fix_content_main_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "accessibility_fix",
+    "ui_element": "content_main",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_accessibility_fix_content_main_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "accessibility_fix",
+    "ui_element": "option_group",
+    "styling": "plain_CSS",
+    "scenario_id": "react_accessibility_fix_option_group_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "accessibility_fix",
+    "ui_element": "option_group",
+    "styling": "styled_components",
+    "scenario_id": "vue3_accessibility_fix_option_group_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "accessibility_fix",
+    "ui_element": "option_group",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_accessibility_fix_option_group_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "accessibility_fix",
+    "ui_element": "option_group",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_accessibility_fix_option_group_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "accessibility_fix",
+    "ui_element": "option_group",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_accessibility_fix_option_group_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "accessibility_fix",
+    "ui_element": "status_live",
+    "styling": "styled_components",
+    "scenario_id": "react_accessibility_fix_status_live_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "accessibility_fix",
+    "ui_element": "status_live",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_accessibility_fix_status_live_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "accessibility_fix",
+    "ui_element": "status_live",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_accessibility_fix_status_live_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "accessibility_fix",
+    "ui_element": "status_live",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_accessibility_fix_status_live_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "accessibility_fix",
+    "ui_element": "status_live",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_accessibility_fix_status_live_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "loading_error_empty",
+    "ui_element": "customer_summary",
+    "styling": "CSS_variables",
+    "scenario_id": "react_loading_error_empty_customer_summary_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "loading_error_empty",
+    "ui_element": "customer_summary",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_loading_error_empty_customer_summary_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "loading_error_empty",
+    "ui_element": "customer_summary",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_loading_error_empty_customer_summary_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "loading_error_empty",
+    "ui_element": "customer_summary",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_loading_error_empty_customer_summary_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "loading_error_empty",
+    "ui_element": "customer_summary",
+    "styling": "styled_components",
+    "scenario_id": "next.js_loading_error_empty_customer_summary_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "loading_error_empty",
+    "ui_element": "search_panel",
+    "styling": "CSS_modules",
+    "scenario_id": "react_loading_error_empty_search_panel_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "loading_error_empty",
+    "ui_element": "search_panel",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_loading_error_empty_search_panel_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "loading_error_empty",
+    "ui_element": "search_panel",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_loading_error_empty_search_panel_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "loading_error_empty",
+    "ui_element": "search_panel",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_loading_error_empty_search_panel_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "loading_error_empty",
+    "ui_element": "search_panel",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_loading_error_empty_search_panel_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "loading_error_empty",
+    "ui_element": "poster_image",
+    "styling": "Tailwind",
+    "scenario_id": "react_loading_error_empty_poster_image_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "loading_error_empty",
+    "ui_element": "poster_image",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_loading_error_empty_poster_image_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "loading_error_empty",
+    "ui_element": "poster_image",
+    "styling": "styled_components",
+    "scenario_id": "svelte_loading_error_empty_poster_image_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "loading_error_empty",
+    "ui_element": "poster_image",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_loading_error_empty_poster_image_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "loading_error_empty",
+    "ui_element": "poster_image",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_loading_error_empty_poster_image_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "loading_error_empty",
+    "ui_element": "overview_widget",
+    "styling": "plain_CSS",
+    "scenario_id": "react_loading_error_empty_overview_widget_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "loading_error_empty",
+    "ui_element": "overview_widget",
+    "styling": "styled_components",
+    "scenario_id": "vue3_loading_error_empty_overview_widget_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "loading_error_empty",
+    "ui_element": "overview_widget",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_loading_error_empty_overview_widget_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "loading_error_empty",
+    "ui_element": "overview_widget",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_loading_error_empty_overview_widget_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "loading_error_empty",
+    "ui_element": "overview_widget",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_loading_error_empty_overview_widget_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "loading_error_empty",
+    "ui_element": "notification_feed_v2",
+    "styling": "styled_components",
+    "scenario_id": "react_loading_error_empty_notification_feed_v2_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "loading_error_empty",
+    "ui_element": "notification_feed_v2",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_loading_error_empty_notification_feed_v2_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "loading_error_empty",
+    "ui_element": "notification_feed_v2",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_loading_error_empty_notification_feed_v2_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "loading_error_empty",
+    "ui_element": "notification_feed_v2",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_loading_error_empty_notification_feed_v2_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "loading_error_empty",
+    "ui_element": "notification_feed_v2",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_loading_error_empty_notification_feed_v2_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "loading_error_empty",
+    "ui_element": "line_chart",
+    "styling": "CSS_variables",
+    "scenario_id": "react_loading_error_empty_line_chart_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "loading_error_empty",
+    "ui_element": "line_chart",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_loading_error_empty_line_chart_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "loading_error_empty",
+    "ui_element": "line_chart",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_loading_error_empty_line_chart_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "loading_error_empty",
+    "ui_element": "line_chart",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_loading_error_empty_line_chart_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "loading_error_empty",
+    "ui_element": "line_chart",
+    "styling": "styled_components",
+    "scenario_id": "next.js_loading_error_empty_line_chart_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "loading_error_empty",
+    "ui_element": "reply_panel",
+    "styling": "CSS_modules",
+    "scenario_id": "react_loading_error_empty_reply_panel_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "loading_error_empty",
+    "ui_element": "reply_panel",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_loading_error_empty_reply_panel_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "loading_error_empty",
+    "ui_element": "reply_panel",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_loading_error_empty_reply_panel_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "loading_error_empty",
+    "ui_element": "reply_panel",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_loading_error_empty_reply_panel_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "loading_error_empty",
+    "ui_element": "reply_panel",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_loading_error_empty_reply_panel_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "loading_error_empty",
+    "ui_element": "report_status",
+    "styling": "Tailwind",
+    "scenario_id": "react_loading_error_empty_report_status_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "loading_error_empty",
+    "ui_element": "report_status",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_loading_error_empty_report_status_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "loading_error_empty",
+    "ui_element": "report_status",
+    "styling": "styled_components",
+    "scenario_id": "svelte_loading_error_empty_report_status_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "loading_error_empty",
+    "ui_element": "report_status",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_loading_error_empty_report_status_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "loading_error_empty",
+    "ui_element": "report_status",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_loading_error_empty_report_status_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "loading_error_empty",
+    "ui_element": "related_strip",
+    "styling": "plain_CSS",
+    "scenario_id": "react_loading_error_empty_related_strip_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "loading_error_empty",
+    "ui_element": "related_strip",
+    "styling": "styled_components",
+    "scenario_id": "vue3_loading_error_empty_related_strip_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "loading_error_empty",
+    "ui_element": "related_strip",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_loading_error_empty_related_strip_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "loading_error_empty",
+    "ui_element": "related_strip",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_loading_error_empty_related_strip_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "loading_error_empty",
+    "ui_element": "related_strip",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_loading_error_empty_related_strip_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "loading_error_empty",
+    "ui_element": "network_state",
+    "styling": "styled_components",
+    "scenario_id": "react_loading_error_empty_network_state_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "loading_error_empty",
+    "ui_element": "network_state",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_loading_error_empty_network_state_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "loading_error_empty",
+    "ui_element": "network_state",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_loading_error_empty_network_state_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "loading_error_empty",
+    "ui_element": "network_state",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_loading_error_empty_network_state_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "loading_error_empty",
+    "ui_element": "network_state",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_loading_error_empty_network_state_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "keyboard_interaction",
+    "ui_element": "search_combobox",
+    "styling": "CSS_variables",
+    "scenario_id": "react_keyboard_interaction_search_combobox_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "keyboard_interaction",
+    "ui_element": "search_combobox",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_keyboard_interaction_search_combobox_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "keyboard_interaction",
+    "ui_element": "search_combobox",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_keyboard_interaction_search_combobox_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "keyboard_interaction",
+    "ui_element": "search_combobox",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_keyboard_interaction_search_combobox_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "keyboard_interaction",
+    "ui_element": "search_combobox",
+    "styling": "styled_components",
+    "scenario_id": "next.js_keyboard_interaction_search_combobox_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "keyboard_interaction",
+    "ui_element": "overflow_menu",
+    "styling": "CSS_modules",
+    "scenario_id": "react_keyboard_interaction_overflow_menu_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "keyboard_interaction",
+    "ui_element": "overflow_menu",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_keyboard_interaction_overflow_menu_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "keyboard_interaction",
+    "ui_element": "overflow_menu",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_keyboard_interaction_overflow_menu_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "keyboard_interaction",
+    "ui_element": "overflow_menu",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_keyboard_interaction_overflow_menu_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "keyboard_interaction",
+    "ui_element": "overflow_menu",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_keyboard_interaction_overflow_menu_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "keyboard_interaction",
+    "ui_element": "navigation_tabs",
+    "styling": "Tailwind",
+    "scenario_id": "react_keyboard_interaction_navigation_tabs_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "keyboard_interaction",
+    "ui_element": "navigation_tabs",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_keyboard_interaction_navigation_tabs_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "keyboard_interaction",
+    "ui_element": "navigation_tabs",
+    "styling": "styled_components",
+    "scenario_id": "svelte_keyboard_interaction_navigation_tabs_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "keyboard_interaction",
+    "ui_element": "navigation_tabs",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_keyboard_interaction_navigation_tabs_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "keyboard_interaction",
+    "ui_element": "navigation_tabs",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_keyboard_interaction_navigation_tabs_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "keyboard_interaction",
+    "ui_element": "day_grid",
+    "styling": "plain_CSS",
+    "scenario_id": "react_keyboard_interaction_day_grid_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "keyboard_interaction",
+    "ui_element": "day_grid",
+    "styling": "styled_components",
+    "scenario_id": "vue3_keyboard_interaction_day_grid_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "keyboard_interaction",
+    "ui_element": "day_grid",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_keyboard_interaction_day_grid_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "keyboard_interaction",
+    "ui_element": "day_grid",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_keyboard_interaction_day_grid_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "keyboard_interaction",
+    "ui_element": "day_grid",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_keyboard_interaction_day_grid_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "keyboard_interaction",
+    "ui_element": "category_tree",
+    "styling": "styled_components",
+    "scenario_id": "react_keyboard_interaction_category_tree_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "keyboard_interaction",
+    "ui_element": "category_tree",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_keyboard_interaction_category_tree_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "keyboard_interaction",
+    "ui_element": "category_tree",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_keyboard_interaction_category_tree_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "keyboard_interaction",
+    "ui_element": "category_tree",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_keyboard_interaction_category_tree_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "keyboard_interaction",
+    "ui_element": "category_tree",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_keyboard_interaction_category_tree_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "keyboard_interaction",
+    "ui_element": "tag_input",
+    "styling": "CSS_variables",
+    "scenario_id": "react_keyboard_interaction_tag_input_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "keyboard_interaction",
+    "ui_element": "tag_input",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_keyboard_interaction_tag_input_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "keyboard_interaction",
+    "ui_element": "tag_input",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_keyboard_interaction_tag_input_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "keyboard_interaction",
+    "ui_element": "tag_input",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_keyboard_interaction_tag_input_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "keyboard_interaction",
+    "ui_element": "tag_input",
+    "styling": "styled_components",
+    "scenario_id": "next.js_keyboard_interaction_tag_input_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "keyboard_interaction",
+    "ui_element": "results_list",
+    "styling": "CSS_modules",
+    "scenario_id": "react_keyboard_interaction_results_list_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "keyboard_interaction",
+    "ui_element": "results_list",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_keyboard_interaction_results_list_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "keyboard_interaction",
+    "ui_element": "results_list",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_keyboard_interaction_results_list_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "keyboard_interaction",
+    "ui_element": "results_list",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_keyboard_interaction_results_list_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "keyboard_interaction",
+    "ui_element": "results_list",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_keyboard_interaction_results_list_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "keyboard_interaction",
+    "ui_element": "shortcut_menu",
+    "styling": "Tailwind",
+    "scenario_id": "react_keyboard_interaction_shortcut_menu_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "keyboard_interaction",
+    "ui_element": "shortcut_menu",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_keyboard_interaction_shortcut_menu_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "keyboard_interaction",
+    "ui_element": "shortcut_menu",
+    "styling": "styled_components",
+    "scenario_id": "svelte_keyboard_interaction_shortcut_menu_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "keyboard_interaction",
+    "ui_element": "shortcut_menu",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_keyboard_interaction_shortcut_menu_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "keyboard_interaction",
+    "ui_element": "shortcut_menu",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_keyboard_interaction_shortcut_menu_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "keyboard_interaction",
+    "ui_element": "data_grid",
+    "styling": "plain_CSS",
+    "scenario_id": "react_keyboard_interaction_data_grid_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "keyboard_interaction",
+    "ui_element": "data_grid",
+    "styling": "styled_components",
+    "scenario_id": "vue3_keyboard_interaction_data_grid_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "keyboard_interaction",
+    "ui_element": "data_grid",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_keyboard_interaction_data_grid_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "keyboard_interaction",
+    "ui_element": "data_grid",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_keyboard_interaction_data_grid_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "keyboard_interaction",
+    "ui_element": "data_grid",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_keyboard_interaction_data_grid_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "keyboard_interaction",
+    "ui_element": "story_carousel",
+    "styling": "styled_components",
+    "scenario_id": "react_keyboard_interaction_story_carousel_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "keyboard_interaction",
+    "ui_element": "story_carousel",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_keyboard_interaction_story_carousel_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "keyboard_interaction",
+    "ui_element": "story_carousel",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_keyboard_interaction_story_carousel_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "keyboard_interaction",
+    "ui_element": "story_carousel",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_keyboard_interaction_story_carousel_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "keyboard_interaction",
+    "ui_element": "story_carousel",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_keyboard_interaction_story_carousel_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "client_state_persistence",
+    "ui_element": "currency_picker",
+    "styling": "CSS_variables",
+    "scenario_id": "react_client_state_persistence_currency_picker_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "client_state_persistence",
+    "ui_element": "currency_picker",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_client_state_persistence_currency_picker_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "client_state_persistence",
+    "ui_element": "currency_picker",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_client_state_persistence_currency_picker_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "client_state_persistence",
+    "ui_element": "currency_picker",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_client_state_persistence_currency_picker_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "client_state_persistence",
+    "ui_element": "currency_picker",
+    "styling": "styled_components",
+    "scenario_id": "next.js_client_state_persistence_currency_picker_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "client_state_persistence",
+    "ui_element": "line_height_select",
+    "styling": "CSS_modules",
+    "scenario_id": "react_client_state_persistence_line_height_select_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "client_state_persistence",
+    "ui_element": "line_height_select",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_client_state_persistence_line_height_select_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "client_state_persistence",
+    "ui_element": "line_height_select",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_client_state_persistence_line_height_select_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "client_state_persistence",
+    "ui_element": "line_height_select",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_client_state_persistence_line_height_select_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "client_state_persistence",
+    "ui_element": "line_height_select",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_client_state_persistence_line_height_select_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "client_state_persistence",
+    "ui_element": "rail_width",
+    "styling": "Tailwind",
+    "scenario_id": "react_client_state_persistence_rail_width_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "client_state_persistence",
+    "ui_element": "rail_width",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_client_state_persistence_rail_width_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "client_state_persistence",
+    "ui_element": "rail_width",
+    "styling": "styled_components",
+    "scenario_id": "svelte_client_state_persistence_rail_width_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "client_state_persistence",
+    "ui_element": "rail_width",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_client_state_persistence_rail_width_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "client_state_persistence",
+    "ui_element": "rail_width",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_client_state_persistence_rail_width_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "client_state_persistence",
+    "ui_element": "active_account",
+    "styling": "plain_CSS",
+    "scenario_id": "react_client_state_persistence_active_account_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "client_state_persistence",
+    "ui_element": "active_account",
+    "styling": "styled_components",
+    "scenario_id": "vue3_client_state_persistence_active_account_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "client_state_persistence",
+    "ui_element": "active_account",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_client_state_persistence_active_account_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "client_state_persistence",
+    "ui_element": "active_account",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_client_state_persistence_active_account_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "client_state_persistence",
+    "ui_element": "active_account",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_client_state_persistence_active_account_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "client_state_persistence",
+    "ui_element": "draft_message",
+    "styling": "styled_components",
+    "scenario_id": "react_client_state_persistence_draft_message_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "client_state_persistence",
+    "ui_element": "draft_message",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_client_state_persistence_draft_message_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "client_state_persistence",
+    "ui_element": "draft_message",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_client_state_persistence_draft_message_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "client_state_persistence",
+    "ui_element": "draft_message",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_client_state_persistence_draft_message_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "client_state_persistence",
+    "ui_element": "draft_message",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_client_state_persistence_draft_message_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "client_state_persistence",
+    "ui_element": "hidden_callout",
+    "styling": "CSS_variables",
+    "scenario_id": "react_client_state_persistence_hidden_callout_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "client_state_persistence",
+    "ui_element": "hidden_callout",
+    "styling": "CSS_modules",
+    "scenario_id": "vue3_client_state_persistence_hidden_callout_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "client_state_persistence",
+    "ui_element": "hidden_callout",
+    "styling": "Tailwind",
+    "scenario_id": "svelte_client_state_persistence_hidden_callout_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "client_state_persistence",
+    "ui_element": "hidden_callout",
+    "styling": "plain_CSS",
+    "scenario_id": "webcomponents_client_state_persistence_hidden_callout_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "client_state_persistence",
+    "ui_element": "hidden_callout",
+    "styling": "styled_components",
+    "scenario_id": "next.js_client_state_persistence_hidden_callout_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "client_state_persistence",
+    "ui_element": "field_visibility",
+    "styling": "CSS_modules",
+    "scenario_id": "react_client_state_persistence_field_visibility_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "client_state_persistence",
+    "ui_element": "field_visibility",
+    "styling": "Tailwind",
+    "scenario_id": "vue3_client_state_persistence_field_visibility_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "client_state_persistence",
+    "ui_element": "field_visibility",
+    "styling": "plain_CSS",
+    "scenario_id": "svelte_client_state_persistence_field_visibility_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "client_state_persistence",
+    "ui_element": "field_visibility",
+    "styling": "styled_components",
+    "scenario_id": "webcomponents_client_state_persistence_field_visibility_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "client_state_persistence",
+    "ui_element": "field_visibility",
+    "styling": "CSS_variables",
+    "scenario_id": "next.js_client_state_persistence_field_visibility_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "client_state_persistence",
+    "ui_element": "order_mode",
+    "styling": "Tailwind",
+    "scenario_id": "react_client_state_persistence_order_mode_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "client_state_persistence",
+    "ui_element": "order_mode",
+    "styling": "plain_CSS",
+    "scenario_id": "vue3_client_state_persistence_order_mode_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "client_state_persistence",
+    "ui_element": "order_mode",
+    "styling": "styled_components",
+    "scenario_id": "svelte_client_state_persistence_order_mode_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "client_state_persistence",
+    "ui_element": "order_mode",
+    "styling": "CSS_variables",
+    "scenario_id": "webcomponents_client_state_persistence_order_mode_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "client_state_persistence",
+    "ui_element": "order_mode",
+    "styling": "CSS_modules",
+    "scenario_id": "next.js_client_state_persistence_order_mode_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "client_state_persistence",
+    "ui_element": "query_filters",
+    "styling": "plain_CSS",
+    "scenario_id": "react_client_state_persistence_query_filters_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "client_state_persistence",
+    "ui_element": "query_filters",
+    "styling": "styled_components",
+    "scenario_id": "vue3_client_state_persistence_query_filters_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "client_state_persistence",
+    "ui_element": "query_filters",
+    "styling": "CSS_variables",
+    "scenario_id": "svelte_client_state_persistence_query_filters_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "client_state_persistence",
+    "ui_element": "query_filters",
+    "styling": "CSS_modules",
+    "scenario_id": "webcomponents_client_state_persistence_query_filters_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "client_state_persistence",
+    "ui_element": "query_filters",
+    "styling": "Tailwind",
+    "scenario_id": "next.js_client_state_persistence_query_filters_batch4"
+  },
+  {
+    "framework": "React",
+    "task_type": "client_state_persistence",
+    "ui_element": "welcome_step",
+    "styling": "styled_components",
+    "scenario_id": "react_client_state_persistence_welcome_step_batch4"
+  },
+  {
+    "framework": "Vue3",
+    "task_type": "client_state_persistence",
+    "ui_element": "welcome_step",
+    "styling": "CSS_variables",
+    "scenario_id": "vue3_client_state_persistence_welcome_step_batch4"
+  },
+  {
+    "framework": "Svelte",
+    "task_type": "client_state_persistence",
+    "ui_element": "welcome_step",
+    "styling": "CSS_modules",
+    "scenario_id": "svelte_client_state_persistence_welcome_step_batch4"
+  },
+  {
+    "framework": "WebComponents",
+    "task_type": "client_state_persistence",
+    "ui_element": "welcome_step",
+    "styling": "Tailwind",
+    "scenario_id": "webcomponents_client_state_persistence_welcome_step_batch4"
+  },
+  {
+    "framework": "Next.js",
+    "task_type": "client_state_persistence",
+    "ui_element": "welcome_step",
+    "styling": "plain_CSS",
+    "scenario_id": "next.js_client_state_persistence_welcome_step_batch4"
+  }
+]

@@ -1,0 +1,1502 @@
+[
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_edge",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_payload",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nextjs_react_query",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_hono_react",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_react_zod",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "express_react_pg",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_htmx",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_ninja",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "django_rest",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_actioncable",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_api_resque",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "rails_multi_db",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_marshmallow",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_async",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "flask_fastjson",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_graphql",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_fastify",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "nest_event",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "monorepo_bun",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "where_is_defined",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "where_is_defined",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "where_is_defined",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "trace_request_to_db",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "trace_request_to_db",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "trace_request_to_db",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "middleware_registration",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "middleware_registration",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "middleware_registration",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "env_var_reads",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "env_var_reads",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "env_var_reads",
+    "target_depth": 3
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "diagnose_symptom",
+    "target_depth": 1
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "diagnose_symptom",
+    "target_depth": 2
+  },
+  {
+    "repo_type": "monorepo_lerna",
+    "task_type": "diagnose_symptom",
+    "target_depth": 3
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "bug_category": "off_by_one",
+    "language": "TypeScript",
+    "symptom_presentation": "failing_unit_test",
+    "scenario_id": "page_slice_inclusive_end"
+  },
+  {
+    "bug_category": "wrong_operator_precedence",
+    "language": "Python",
+    "symptom_presentation": "bug_report_plain_english",
+    "scenario_id": "eligibility_banned_precedence"
+  },
+  {
+    "bug_category": "mutated_shared_state",
+    "language": "Go",
+    "symptom_presentation": "failing_unit_test",
+    "scenario_id": "header_default_append_alias"
+  },
+  {
+    "bug_category": "async_race_condition",
+    "language": "Ruby",
+    "symptom_presentation": "failing_unit_test",
+    "scenario_id": "counter_write_lock_only"
+  },
+  {
+    "bug_category": "timezone_date_bug",
+    "language": "PHP",
+    "symptom_presentation": "stack_trace_only",
+    "scenario_id": "utc_due_date_local_parse"
+  }
+]

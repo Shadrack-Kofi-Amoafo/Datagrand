@@ -1,0 +1,37 @@
+[
+  {
+    "system": "billing platform",
+    "trajectory_type": "progressive_rollout",
+    "domain_noun": "collections",
+    "horizon_steps": 6,
+    "scenario_id": "billing_platform_progressive_rollout_collections_6steps_batchseed"
+  },
+  {
+    "system": "clinic scheduling service",
+    "trajectory_type": "multi_stage_import",
+    "domain_noun": "commissions",
+    "horizon_steps": 8,
+    "scenario_id": "clinic_scheduling_service_multi_stage_import_commissions_8steps_batchseed"
+  },
+  {
+    "system": "warehouse operations service",
+    "trajectory_type": "approval_workflow",
+    "domain_noun": "comments",
+    "horizon_steps": 10,
+    "scenario_id": "warehouse_operations_service_approval_workflow_comments_10steps_batchseed"
+  },
+  {
+    "system": "travel booking platform",
+    "trajectory_type": "incident_resolution",
+    "domain_noun": "contracts",
+    "horizon_steps": 12,
+    "scenario_id": "travel_booking_platform_incident_resolution_contracts_12steps_batchseed"
+  },
+  {
+    "system": "learning management system",
+    "trajectory_type": "reconciliation_run",
+    "domain_noun": "coupons",
+    "horizon_steps": 6,
+    "scenario_id": "learning_management_system_reconciliation_run_coupons_6steps_batchseed"
+  }
+]
